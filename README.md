@@ -9,7 +9,13 @@ Most of the stuff is edited to contain less graphic stuff, less violence or insu
 
 Some media might be incomplete or not done at all when mentioned on the list because I'm pretty sure adding unchanged game files and such will lead to copyright issues.
 
+This repo is primarly for Linux and that is why I use shell scripts but most games should work on any system since its majorly just file swap.
+
 Since I will add media from all over places and different kinds of it, I will include short name or note in list to know what version specifically it is for.
+
+Later I plan on additional stuff to make setup of everything easier and because of that I'm adding simple TODO here:
+- [ ] Find a way to automatically add games from here to steam. (Need to find a way to hide a game using a script.)
+- [ ] Research more copyright to see what can be posted here and what can't.
 
 Hope this repository will help at least a little.
 
@@ -17,6 +23,9 @@ Hope this repository will help at least a little.
 
 - ## Games
     - Barony (Steam)
+
+- ## List of media checked that passed without editing
+    - 14 Minesweeper Variants (Steam)
     - ElecHead (Steam)
-    - 20 More, Somehow Even Smaller, Mazes
-    - Isles of Sea and Sky
+    - 20 More, Somehow Even Smaller, Mazes (Steam)
+    - Isles of Sea and Sky (Steam)
