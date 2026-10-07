@@ -17,3 +17,6 @@ Hope this repository will help at least a little.
 
 - ## Games
     - Barony (Steam)
+    - ElecHead (Steam)
+    - 20 More, Somehow Even Smaller, Mazes
+    - Isles of Sea and Sky
