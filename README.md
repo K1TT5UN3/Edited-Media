@@ -15,5 +15,5 @@ Hope this repository will help at least a little.
 
 # List of media changed
 
-## Games
+- ## Games
     - Barony (Steam)
