@@ -1,0 +1,213 @@
+{
+    "version": 1,
+    "books": {
+        "A Brief Survey of Goblins": {
+            "raw_text": "I'm a book!",
+            "pages": [
+                "I'm a book!"
+            ]
+        },
+        "Assessing the ZAP Brigade": {
+            "raw_text": "I'm a book!",
+            "pages": [
+                "   I'm a book!"
+            ]
+        },
+        "Bottle Book": {
+            "raw_text": "I'm a book!",
+            "pages": [
+                "I'm a book!"
+            ]
+        },
+        "Cave Beasts": {
+            "raw_text": "I'm a book!",
+            "pages": [
+                "I'm a book!"
+            ]
+        },
+        "Character Attributes": {
+            "raw_text": "I'm a book!",
+            "pages": [
+                "I'm a book!",
+                "   6/16/158\n"
+            ]
+        },
+        "Citadel Servant FAQ": {
+            "raw_text": "I'm a book!",
+            "pages": [
+                "I'm a book!"
+            ]
+        },
+        "Concerning the Undead": {
+            "raw_text": "I'm a book!",
+            "pages": [
+                "I'm a book!"
+            ]
+        },
+        "Controlling Goblins": {
+            "raw_text": "I'm a book!",
+            "pages": [
+                "I'm a book!"
+            ]
+        },
+        "Dethroning Herx": {
+            "raw_text": "I'm a book!",
+            "pages": [
+                "I'm a book!"
+            ]
+        },
+        "How to be Strong": {
+            "raw_text": "I'm a book!",
+            "pages": [
+                "I'm a book!"
+            ]
+        },
+        "Lost Journal": {
+            "raw_text": "I'm a book!",
+            "pages": [
+                "I'm a book!"
+            ]
+        },
+        "Miner's Christmas": {
+            "raw_text": "I'm a book!",
+            "pages": [
+                "I'm a book!"
+            ]
+        },
+        "Mining My Soul": {
+            "raw_text": "I'm a book!",
+            "pages": [
+                "I'm a book!"
+            ]
+        },
+        "My Journal": {
+            "raw_text": "I'm a book!",
+            "pages": [
+                " I'm a book!",
+                "\n"
+            ]
+        },
+        "Newspaper Clipping": {
+            "raw_text": "I'm a book!",
+            "pages": [
+                "I'm a book!"
+            ]
+        },
+        "On Giantism, Vol 1": {
+            "raw_text": "I'm a book!",
+            "pages": [
+                "I'm a book!"
+            ]
+        },
+        "On Giantism, Vol 2": {
+            "raw_text": "I'm a book!",
+            "pages": [
+                "I'm a book!"
+            ]
+        },
+        "Poem of the Mines": {
+            "raw_text": "I'm a book!",
+            "pages": [
+                "I'm a book!"
+            ]
+        },
+        "Sightings of the Lich": {
+            "raw_text": "I'm a book!",
+            "pages": [
+                "I'm a book!"
+            ]
+        },
+        "Surviving the Mines": {
+            "raw_text": "I'm a book!",
+            "pages": [
+                "I'm a book!"
+            ]
+        },
+        "The Adventurer Who Went To Hell": {
+            "raw_text": "I'm a book!",
+            "pages": [
+                " I'm a book!"
+            ]
+        },
+        "The Art of Mine Warfare": {
+            "raw_text": "I'm a book!",
+            "pages": [
+                "I'm a book!"
+            ]
+        },
+        "The Campaign": {
+            "raw_text": "I'm a book!",
+            "pages": [
+                "I'm a book!"
+            ]
+        },
+        "The Flying Minecart": {
+            "raw_text": "I'm a book!",
+            "pages": [
+                "I'm a book!",
+                ""
+            ]
+        },
+        "The History of Baron Herx": {
+            "raw_text": "I'm a book!",
+            "pages": [
+                " I'm a book!"
+            ]
+        },
+        "The Lusty Goblin Maid": {
+            "raw_text": "I'm a book!",
+            "pages": [
+                "I'm a book!"
+            ]
+        },
+        "The Meaning of the Labyrinth": {
+            "raw_text": "I'm a book!",
+            "pages": [
+                "I'm a book!",
+                ""
+            ]
+        },
+        "The Pirate King": {
+            "raw_text": "I'm a book!",
+            "pages": [
+                "I'm a book!"
+            ]
+        },
+        "To Emily": {
+            "raw_text": "I'm a book!",
+            "pages": [
+                "I'm a book!"
+            ]
+        },
+        "Winny's Report": {
+            "raw_text": "I'm a book!",
+            "pages": [
+                "I'm a book!"
+            ]
+        },
+        "Worker's Journal, Entry 1": {
+            "raw_text": "I'm a book!",
+            "pages": [
+                "I'm a book!"
+            ]
+        },
+        "Worker's Journal, Entry 2": {
+            "raw_text": "I'm a book!",
+            "pages": [
+                "I'm a book!"
+            ]
+        },
+        "Worker's Journal, Entry 3": {
+            "raw_text": "I'm a book!",
+            "pages": [
+                "I'm a book!"
+            ]
+        },
+        "Worker's Journal, Entry 4": {
+            "raw_text": "I'm a book!",
+            "pages": [
+                "I'm a book!"
+            ]
+        }
+    }
+}

@@ -1,0 +1,2560 @@
+{
+  "achievements": {
+    "BARONY_ACH_ENTER_THE_DUNGEON": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 10,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+	"BARONY_ACH_5000_SECOND_RULE": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_ALL_IN_REFLEXES": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_ALWAYS_WAITING": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 10,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png",
+      "hidden": true
+    },
+    "BARONY_ACH_ANGEL_OF_DEATH": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_ARCANE_LINK": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_ARSENAL": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "adventure",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_BACK_TO_BASICS": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png",
+      "hidden": true
+    },
+    "BARONY_ACH_BAD_BEAUTIFUL": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_BAD_BLOOD": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_BAD_BOY_BARON": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_BAD_REVIEW": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png",
+      "hidden": true
+    },
+    "BARONY_ACH_BAD_ROMANCE": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_BAIT_AND_SWITCH": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_BARFIGHT_CHAMP": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_BAYOU_BARON": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_BLEATING_BARON": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_BLESSED": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_BLOOD_BOIL": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 1,
+      "category": "joker",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_BLOOD_IS_THE_LIFE": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_BLOOD_RUNS_CLEAR": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_BLOOD_SPORT": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_BLOOD_VESSELS": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_BODYGUARDS": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 3,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_BOILERPLATE_BARON": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_BOMBARDIER": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_BOMBSHELL_BARON": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_BOMBTRACK": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_BOMB_SQUAD": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_BONEHEADED": {
+      "name": "Achievement!",
+      "description": "Achievement description!"Eat\" food as a skeleton.",
+      "lore_points": 1,
+      "category": "joker",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png",
+      "hidden": true
+    },
+    "BARONY_ACH_BONE_TO_PICK": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_BONY_BARON": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_BOOKWORM": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 3,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_BOOTS_OF_SPEED": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 3,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_BORN_AGAIN": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_BOTTLE_NOSED": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_BRAWLER": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 5,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_BRING_A_TOWEL": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_BUCKTOOTH_BARON": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_BUGGAR_BARON": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_BUT_A_SCRATCH": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 3,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_CALM_LIKE_A_BOMB": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_CAUGHT_IN_A_MOSH": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_CHEERS": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_CHOPPING_BLOCK": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_CHOSEN_ONE": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_COCK_BLOCK": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 3,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_COLD_BLOODED": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": ["myths_outcasts", "legends_pariahs"],
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_COMEDIAN": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "joker",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_COMMANDER_CHIEF": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_CONFESSOR": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_COWBOY_FROM_HELL": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_CULT_FOLLOWING": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 3,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_DESPAIR_CALMS": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_DIPLOMA": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 10,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_DRUNK_POWER": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_DYSLEXIA": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 3,
+      "category": "joker",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_EARN_THIS": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_ESCORT": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 3,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_EVIL_INCARNATE": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 10,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_EXPELLED": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png",
+      "hidden": true
+    },
+    "BARONY_ACH_EXTERNAL_BATTERY": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_EXTRA_CREDIT": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 4,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_FACES_OF_DEATH": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": ["myths_outcasts", "legends_pariahs"],
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_FAMILY_REUNION": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_FASCIST": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_FAST_LEARNER": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 4,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_FELL_BEAST": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_FILTHY_RICH": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 1,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_FIRE_MAYBE_DIFFERENT": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png",
+      "hidden": true
+    },
+    "BARONY_ACH_FIXER_UPPER": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_FLUTTERSHY": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 1,
+      "category": "technique",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_FOODLESS_CONDUCT": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 4,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_FORUM_TROLL": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_FREE_REFILLS": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_FUNCTIONAL": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_GASTRIC_BYPASS": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "joker",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_GIFTS_ETERNALS": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 3,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_GILDED": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 4,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_GOODNIGHT_SWEET_PRINCE": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png",
+      "hidden": true
+    },
+    "BARONY_ACH_GUDIPARIAN_BAZI": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 5,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_GUERILLA_RADIO": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_HARDCORE": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 4,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_HEAL_BOT": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_HOMICIDAL_MANIAC": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_HOT_SHOWER": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 1,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_HOT_TUB": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_IF_YOU_LOVE_SOMETHING": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_ILLITERATE_CONDUCT": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 3,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_IN_GREATER_NUMBERS": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 5,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_IN_THE_MIX": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_IRONIC_PUNISHMENT": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_IRON_GUT": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_ITS_A_LIVING": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_I_WANT_IT_ALL": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 3,
+      "category": "experience",
+      "dlc": ["myths_outcasts", "legends_pariahs"],
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_JUNGLE_FEVER": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 10,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_KILL_COMMAND": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_KING_ARTHURS_BLADE": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_KNOW_THYSELF": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_LAST_RESORT": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_LEVITANT_LACKEY": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 1,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_LICH_HUNTER": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 10,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_LIFE_FOR_A_LIFE": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_LIKE_CLOCKWORK": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_LOCAL_CUSTOMS": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 3,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_MACHINE_HEAD": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_MAGIC_MASTERY": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 3,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_MANAGEMENT_TEAM": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": ["myths_outcasts", "legends_pariahs"],
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_MANY_PEDI_PALP": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_MASTER": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 4,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png",
+      "hidden": true
+    },
+    "BARONY_ACH_MIXOLOGIST": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_MONARCH": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_MONSTER_SQUAD": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": ["myths_outcasts", "legends_pariahs"],
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_MOVED_ITSELF": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_MUSCLE_MEMORY": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 1,
+      "category": "joker",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_MY_FINAL_FORM": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_NARCISSIST": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_NATURAL_BORN_LEADER": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 1,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_NOT_A_TEAM_PLAYER": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_OFF_LIMITS": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_OHAI_MARK": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_ONE_MANS_TRASH": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png",
+      "hidden": true
+    },
+    "BARONY_ACH_ONE_PUNCH_MAN": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_ONE_WHO_KNOCKS": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_OVERCLOCKED": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_OWN_WORST_ENEMY": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 3,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png",
+      "hidden": true
+    },
+    "BARONY_ACH_PENNILESS_CONDUCT": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 4,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_PIMPIN": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_PITY_FRIEND": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 1,
+      "category": "teamwork",
+      "dlc": ["myths_outcasts", "legends_pariahs"],
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_PLEASE_HOLD": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_PLUS_BOOTS_OF_SPEED": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 5,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_POP_QUIZ": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 3,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_POST_HARDCORE": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 5,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_POTION_PREPARATION": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 3,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_POWER_HUNGRY": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_PROFESSIONAL_BURGLAR": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 3,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_PUZZLE_MASTER": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_RAGE_AGAINST": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_RANGER_DANGER": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_REAL_BOY": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "joker",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_RECYCLER": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_REPOSSESSION": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_REUNITED": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_REVERSE_THIS_CURSE": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "adventure",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_RHINESTONE_COWBOY": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_RHYTHM_OF_THE_KNIGHT": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_RICH_ALTER_EGO": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": ["myths_outcasts", "legends_pariahs"],
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_RIGHT_TO_REFUSE": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 1,
+      "category": "joker",
+      "dlc": ["myths_outcasts", "legends_pariahs"],
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_ROBBING_THE_CRADLE": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_ROLL_THE_BONES": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_RUST_IN_PEACE": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 1,
+      "category": "joker",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png",
+      "hidden": true
+    },
+    "BARONY_ACH_SANDMAN": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 10,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_SAVAGE": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_SCALES_IN_FAVOR": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_SECOND_CHANCE": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "adventure",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_SECRET_WEAPON": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 3,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_SEE_THAT": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_SELF_FLAGELLATION": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_SERIAL_THRILLA": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_SITTING_DUCK": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 1,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_SKELETON_CREW": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_SOCIAL_BUTTERFLY": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_SOCIOPATHS": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": ["myths_outcasts", "legends_pariahs"],
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_SOULLESS": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": ["myths_outcasts", "legends_pariahs"],
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_SPEAR_OF_DESTINY": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_SPELUNKY": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 10,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_SPICE_OF_LIFE": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_SPICY": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_SPONGE": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_SPUD_LORD": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_SQUAD_GHOULS": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_STFU": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_STROBE": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_STRUNG_OUT": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_STUCK_ON_YOU": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "joker",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_SUPER_SHREDDER": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_SURROGATES": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 3,
+      "category": "teamwork",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_SURVIVALISTS": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": ["myths_outcasts", "legends_pariahs"],
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_SWINGERS": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": ["myths_outcasts", "legends_pariahs"],
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_TAKE_THIS_OUTSIDE": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 3,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_TAKING_WITH": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_TEACHABLE_MOMENT": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 5,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png",
+      "hidden": true
+    },
+    "BARONY_ACH_TELEFRAG": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_TEMPTRESS": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_TEMPT_FATE": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_THANKS_MR_SKELTAL": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 5,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_THANK_ME_LATER": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_THANK_THE_TANK": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_THESEUS_LEGACY": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_THE_WAY_YOU_LIKE_IT": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "technique",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_THICK_SKULL": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_THROW_ME_THE_WHIP": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 5,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_THUNDERGNOME": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_TIME_TO_PLAN": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 3,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_TIME_TO_SUFFER": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_TORCHERER": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 1,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_TOUGH_AS_NAILS": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_TRADITION": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "joker",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_TRASH_COMPACTOR": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 1,
+      "category": "experience",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_TRIBAL": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": ["myths_outcasts", "legends_pariahs"],
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_TRIBE_SUBSCRIBE": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": "legends_pariahs",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_TRICKS_AND_TRAPS": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_TROLLS_BLOOD": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_TURN_UNDEAD": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 5,
+      "category": "adventure",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_TWISTY_PASSAGES": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 10,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_UNSTOPPABLE_FORCE": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_UTILITY_BELT": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_VEGETARIAN_CONDUCT": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 3,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_VOLATILE": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 3,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_WELL_PREPARED": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 3,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_WELL_READ": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_WHAT_NOW": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 1,
+      "category": "joker",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png",
+      "hidden": true
+    },
+    "BARONY_ACH_WONDERFUL_TOYS": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_YES_WE_CAN": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_YOUNG_BLOOD": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "teamwork",
+      "dlc": "myths_outcasts",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_DAPPER": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 4,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_BY_EXAMPLE": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 3,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_CRUMPLE_ZONES": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_ETERNAL_REWARD": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png",
+      "hidden": true
+    },
+    "BARONY_ACH_I_NEEDED_THAT": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 3,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_LOCKJAW": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png",
+      "hidden": true
+    },
+    "BARONY_ACH_MON_PETIT": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_PET_DA_DOG": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_SMOKIN": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_SSSMOKIN": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_DUNGEONSEED": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 5,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_REAP_SOW": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 4,
+      "category": "adventure",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_GROWTH_MINDSET": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_SPROUTS": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_BLOOM_PLANTED": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 4,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_CARTOGRAPHER": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 4,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_BAT1000": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png",
+      "hidden": true
+    },
+    "BARONY_ACH_BEAR_WITH_ME": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_BULL_RUSH": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_BY_THE_BOOK": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png",
+      "hidden": true
+    },
+    "BARONY_ACH_CURIOSITY": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_ISEENTIT": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 5,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_JUBBAITED": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 3,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_RUNG_OUT": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_SMASH_MELEE": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 3,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_JANITOR": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_CALL_LOCKSMITH": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_PREMIUM_LOOTBOX": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_WITCHES_BREW": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_HOBBYIST": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_POWER_BALLAD": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 3,
+      "category": "technique",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_BLESSED_ADDITION": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "experience",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_BARDIC_INSPIRATION": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "technique",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_FIGHT_FIRE_WITH": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "joker",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_MAKE_SMOKEY_PROUD": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "technique",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_THATS_A_WRAP": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_SKID_ROW": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_LET_HIM_COOK": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_FLAVORTOWN": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_HELLS_KITCHEN": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_FOOD_FIGHT": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_SECOND_BREAKFAST": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 1,
+      "category": "teamwork",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_HAUNTED": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "joker",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png",
+	  "hidden": true
+    },
+    "BARONY_ACH_WRECKING_CREW": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "technique",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_FAVORITE_BOOK": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 1,
+      "category": "technique",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_BONK": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "technique",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_RIGHTEOUS_FURY": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_PARRY_TANK": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "technique",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_TOUCHE": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 3,
+      "category": "technique",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_MERCENARY_ARMY": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "teamwork",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_COLONIST": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "technique",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_EAT_ME": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 1,
+      "category": "teamwork",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_CULINARY_AMBASSADOR": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 1,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png",
+	  "hidden": true
+    },
+    "BARONY_ACH_NO_CAP": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 1,
+      "category": "joker",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_PRICKLY_PERSONALITY": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 1,
+      "category": "technique",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_DONT_TOUCH_HAIR": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 3,
+      "category": "joker",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_FIRE_FIGHTER": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "technique",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_GARGOYLES_QUEST": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "technique",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_DISCIPLINE": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 3,
+      "category": "technique",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_MASTER_MAGIC": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 3,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_QUACKERY": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 1,
+      "category": "joker",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_DISTRACTED": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 1,
+      "category": "joker",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png",
+	  "hidden": true
+    },
+    "BARONY_ACH_BOOM_DYNAMITE": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "technique",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_PAY_TO_WIN": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_BOLDER_BOULDER": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 1,
+      "category": "technique",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_DOESNT_COUNT": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 1,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_THATS_CHEATING": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "joker",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_APPRENTICES": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "teamwork",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_SHORT_SHORTS": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "teamwork",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_HOLY_ORDER": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "teamwork",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_CONSCRIPTED": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "teamwork",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_LONER_LEAGUE": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "teamwork",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_RIZZLERS": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "teamwork",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_FOREIGN_EXCHANGE": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "teamwork",
+	  "dlc": ["myths_outcasts", "legends_pariahs", "deserters_disciples"],
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_STUDY_ABROAD": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "teamwork",
+	  "dlc": ["myths_outcasts", "legends_pariahs", "deserters_disciples"],
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_SOURCE_ENGINE": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 2,
+      "category": "experience",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_SWAN_SONG": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 5,
+      "category": "adventure",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_MISSION_GOD": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 5,
+      "category": "adventure",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_NEPO_BABY": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 5,
+      "category": "adventure",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_REINTEGRATED": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 5,
+      "category": "adventure",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_DUNGEON_SEIGE": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 5,
+      "category": "adventure",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_BURNINATION_BARON": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 5,
+      "category": "adventure",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_BOLETE_BARON": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 5,
+      "category": "adventure",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_BARKSKIN_BARON": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 5,
+      "category": "adventure",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_BONKERS_BARON": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 5,
+      "category": "adventure",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    },
+    "BARONY_ACH_BITTY_BARON": {
+      "name": "Achievement!",
+      "description": "Achievement description!",
+      "lore_points": 5,
+      "category": "adventure",
+	  "dlc": "deserters_disciples",
+      "icon_locked": "BARONY_ACH_BORN_AGAIN_l.png",
+      "icon_unlocked": "BARONY_ACH_BORN_AGAIN.png"
+    }
+  }
+}
