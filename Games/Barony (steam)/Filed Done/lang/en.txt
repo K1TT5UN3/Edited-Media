@@ -109,18 +109,18 @@
 75 "My minotaur is hungry!"#
 76 "The minotaur is coming..."#
 77 "Hmm... another person at my doorstep..."#
-78 "Ahh, another one joins the fray..."#
+78 "Meow"#
 79 "Hmm... someone new..."#
-80 "You'd best not linger for much longer."#
-81 "What a pity if you should be here when He arrives..."#
+80 "You would be wise to abandon this place soon."#
+81 "You would be wise to abandon this place soon."#
 82 "You would be wise to abandon this place soon."#
 83 "You would be wise to abandon this place soon."#
 84 "You would be wise to abandon this place soon."#
-85 "What do you hope to accomplish down here?"#
-86 "You know nothing of the power that I've found here..."#
-87 "Face me if you dare. You will not survive."#
-88 "Meet me in my lair, and I will show you the meaning of pain."#
-89 "Welcome to your doom,!"#
+85 "You would be wise to abandon this place soon."#
+86 "Meow"#
+87 "Face me."#
+88 "Meet me in my lair."#
+89 "Welcome to your doom!"#
 
 
 # monster names
@@ -771,8 +771,7 @@ thou makest use of them.#
 
 # herx darkness line
 
-512 You hear a voice inside your head...
-"Can you break this secret technique of darkness?"#
+512 Meow#
 
 
 # monster chat
@@ -2913,63 +2912,63 @@ last of your magic is drained!#
 
 # Orpheus and Erudyce chatter.
 2615 "Brother, I sense someone has arrived. Shall we greet them?"#
-2616 "No, we are too busy for formalities."#
+2616 "Meow."#
 
-2617 "Sister, did you invite company?"#
-2618 "No, the Guild sent them."#
-2619 "Hm."#
+2617 "Meow?"#
+2618 "The Guild sent them."#
+2619 "Meow."#
 
-2620 "Sister, the Cave entrance is still sealed, is it not?"#
-2621 "It is. Why do you ask?"#
-2622 "Nevermind. It's nothing."#
+2620 "Meow?"#
+2621 "It is."#
+2622 "Meow."#
 
-2623 "Is the Minotaur necessary, Brother?"#
-2624 "No, sister, but I do like the show."#
+2623 "Should we release minotaur, Brother?"#
+2624 "Meow."#
 
-2625 "Do you think, Sister, they'll flee from the Minotaur?"#
-2626 "I don't care, Brother. Send it anyway."#
+2625 "Meow?"#
+2626 "Send it out, Brother."#
 
-2627 "This Minotaur has been around here since Herx died."#
-2628 "Send it away, Sister."#
+2627 "This Minotaur has been here for some time."#
+2628 "Send it away Meow, Sister."#
 
 # Caves chatter.
 2629 "Brother, somebody's making their way through the Caves."#
-2630 "Are you concerned?"#
+2630 "Meow?"#
 2631 "Mmm. No."#
 
-2632 "The Kobolds guaranteed us better results in the Caves."#
-2633 "Don't worry, Brother. There's still a ways to go, they may yet deliver."#
+2632 "Meow."#
+2633 "Don't worry, Brother. There's still a ways to go."#
 
-2634 "Brother, I admit, I wish they'd hurry."#
-2635 "It would make things simpler, wouldn't it?"#
+2634 "Brother, I admit, this is nice."#
+2635 "Meow?"#
 
 # Caves transition.
-2636 "Herx couldn't handle the power he found. We tried to warn him."#
-2637 "His death still was a tragedy."#
-2652 "Our uninvited guests are nothing but commoners."#
+2636 "Meow."#
+2637 "It still might change though."#
+2652 "Meow."#
 
 # Citadel chatter.
-2638 "This is all wrong. We created this place for immortals."#
-2639 "Immortals and their servants, Sister."#
-2653 "Let them come."#
+2638 "Meow."#
+2639 "We can rest, Brother."#
+2653 "Meow."#
 
-2640 "How much longer must I wait around?"#
-2641 "Go about your business, Brother. There isn't much to prepare."#
+2640 "Meow?"#
+2641 "There isn't much to prepare, Brother."#
 
-2642 "You were right to exclude the rest of the guild from our plans here, Brother."#
-2643 "They would probably try to stop us."#
+2642 "We can try."#
+2643 "Meow."#
 
 # Endgame.
-2644 "Our access to power has only increased since you removed Herx."#
-2645 "Allow us to thank you for giving his Barony over to us."#
+2644 "Meow!"#
+2645 "Allow us to thank you for giving this Barony over to us."#
 
 # Orpheus death.
-2646 "Impossible!!!"#
-2647 "Pest, I will use your soul to undo this offense!"#
+2646 "MEOWWWW!!!"#
+2647 "Meooow!"#
 
 # Erudyce death.
-2648 "Curse you!!!"#
-2649 "Big mistake. Time to suffer."#
+2648 "MIAUUU!!!"#
+2649 "Miauuooo."#
 
 # Orpheus giggles.
 2650 "Ah ha ha ha ha ha haah!!"#
@@ -2980,211 +2979,203 @@ last of your magic is drained!#
 # NPC Chatter. Groups of 10 lines for each NPC type
 2700 type:seq#
 2701 The %s
- You are quite the party animal, %s. I couldn't keep up with you!#
+ Meow#
 2702 The %s
- Are you sure you got enough rest, %s?#
+ Meow#
 2703 The %s
- First you defeat the Baron, and you still out-party a joker like me!#
+ Meow!#
 2704 The %s
- You're going to take it easy now, though, right %s?#
+ Meow#
 2705 The %s
  ...#
 
 2710 type:rand#
 2711 The %s
- Everyone came back to their shops, like nothing happened.#
+ Meow#
 2712 The %s
- Hamlet's Shopkeepers are tougher after surviving the Baron's dungeon.#
+ Meow#
 
 2720 type:rand#
 2721 The %s
- How could I ever thank you %s? *hic!*#
+ Meow#
 2722 The %s
- I love you. Like, seriously, %s, I love you. *hic!*#
+Meow *hic!*#
 
 2730 type:seq#
 2731 %s
- It's a secret to everybody.#
+ Meow#
 2732 %s
- This used to be the foyer of the Baron's mansion.#
+ Meow#
 2733 %s
- We're remodeling the interior for our next ruler.#
+ Meow#
 2734 %s
- We want to forget all about Herx.#
+ Meow#
 2735 %s
- It's a secret to everybody.#
+ Meow#
 2736 %s
  ...#
 
 2740 type:seq#
 2741 The %s
- I tried to get into the Crystal Caves, but a barrier stopped me.#
+ Meow#
 2742 The %s
- Perhaps the Magicians’ Guild erected that barrier.#
+ Meow#
 2743 The %s
- I'm from a distant city and a member of the Hunters' Guild.#
+ Meow#
 2744 The %s
- Hamlet's Hunters' Guild isn't in this district.#
+ Meow#
 2745 The %s
- I guess Magicians and Hunters don't get along so well.#
+ Meow#
 2746 The %s
- Hunters kill people. Sometimes they're Magicians.#
+ Meow#
 2747 The %s
- No grudges!#
+ Meow#
 2748 The %s
  ...#
 
 2750 type:rand#
 2751 The %s
- Is it strange that I am tempted to go back into the mine?#
+ Meow#
 2752 The %s
- The sky out here is so large. I'm scared.#
+ Meow#
 2753 The %s
- The mines, Herx's dungeon, is on the other side of this gate.#
+ Meow#
 2754 The %s
- Maybe I'll just go back for a little while.#
+ Meow#
 
 2760 type:seq#
 2761 The %s
- The Magicians' Guild must be up to something.#
+ Meow#
 2762 The %s
- Guilds always have many secrets.#
+ Meow#
 2763 The %s
- I heard that Merlin and the Magicians' Guild had a falling out.#
+ Meow#
 2764 The %s
- I bet Herx is in tight with Archmagisters Orpheus and Erudyce.#
+ Meow#
 2765 The %s
- Don't get me started on the Hunters' Guild.#
+ Meow#
 2766 The %s
- I heard the Masons' Guild works for the Church.#
+ Meow#
 2767 The %s
- The Church has secrets, but they also help the poor.#
+ Meow#
 2768 The %s
- Is the Church a Guild? Asking for a friend.#
+ Meow#
 2769 The %s
  ...#
 
 2770 type:seq#
 2771 The %s
- Welcome back, %s. I hope you're rested.#
+ Meow#
 2772 The %s
- The magicians inside can explain everything.#
+ Meow#
 2773 The %s
- Me? No, I'm just a doorman.#
+ Meow#
 2774 The %s
- Many come and go, %s. No membership required.#
+ Meow#
 2775 The %s
- Merlin used to come by a lot, but then he just stopped.#
+ Meow#
 2776 The %s
- Come to think of it, Herx used to come by regularly.#
+ Meow#
 2777 The %s
- Herx would always leave angry after every visit.#
+ Meow#
 2778 The %s
- I wish I could've seen Herx's face when you showed up...#
+ Meow#
 2779 The %s
  ...#
 
 2780 type:seq#
 2781 The %s
- The Baron wanted to set up the mine in the Crystal Caves.#
+ Meow#
 2782 The %s
- The Archmagisters refused to allow Herx to mine there.#
+ Meow#
 2783 The %s
- Herx offered a lot of grants to the Magicians' Guild.#
+ Meow#
 2784 The %s
- I think Herx expected favors from the Archmagisters.#
+ Meow#
 2785 The %s
- Eventually, Herx gave up on getting the help of the Guild.#
+ Meow#
 2786 The %s
- Things turned out bad, but they could've been worse.#
+ Meow#
 2787 The %s
  ...#
 
 2790 type:seq#
 2791 The %s
- Merlin told us about the dangerous magic Herx found.#
+ Meow#
 2792 The %s
- We never heard from Merlin again after he left to stop Herx.#
+ Meow#
 2793 The %s
- I heard rumors about a new letter from Merlin, but I never saw it.#
+ Meow#
 2794 The %s
- You know, Merlin was never an official member of the Magicians’ Guild.#
+ Meow#
 2795 The %s
- Some people just need their independence. I respect that.#
+ Meow#
 2796 The %s
  ...#
 
 2800 type:seq#
 2801 The %s
- After Herx was locked away, the Archmagisters went to the Crystal Caves.#
+ Meow#
 2802 The %s
- I guess they wanted to see what all the fuss was about.#
+ Meow#
 2803 The %s
- If it wasn't for the Archmagisters, Herx would've built an army here.#
+ Meow#
 2804 The %s
- We never would've been able to figure out how to lock Herx away. #
+ Meow#
 2805 The %s
- I think Erudyce and Orpheus knew sealing up Herx wouldn't be enough.#
+ Meow#
 2806 The %s
  ...#
 
 2810 type:seq#
 2811 The %s
- Powerful monsters started coming from the Crystal Caves.#
+ Meow#
 2812 The %s
- The Guild had to seal the Caves to keep Hamlet from being destroyed.#
+ Meow#
 2813 The %s
- I hope that the Archmagisters inside are alright.#
+ Meow#
 2814 The %s
- I really hope those monsters have nothing to do with their research.#
+ Meow#
 2815 The %s
- Orpheus is so driven. Nothing can stop him.#
+ Meow#
 2816 The %s
- Erudyce likes to influence things from behind the scenes.#
+ Meow#
 2817 The %s
  ...#
 
 2820 type:seq#
 2821 The %s
- I sensed power from the orb when you put it on that pedestal.#
+ Meow#
 2822 The %s
- I wonder why Herx didn't use that power to escape the dungeon.#
+ Meow#
 2823 The %s
- I was able to trap some of the power that Herx's orb released.#
+ Meow#
 2824 The %s
- This portal pierces the seal to the Caves using the power of the orb.#
+ Meow#
 2825 The %s
- Archmagisters Orpheus and Erudyce will help return things to normal.#
+ Meow#
 2826 The %s
- They must have learned something about the power Herx found.#
+ Meow#
 2827 The %s
  ...#
 
 2830 type:seq#
 2831 %s
- Don't worry %s, I know who you are.#
+ Meow#
 2832 %s
- I wanted to meet you before you left town.#
+ Meow#
 2833 %s
- Me? I am one of the esteemed members of the Merchants' Guild.#
+ Meow#
 2834 %s
- I'm only interested in the rarest of
- artifacts in the land.              
- In particular, the Magician's orbs that were stolen by Herx.#
+ Meow#
 2835 %s
- If you happened to retrieve any of 
- them, I'd be willing to part with one of my prized possessions in return.#
+ Meow#
 2836 %s
- You see, a high ranking guild member
- such as myself can scam those mages 
- for every penny they own with their 
- precious orbs!#
+ Meow#
 2837 %s
- I know you have too much of a heart to do the same yourself.#
+ Meow#
 2838 %s
- So it is up to you.                
- Leave them with me, and we'll say no 
- more about our little encounter.#
+ Meow#
 2839 %s
  ...#
 
@@ -5267,7 +5258,7 @@ to kick %s?#
 5411 Pyrebloom#
 5412 Snakestone#
 5413 Windclan#
-5414 Warblood#
+5414 Barblood#
 5415 Millbound#
 5416 Sunstalk#
 5417 Claymount#
@@ -6020,94 +6011,33 @@ Page#
 
 # Scarony Barony Credits:
 
-6030 caves00 - Among Us by Myuu
-caves01 - Fatal Shrine by Myuu
-caves02 - Tormented Souls by Myuu
-citadel00 - Evil Returns by Myuu
-citadel01 - Friday the 13th by Myuu
-citadel02 - October 31st by Myuu#
+6030 Meow#
 
-6031 endgame - The Order's Theme by Myuu
-herxboss - Soul Rail by Myuu
-intermission - Echo by Myuu
-intro - Ghost Town by Myuu
-intro01 - Countdown by Myuu
-intro02 - Untold Secrets by Myuu#
+6031 Meow#
 
-6032 labyrinth00 - Final Showdown by Myuu
-labyrinth01 - Living in the Dark by Myuu
-labyrinth02 - Silent Turmoil by Myuu
-library - Countdown by Myuu
-mines00 - Look Out by Myuu
-mines01 - Haunted House by Myuu#
+6032 Meow#
 
-6033 mines02 - Nebula by Myuu
-mines03 - Strange Vision by Myuu
-mines04 - The Crypt by Myuu
-minetown - Haunted By Screams by Myuu
-minotaur00 - Run! by Myuu
-minotaur01 - Cornered by Myuu#
+6033 Meow#
 
-6034 ruins00 - You're Next by Myuu
-ruins01 - Into the Depths by Myuu
-ruins02 - The Backrooms by Myuu
-sanctum - Metamorphosis by Myuu
-shop - Carnival Freaks by Myuu
-swamp00 - Poltergeist by Myuu#
+6034 Meow#
 
-6035 swamp01 - Abyss by Myuu
-swamp02 - Danger by Myuu
-swamp03 - Growing Shadows
-temple - Extinction by Myuu#
+6035 Meow#
 
 # Merry Barony credits:
 
-6036 caves00 - Sleigh Bells by Myuu
-caves01 - Deck the Halls by Myuu
-caves02 - Snow Wonders by Myuu
-citadel00 - Jingle Bells by Myuu
-citadel01 - Underneath the Christmas Tree by Myuu
-citadel02 - God Rest Ye Merry Gentlemen by Myuu#
+6036 Meow#
 
-6037 endgame - Disintegrating by Myuu
-escape - Deck the Halls by Myuu
-hell00 - Deck the Halls by Myuu
-hell01 - Santa's Tricks by Myuu
-hell02 - Winter Trouble by Myuu
-herxboss - Krampus is Here by Myuu#
+6037 Meow#
 
-6038 intermission - Disintegrating by Myuu
-introduction - Disintegrating by Myuu
-labyrinth00 - Ice Land (Part 1) by Myuu
-labyrinth01 - Holiday Macabre by Myuu
-labyrinth02 - Disintegrating by Myuu
-library - Santa's Tricks by Myuu#
+6038 Meow#
 
-6039 mines00 - Sleigh Bells by Myuu
-mines01 - God Rest Ye Merry Gentlemen by Myuu
-mines02 - Silent Night by Myuu
-mines03 - Carol of the Bells by Myuu
-mines04 - Angels We Have Heard on High by Myuu
-minetown - Underneath the Christmas Tree by Myuu#
+6039 Meow#
 
-6040 minotaur00 - Krampus is Here by Myuu
-minotaur01 - Deck the Halls by Myuu
-ruins00 - Ice Land (Part 2) by Myuu
-ruins01 - Winter Trouble by Myuu
-ruins02 - Snow Wonders by Myuu
-sanctum - Krampus is Here by Myuu#
+6040 Meow#
 
-6041 shop - Sleigh Bells by Myuu
-swamp00 - Jingle Bells by Myuu
-swamp01 - Rudolph the Red Nosed Reindeer by Myuu
-swamp02 - Dance of the Sugar Plum Fairy by Myuu
-swamp03 - What Child is This by Myuu
-temple - Santa's Tricks by Myuu#
+6041 Meow#
 
-6042 underworld00 - Ice Land (Part 1) by Myuu
-underworld01 - Deck the Halls by Myuu
-underworld02 - Winter Trouble by Myuu
-intro - God Rest Ye Merry Gentlemen by NaturesEye#
+6042 Meow#
 
 6043 No holiday currently active.#
 
