@@ -29,6 +29,7 @@ Hope this repository will help at least a little.
 
 - ## List of media checked that passed without editing
     - 14 Minesweeper Variants (Steam)
+    - 14 Minesweeper Variants 2 (Steam)
     - ElecHead (Steam)
     - 20 More, Somehow Even Smaller, Mazes (Steam)
     - Isles of Sea and Sky (Steam)
