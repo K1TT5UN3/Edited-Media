@@ -7,10 +7,10 @@
     "images": [
 	"*images/ui/Main Menus/Story/black.png",
 	"*images/ui/Main Menus/Story/white.png",
-	"*images/ui/Main Menus/Story/NoEternals.png",
-	"*images/ui/Main Menus/Story/Eternals.png",
-	"*images/ui/Main Menus/Story/white.png",
+	"*images/ui/Main Menus/Story/Hamlet_Rescue.png",
 	"*images/ui/Main Menus/Story/MagiciansGuild.png",
+	"*images/ui/Main Menus/Story/black.png",
+	"*images/ui/Main Menus/Story/PowerWaiting.png",
 	"*images/ui/Main Menus/Story/black.png"
     ]
 }

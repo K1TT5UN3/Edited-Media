@@ -7,9 +7,9 @@
     "images": [
 	"images/ui/Main Menus/Story/black.png",
 	"images/ui/Main Menus/Story/white.png",
-	"images/ui/Main Menus/Story/PowerWaiting.png",
-	"images/ui/Main Menus/Story/intro3.png",
-	"images/ui/Main Menus/Story/EvilThrone.png",
+	"images/ui/Main Menus/Story/HeroRescued.png",
+	"images/ui/Main Menus/Story/intro1.png",
+	"images/ui/Main Menus/Story/HumanThrone.png",
 	"images/ui/Main Menus/Story/PowerWaiting.png"
     ]
 }
