@@ -33,3 +33,4 @@ Hope this repository will help at least a little.
     - ElecHead (Steam)
     - 20 More, Somehow Even Smaller, Mazes (Steam)
     - Isles of Sea and Sky (Steam)
+    - IFO (Steam)
