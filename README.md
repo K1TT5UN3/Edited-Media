@@ -34,3 +34,4 @@ Hope this repository will help at least a little.
     - 20 More, Somehow Even Smaller, Mazes (Steam)
     - Isles of Sea and Sky (Steam)
     - IFO (Steam)
+    - Engare (Steam)
