@@ -4,6 +4,7 @@
 
 import binascii
 import re
+import shutil
 from os import listdir
 from os.path import isfile, join
 
@@ -18,7 +19,7 @@ class map_file:
         self.full_path = './maps/' + full_name
         self.name = full_name[:-4]
         self.extension = full_name[-3:]
-        self.output_file = './outputs/' + full_name[:-4]
+        self.output_file = './outputs/Checked strings/' + full_name[:-4]
     
     # Gets binary, hex and string data into accesible variable
     def get_data(self):
@@ -82,6 +83,8 @@ for map in map_list:
     
     if regex == None:
         continue
+    
+    shutil.copy(map.full_path,'./outputs/Original files/')
     
     with open(map.output_file, 'w') as file:
         file.write(str(map.string_bin_no_header))
