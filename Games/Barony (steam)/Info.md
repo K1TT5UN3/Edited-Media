@@ -5,3 +5,8 @@ This file was changed for Barony build with ID of 22630456, which is version v5.
 TODO:
 - [ ] Edit signs that are hardcoded into map files.
 - [ ] Remove enemies names from castle level.
+- [ ] Add DLC and fix them up.
+- [ ] Try adding mods and fixing them up.
+
+List of wanted mods:
+- 
