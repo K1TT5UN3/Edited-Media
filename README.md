@@ -22,16 +22,21 @@ Later I plan on additional stuff to make setup of everything easier and because 
 
 Hope this repository will help at least a little.
 
+# Edit check status explanation
+- Quickly checked - Checked by quickly looking over files and game itself. Many times nothing were even edited. 
+- Language checked - Went through language file and any text file in game files.
+- Textures checked - Checked all textures and images throughout files.
+- Fully checked - Decompiled game, went through code and checked everything as throughly as possible.
+
 # List of media changed
 
-- ## Games
-    - Barony (Steam)
-
-- ## List of media checked that passed without editing
-    - 14 Minesweeper Variants (Steam)
-    - 14 Minesweeper Variants 2 (Steam)
-    - ElecHead (Steam)
-    - 20 More, Somehow Even Smaller, Mazes (Steam)
-    - Isles of Sea and Sky (Steam)
-    - IFO (Steam)
-    - Engare (Steam)
+| Media name | Type | Source platform | Edit check status |
+|:---|:---:|:---:|:---:|
+|[Barony](https://store.steampowered.com/app/371970/Barony/)                                                           | Game | Steam | Fully checked   |
+|[14 Minesweeper Variants](https://store.steampowered.com/app/1865060/14_Minesweeper_Variants/)                        | Game | Steam | Quickly checked |
+|[14 Minesweeper Variants 2](https://store.steampowered.com/app/2631960/14_Minesweeper_Variants_2/)                    | Game | Steam | Quickly checked |
+|[ElecHead](https://store.steampowered.com/app/1456880/ElecHead/)                                                      | Game | Steam | Quickly checked |
+|[20 More, Somehow Even Smaller, Mazes](https://store.steampowered.com/app/4428890/20_More_Somehow_Even_Smaller_Mazes/)| Game | Steam | Quickly checked |
+|[Isles of Sea and Sky](https://store.steampowered.com/app/1233070/Isles_of_Sea_and_Sky/)                              | Game | Steam | Quickly checked |
+|[IFO](https://store.steampowered.com/app/1876000/IFO/)                                                                | Game | Steam | Quickly checked |
+|[Engare](https://store.steampowered.com/app/415170/Engare/)                                                           | Game | Steam | Quickly checked |
