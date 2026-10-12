@@ -33,6 +33,7 @@ Hope this repository will help at least a little.
 | Media name | Type | Source platform | Edit check status |
 |:---|:---:|:---:|:---:|
 |[Barony](https://store.steampowered.com/app/371970/Barony/)                                                           | Game | Steam | Fully checked   |
+|[Backpack Hero](https://store.steampowered.com/app/1970580/Backpack_Hero/)| Game | Steam | Language checked |
 |[14 Minesweeper Variants](https://store.steampowered.com/app/1865060/14_Minesweeper_Variants/)                        | Game | Steam | Quickly checked |
 |[14 Minesweeper Variants 2](https://store.steampowered.com/app/2631960/14_Minesweeper_Variants_2/)                    | Game | Steam | Quickly checked |
 |[ElecHead](https://store.steampowered.com/app/1456880/ElecHead/)                                                      | Game | Steam | Quickly checked |
