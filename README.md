@@ -1,3 +1,6 @@
+> [!IMPORTANT] 
+> If your game or other kind of media ends up in here and is edited in a way that you would preffer to not happen please write me a message me on K1TT5UN3@proton.me
+
 # Edited-Media
 This is a repo where I edit different kinds of media for a person I know with mental issues preventing them from seeing certain stuff without feeling bad. Hope putting it on GitHub will also help anyone else.
 
@@ -32,12 +35,13 @@ Hope this repository will help at least a little.
 
 | Media name | Type | Source platform | Edit check status |
 |:---|:---:|:---:|:---:|
-|[Barony](https://store.steampowered.com/app/371970/Barony/)                                                           | Game | Steam | Fully checked   |
-|[Backpack Hero](https://store.steampowered.com/app/1970580/Backpack_Hero/)| Game | Steam | Language checked |
-|[14 Minesweeper Variants](https://store.steampowered.com/app/1865060/14_Minesweeper_Variants/)                        | Game | Steam | Quickly checked |
-|[14 Minesweeper Variants 2](https://store.steampowered.com/app/2631960/14_Minesweeper_Variants_2/)                    | Game | Steam | Quickly checked |
-|[ElecHead](https://store.steampowered.com/app/1456880/ElecHead/)                                                      | Game | Steam | Quickly checked |
-|[20 More, Somehow Even Smaller, Mazes](https://store.steampowered.com/app/4428890/20_More_Somehow_Even_Smaller_Mazes/)| Game | Steam | Quickly checked |
-|[Isles of Sea and Sky](https://store.steampowered.com/app/1233070/Isles_of_Sea_and_Sky/)                              | Game | Steam | Quickly checked |
-|[IFO](https://store.steampowered.com/app/1876000/IFO/)                                                                | Game | Steam | Quickly checked |
-|[Engare](https://store.steampowered.com/app/415170/Engare/)                                                           | Game | Steam | Quickly checked |
+|[Barony](https://store.steampowered.com/app/371970/Barony/)                                                           | Game | Steam | Fully checked    |
+|[Can of Wormholes](https://store.steampowered.com/app/1295320/Can_of_Wormholes/)                                      | Game | Steam | Textures checked |
+|[Backpack Hero](https://store.steampowered.com/app/1970580/Backpack_Hero/)                                            | Game | Steam | Language checked |
+|[14 Minesweeper Variants](https://store.steampowered.com/app/1865060/14_Minesweeper_Variants/)                        | Game | Steam | Quickly checked  |
+|[14 Minesweeper Variants 2](https://store.steampowered.com/app/2631960/14_Minesweeper_Variants_2/)                    | Game | Steam | Quickly checked  |
+|[ElecHead](https://store.steampowered.com/app/1456880/ElecHead/)                                                      | Game | Steam | Quickly checked  |
+|[20 More, Somehow Even Smaller, Mazes](https://store.steampowered.com/app/4428890/20_More_Somehow_Even_Smaller_Mazes/)| Game | Steam | Quickly checked  |
+|[Isles of Sea and Sky](https://store.steampowered.com/app/1233070/Isles_of_Sea_and_Sky/)                              | Game | Steam | Quickly checked  |
+|[IFO](https://store.steampowered.com/app/1876000/IFO/)                                                                | Game | Steam | Quickly checked  |
+|[Engare](https://store.steampowered.com/app/415170/Engare/)                                                           | Game | Steam | Quickly checked  |
