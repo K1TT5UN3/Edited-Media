@@ -853,7 +853,7 @@ thou makest use of them.#
 "Certain potions only come in certain colors."
 "It's true!"#
 554 "Did you know?"
-"There is a secret way into hell in the ruins."
+"You can set off traps with dropped items."
 "It's true!"#
 555 "Did you know?"
 "Gungnir is hidden in the Minotaur Maze."
@@ -877,7 +877,7 @@ thou makest use of them.#
 "Funny Bones carries the axe named Parashu."
 "It's true!"#
 562 "Did you know?"
-"Solving Sokoban will make you rich."
+"You can set off traps with dropped items."
 "It's true!"#
 563 "Did you know?"
 "Gnomes and trolls are best friends."
