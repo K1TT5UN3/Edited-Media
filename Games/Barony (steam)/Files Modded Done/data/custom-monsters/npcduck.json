@@ -1,0 +1,73 @@
+{
+    "version": 1,
+    "stats": {
+        "name": "duck",
+        "type": "duck_small",
+        "sex": 1,
+        "appearance": "random",
+        "HP": 100,
+        "MAXHP": 100,
+        "MP": 10,
+        "MAXMP": 10,
+        "STR": 0,
+        "DEX": 1,
+        "CON": 0,
+        "INT": 0,
+        "PER": 15,
+        "CHR": 0,
+        "EXP": 0,
+        "LVL": 10,
+        "GOLD": 0
+    },
+    "misc_stats": {
+        "RANDOM_STR": 0,
+        "RANDOM_DEX": 0,
+        "RANDOM_CON": 0,
+        "RANDOM_INT": 0,
+        "RANDOM_PER": 0,
+        "RANDOM_CHR": 0,
+        "RANDOM_MAXHP": 20,
+        "RANDOM_HP": 20,
+        "RANDOM_MAXMP": 0,
+        "RANDOM_MP": 0,
+        "RANDOM_LVL": 0,
+        "RANDOM_GOLD": 0
+    },
+    "proficiencies": {
+        "Tinkering": 0,
+        "Stealth": 0,
+        "Trading": 0,
+        "Lore": 0,
+        "Thaumaturgy": 0,
+        "Leader": 0,
+        "Mysticism": 0,
+        "Sorcery": 0,
+        "Ranged": 0,
+        "Sword": 0,
+        "Mace": 0,
+        "Axe": 0,
+        "Polearm": 0,
+        "Shield": 0,
+        "Unarmed": 0,
+        "Alchemy": 0
+    },
+    "equipped_items": {},
+    "inventory_items": [],
+    "properties": {
+        "monster_name_always_display_as_generic_species": false,
+        "populate_empty_equipped_items_with_default": true,
+        "populate_default_inventory": true,
+        "disable_miniboss_chance": false,
+        "force_player_recruitable": false,
+        "force_player_friendly": false,
+        "force_player_enemy": false,
+        "disable_item_drops": false,
+        "xp_award_percent": 100,
+        "enable_casting_inventory_spellbooks": true,
+        "spellbook_cast_cooldown": 250
+    },
+    "followers": {
+        "num_followers": 0,
+        "follower_variants": {}
+    }
+}
