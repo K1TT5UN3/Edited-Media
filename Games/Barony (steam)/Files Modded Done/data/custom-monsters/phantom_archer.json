@@ -1,0 +1,174 @@
+{
+    "version": 1,
+    "stats": {
+        "name": "Phantom Archer",
+        "type": "human",
+        "sex": 1,
+        "appearance": 5,
+        "HP": 110,
+        "MAXHP": 110,
+        "MP": 20,
+        "MAXMP": 20,
+        "STR": 4,
+        "DEX": 4,
+        "CON": 3,
+        "INT": -1,
+        "PER": 5,
+        "CHR": -1,
+        "EXP": 0,
+        "LVL": 8,
+        "GOLD": 0
+    },
+    "misc_stats": {
+        "RANDOM_STR": 0,
+        "RANDOM_DEX": 0,
+        "RANDOM_CON": 0,
+        "RANDOM_INT": 0,
+        "RANDOM_PER": 0,
+        "RANDOM_CHR": 0,
+        "RANDOM_MAXHP": 0,
+        "RANDOM_HP": 0,
+        "RANDOM_MAXMP": 0,
+        "RANDOM_MP": 0,
+        "RANDOM_LVL": 2,
+        "RANDOM_GOLD": 0
+    },
+    "proficiencies": {
+        "Tinkering": 0,
+        "Stealth": 99,
+        "Trading": 0,
+        "Lore": 0,
+        "Thaumaturgy": 0,
+        "Leader": 0,
+        "Mysticism": 0,
+        "Sorcery": 0,
+        "Ranged": 10,
+        "Sword": 35,
+        "Mace": 50,
+        "Axe": 45,
+        "Polearm": 25,
+        "Shield": 35,
+        "Unarmed": 0,
+        "Alchemy": 0
+    },
+    "equipped_items": {
+        "mask": {
+            "type": "mask_phantom",
+            "status": "excellent",
+            "beatitude": 1,
+            "count": 1,
+            "appearance": "random",
+            "identified": false,
+            "spawn_percent_chance": 100,
+            "drop_percent_chance": 10,
+            "slot_weighted_chance": 1
+    },
+    "helmet": {
+            "type": "hat_crown",
+            "status": "excellent",
+            "beatitude": 1,
+            "count": 1,
+            "appearance": 1,
+            "identified": false,
+            "spawn_percent_chance": 100,
+            "drop_percent_chance": 1,
+            "slot_weighted_chance": 1
+        },
+    "weapon": {
+            "type": "longbow",
+            "status": ["worn","decrepit"],
+            "beatitude": -1,
+            "count": 1,
+            "appearance": "random",
+            "identified": false,
+            "spawn_percent_chance": 100,
+            "drop_percent_chance": 10,
+            "slot_weighted_chance": 1
+        },
+    "breastplate": {
+            "type": "tunic",
+            "status": "excellent",
+            "beatitude": 1,
+            "count": 1,
+            "appearance": 2,
+            "identified": false,
+            "spawn_percent_chance": 100,
+            "drop_percent_chance": 30,
+            "slot_weighted_chance": 1
+        },
+    "gloves": {
+            "type": "bone_bracers",
+            "status": "excellent",
+            "beatitude": 1,
+            "count": 1,
+            "appearance": "random",
+            "identified": false,
+            "spawn_percent_chance": 100,
+            "drop_percent_chance": 0,
+            "slot_weighted_chance": 1
+        },
+    "shoes": {
+            "type": "quilted_boots",
+            "status": "excellent",
+            "beatitude": 1,
+            "count": 1,
+            "appearance": "random",
+            "identified": false,
+            "spawn_percent_chance": 100,
+            "drop_percent_chance": 0,
+            "slot_weighted_chance": 1
+        },
+    "shield": {
+            "type": "quiver_silver",
+            "status": "excellent",
+            "beatitude": 1,
+            "count": [10,20,30,40],
+            "appearance": "random",
+            "identified": false,
+            "spawn_percent_chance": 100,
+            "drop_percent_chance": 0,
+            "slot_weighted_chance": 1
+        },
+    "ring": {
+        "type": "ring_teleportation",
+            "status": "excellent",
+            "beatitude": -10,
+            "count": 1,
+            "appearance": "random",
+            "identified": false,
+            "spawn_percent_chance": 100,
+            "drop_percent_chance": 0,
+            "slot_weighted_chance": 1
+    }
+        },
+    "inventory_items": [
+        {
+        "type": "potion_confusion",
+            "status": "excellent",
+            "beatitude": 0,
+            "count": [1,2,3],
+            "appearance": "random",
+            "identified": false,
+            "spawn_percent_chance": 100,
+            "drop_percent_chance": 100,
+            "slot_weighted_chance": 1
+    }
+    ],
+    "properties": {
+        "monster_name_always_display_as_generic_species": false,
+        "populate_empty_equipped_items_with_default": false,
+        "populate_default_inventory": false,
+        "disable_miniboss_chance": true,
+        "force_player_recruitable": false,
+        "force_player_friendly": false,
+        "force_player_enemy": true,
+        "disable_item_drops": false,
+        "xp_award_percent": 100,
+        "enable_casting_inventory_spellbooks": false,
+        "spellbook_cast_cooldown": 250
+    },
+    "followers": {
+        "num_followers": 0,
+        "follower_variants": {}
+    }
+}

@@ -1,0 +1,151 @@
+{
+    "version": 1,
+    "stats": {
+        "name": "Thief",
+        "type": "human",
+        "sex": 0,
+        "appearance": 5,
+        "HP": 20,
+        "MAXHP": 20,
+        "MP": 20,
+        "MAXMP": 20,
+        "STR": 3,
+        "DEX": 12,
+        "CON": -2,
+        "INT": -1,
+        "PER": 50,
+        "CHR": -3,
+        "EXP": 0,
+        "LVL": 5,
+        "GOLD": 0
+    },
+    "misc_stats": {
+        "RANDOM_STR": 0,
+        "RANDOM_DEX": 3,
+        "RANDOM_CON": 0,
+        "RANDOM_INT": 3,
+        "RANDOM_PER": 4,
+        "RANDOM_CHR": 3,
+        "RANDOM_MAXHP": 20,
+        "RANDOM_HP": 10,
+        "RANDOM_MAXMP": 10,
+        "RANDOM_MP": 20,
+        "RANDOM_LVL": 5,
+        "RANDOM_GOLD": 100
+    },
+    "proficiencies": {
+        "Tinkering": 40,
+        "Stealth": 100,
+        "Trading": 0,
+        "Lore": 0,
+        "Thaumaturgy": 0,
+        "Leader": 0,
+        "Mysticism": 20,
+        "Sorcery": 0,
+        "Ranged": 0,
+        "Sword": 50,
+        "Mace": 0,
+        "Axe": 0,
+        "Polearm": 0,
+        "Shield": 0,
+        "Unarmed": 30,
+        "Alchemy": 0
+    },
+    "equipped_items": {
+        "helmet": { 
+	        "type": "hat_hood_assassin",
+            "status": ["excellent", "serviceable"],
+            "beatitude": [-1,0,1],
+            "count": 1,
+            "appearance": 1,
+            "identified": false,
+            "spawn_percent_chance": 100,
+            "drop_percent_chance": 33,
+            "slot_weighted_chance": 1
+	        },
+        "ring": { 
+	        "type": "ring_warning",
+            "status": "excellent",
+            "beatitude": [0,1],
+            "count": 1,
+            "appearance": "random",
+            "identified": false,
+            "spawn_percent_chance": 100,
+            "drop_percent_chance": 33,
+            "slot_weighted_chance": 1
+	        },
+        "breastplate": { 
+	        "type": "bandit_breastpiece",
+            "status": ["decrepit", "worn"],
+            "beatitude": [1,0,-1],
+            "count": 1,
+            "appearance": 2,
+            "identified": false,
+            "spawn_percent_chance": 100,
+            "drop_percent_chance": 20,
+            "slot_weighted_chance": 1
+	        },
+        "shoes": { 
+	        "type": "suede_boots",
+            "status": "excellent",
+            "beatitude": 0,
+            "count": 1,
+            "appearance": "random",
+            "identified": false,
+            "spawn_percent_chance": 100,
+            "drop_percent_chance": 10,
+            "slot_weighted_chance": 1
+	        },
+        "mask": { 
+	        "type": "mask_bandit",
+            "status": "excellent",
+            "beatitude": 2,
+            "count": 1,
+            "appearance": 1,
+            "identified": false,
+            "spawn_percent_chance": 100,
+            "drop_percent_chance": 100,
+            "slot_weighted_chance": 1
+	        },
+        "gloves": {
+            "type": "suede_gloves",
+            "status": "worn",
+            "beatitude": 0,
+            "count": 1,
+            "appearance": "random",
+            "identified": false,
+            "spawn_percent_chance": 100,
+            "drop_percent_chance": 10,
+            "slot_weighted_chance": 1
+        },
+        "weapon": { 
+	        "type": "blackiron_sword",
+            "status": ["decrepit", "worn"],
+            "beatitude": [-1,0,1],
+            "count": 1,
+            "appearance": 1,
+            "identified": false,
+            "spawn_percent_chance": 100,
+            "drop_percent_chance": 4,
+            "slot_weighted_chance": 1
+	        }
+     },
+    "inventory_items": [],
+    "properties": {
+        "monster_name_always_display_as_generic_species": false,
+        "populate_empty_equipped_items_with_default": false,
+        "populate_default_inventory": false,
+        "disable_miniboss_chance": true,
+        "force_player_recruitable": false,
+        "force_player_friendly": false,
+        "force_player_enemy": true,
+        "disable_item_drops": false,
+        "xp_award_percent": 100,
+        "enable_casting_inventory_spellbooks": false,
+        "spellbook_cast_cooldown": 250
+    },
+    "followers": {
+        "num_followers": 0,
+        "follower_variants": {}
+    }
+}

@@ -1,0 +1,222 @@
+{
+    "version": 1,
+    "levels": {
+        "The Mines": {
+            "fixed_monsters": [
+                {
+                    "name": "rat",
+                    "variants": {
+                        "default": 1
+                    }
+                },
+                {
+                    "name": "skeleton",
+                    "variants": {
+                        "default": 1
+                    }
+                },
+                {
+                    "name": "spider",
+                    "variants": {
+                        "default": 1
+                    }
+                },
+                {
+                    "name": "troll",
+                    "variants": {
+                        "default": 1
+                    }
+                }
+            ],
+            "random_generation_monsters": [
+                {
+                    "name": "rat",
+                    "weighted_chance": 5,
+                    "dungeon_depth_minimum": 0,
+                    "dungeon_depth_maximum": 99,
+                    "variants": {
+                        "default": 22,
+                        "cursed_rat": 1
+                    }
+                },
+                {
+                    "name": "skeleton",
+                    "weighted_chance": 5,
+                    "dungeon_depth_minimum": 0,
+                    "dungeon_depth_maximum": 99,
+                    "variants": {
+                        "default": 2,
+                        "ranged_skeleton": 2
+                    }
+                },
+                {
+                    "name": "spider",
+                    "weighted_chance": 2,
+                    "dungeon_depth_minimum": 2,
+                    "dungeon_depth_maximum": 99,
+                    "variants": {
+                        "default": 1
+                    }
+                },
+                {
+                    "name": "troll",
+                    "weighted_chance": 2,
+                    "dungeon_depth_minimum": 2,
+                    "dungeon_depth_maximum": 99,
+                    "variants": {
+                        "default": 1
+                    }
+                },
+                {
+                    "name": "human",
+                    "weighted_chance": 3,
+                    "dungeon_depth_minimum": 0,
+                    "dungeon_depth_maximum": 99,
+                    "variants": {
+                        "miner1": 1,
+                        "miner2": 1,
+                        "miner3": 1,
+                        "miner4": 1,
+                        "miner5": 1,
+                        "miner6": 1,
+                        "miner7": 1,
+                        "undead_miner": 7,
+                        "miner_goblin": 1
+                    }
+                },
+                {
+                    "name": "skeleton",
+                    "weighted_chance": 3,
+                    "dungeon_depth_minimum": 3,
+                    "dungeon_depth_maximum": 99,
+                    "variants": {
+                        "mage_skeleton": 1
+                    }
+                },
+                {
+                    "name": "earth_elemental",
+                    "weighted_chance": 3,
+                    "dungeon_depth_minimum": 3,
+                    "dungeon_depth_maximum": 99,
+                    "variants": {
+                        "enemy_earth_elemental": 1
+                    }
+                },
+                {
+                    "name": "human",
+                    "weighted_chance": 1,
+                    "dungeon_depth_minimum": 2,
+                    "dungeon_depth_maximum": 99,
+                    "variants": {
+                        "thief1": 1,
+                        "thief2": 1,
+                        "thief3": 1,
+                        "thief4": 1,
+                        "thief5": 1,
+                        "thief6": 1,
+                        "thief7": 1,
+                        "thief8": 1,
+                        "undead_thief": 1
+                    }
+                }
+            ]
+        },
+        "The Swamp": {
+            "random_generation_monsters": [
+                {
+                    "name": "spider",
+                    "weighted_chance": 4,
+                    "dungeon_depth_minimum": 0,
+                    "dungeon_depth_maximum": 99,
+                    "variants": {
+                        "default": 1
+                    }
+                },
+                {
+                    "name": "goblin",
+                    "weighted_chance": 6,
+                    "dungeon_depth_minimum": 0,
+                    "dungeon_depth_maximum": 99,
+                    "variants": {
+                        "default": 6
+                    }
+                },
+                {
+                    "name": "slime",
+                    "weighted_chance": 6,
+                    "dungeon_depth_minimum": 0,
+                    "dungeon_depth_maximum": 99,
+                    "variants": {
+                        "default": 1
+                    }
+                },
+                {
+                    "name": "ghoul",
+                    "weighted_chance": 4,
+                    "dungeon_depth_minimum": 0,
+                    "dungeon_depth_maximum": 99,
+                    "variants": {
+                        "default": 1
+                    }
+                },
+                {
+                    "name": "human",
+                    "weighted_chance": 2,
+                    "dungeon_depth_minimum": 0,
+                    "dungeon_depth_maximum": 99,
+                    "variants": {
+                        "phantom_archer": 1
+                    }
+                },
+                {
+                    "name": "rat",
+                    "weighted_chance": 4,
+                    "dungeon_depth_minimum": 0,
+                    "dungeon_depth_maximum": 99,
+                    "variants": {
+                        "swamp_rat": 1
+                    }
+                },
+                {
+                    "name": "human",
+                    "weighted_chance": 1,
+                    "dungeon_depth_minimum": 0,
+                    "dungeon_depth_maximum": 99,
+                    "variants": {
+                        "thief1": 1,
+                        "thief2": 1,
+                        "thief3": 1,
+                        "thief4": 1,
+                        "thief5": 1,
+                        "thief6": 1,
+                        "thief7": 1,
+                        "thief8": 1
+                    }
+                },
+                {
+                    
+                    "name": "duck_small",
+                    "weighted_chance": 1,
+                    "dungeon_depth_minimum": 0,
+                    "dungeon_depth_maximum": 6,
+                    "variants": {
+                        "npcduck": 1
+                    }
+                }
+            ]
+        },
+        "My level": {
+            "random_generation_monsters": [
+                {
+                    "name": "demon",
+                    "weighted_chance": 1,
+                    "dungeon_depth_minimum": 0,
+                    "dungeon_depth_maximum": 99,
+                    "variants": {
+                        "default": 1
+                    }
+                }
+            ]
+        }
+    }
+}
