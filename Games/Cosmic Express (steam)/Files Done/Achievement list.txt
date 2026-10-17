@@ -1,0 +1,12 @@
+- Andromeda - Complete every level in the Andromeda constellation
+- Vela - Complete every level in the Vela constellation
+- Delphinus - Complete every level in the Delphinus constellation
+- Ursa Minor - Complete every level in the Ursa Minor constellation
+- Cassiopeia - Complete every level in the Cassiopeia constellation
+- Taurus - Complete every level in the Taurus constellation
+- Perseus - Complete every level in the Perseus constellation
+- Ursa Major - Complete every level in the Ursa Major constellation
+- Orion - Complete every level in the Orion constellation
+- Nova - Complete every level in the Nova constellation
+- Cosmos - Complete every constellation
+- Monolith - Complete the final monolith solution

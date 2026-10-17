@@ -22,6 +22,7 @@ Later I plan on additional stuff to make setup of everything easier and because 
 - [ ] Turn list of media into nice table with links to originals.
 - [ ] Make script setting up proton and needed dependencies.
 - [ ] Make script to automatically change only assets from here without including original files. (Instead of changed original text files just insert new lines onto original.)
+- [ ] Make achievement list and make a script to auto update it.
 
 Hope this repository will help at least a little.
 
@@ -33,15 +34,16 @@ Hope this repository will help at least a little.
 
 # List of media changed
 
-| Media name | Type | Source platform | Edit check status |
-|:---|:---:|:---:|:---:|
-|[Barony](https://store.steampowered.com/app/371970/Barony/)                                                           | Game | Steam | Fully checked    |
-|[Can of Wormholes](https://store.steampowered.com/app/1295320/Can_of_Wormholes/)                                      | Game | Steam | Textures checked |
-|[Backpack Hero](https://store.steampowered.com/app/1970580/Backpack_Hero/)                                            | Game | Steam | Language checked |
-|[14 Minesweeper Variants](https://store.steampowered.com/app/1865060/14_Minesweeper_Variants/)                        | Game | Steam | Quickly checked  |
-|[14 Minesweeper Variants 2](https://store.steampowered.com/app/2631960/14_Minesweeper_Variants_2/)                    | Game | Steam | Quickly checked  |
-|[ElecHead](https://store.steampowered.com/app/1456880/ElecHead/)                                                      | Game | Steam | Quickly checked  |
-|[20 More, Somehow Even Smaller, Mazes](https://store.steampowered.com/app/4428890/20_More_Somehow_Even_Smaller_Mazes/)| Game | Steam | Quickly checked  |
-|[Isles of Sea and Sky](https://store.steampowered.com/app/1233070/Isles_of_Sea_and_Sky/)                              | Game | Steam | Quickly checked  |
-|[IFO](https://store.steampowered.com/app/1876000/IFO/)                                                                | Game | Steam | Quickly checked  |
-|[Engare](https://store.steampowered.com/app/415170/Engare/)                                                           | Game | Steam | Quickly checked  |
+| Media name | Type | Source platform | Edit check status | Is child friendly? |
+|:---|:---:|:---:|:---:|:---:|
+|[Barony](https://store.steampowered.com/app/371970/Barony/)                                                           | Game | Steam | Fully checked   ||
+|[Cosmic Express]()                                                                                                    | Game | Steam | Fully checked   ||
+|[Can of Wormholes](https://store.steampowered.com/app/1295320/Can_of_Wormholes/)                                      | Game | Steam | Textures checked   ||
+|[Backpack Hero](https://store.steampowered.com/app/1970580/Backpack_Hero/)                                            | Game | Steam | Language checked   ||
+|[14 Minesweeper Variants](https://store.steampowered.com/app/1865060/14_Minesweeper_Variants/)                        | Game | Steam | Quickly checked   ||
+|[14 Minesweeper Variants 2](https://store.steampowered.com/app/2631960/14_Minesweeper_Variants_2/)                    | Game | Steam | Quickly checked   ||
+|[ElecHead](https://store.steampowered.com/app/1456880/ElecHead/)                                                      | Game | Steam | Quickly checked   ||
+|[20 More, Somehow Even Smaller, Mazes](https://store.steampowered.com/app/4428890/20_More_Somehow_Even_Smaller_Mazes/)| Game | Steam | Quickly checked   ||
+|[Isles of Sea and Sky](https://store.steampowered.com/app/1233070/Isles_of_Sea_and_Sky/)                              | Game | Steam | Quickly checked   ||
+|[IFO](https://store.steampowered.com/app/1876000/IFO/)                                                                | Game | Steam | Quickly checked   ||
+|[Engare](https://store.steampowered.com/app/415170/Engare/)                                                           | Game | Steam | Quickly checked   ||
