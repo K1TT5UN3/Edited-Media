@@ -1,0 +1,243 @@
+		{"RULES:",
+		"- The deck you're using is a $Ca7d962standard 52-card deck$CW. The cards with $Ce3c188sun icons$CW are the $Ce3c188aces$CW.",
+		"- The cards are stacked and moved in $Ce3c188ascending$CW/$Ce3c188descending$CW order of $Ce3c188alternating$CW suit. The order can change mid-stack, so $Ca7d9624-3-2-3$CW is a $Ceb8edevalid stack$CW.",
+		"- The $Ceb8edetriangle in the bottom-right corner$CW can be used to $C8bc8e7combine cards$CW. Place 2 cards in the $Ceb8edebottom slots$CW, and you'll get their combination in the $Ceb8edetop slot$CW. A $C8bc8e7combined card$CW can't be combined again. $C8bc8e7Combined cards$CW can be stacked as $Ce3c188any suit$CW.",
+		"- Your goal is to pile cards $Ce3c188from 1 to 26$CW on the $Ceb8edered slot on the right$CW. The suit doesn't matter, $Cd98079only$CW the number value.",
+		"- NOTE: You can switch the Roman numerals into Arabic numerals in the settings menu.",
+		}
+
+		{"RULES:",
+		"- Pile cards of $Ca7d962every suit$CW in $Ce3c188ascending$CW order on the $Ceb8edeslots on the right$CW.",
+		"- Cards are stacked in the $Ceb8edemiddle slots$CW in $Ce3c188descending$CW order.",
+		"- You can $Cd98079only$CW pick up a stack of multiple cards if they're of the $Ca7d962same suit$CW.",
+		"- When you're holding a single card, you can $C8bc8e7right-click$CW on another card to place the held card $Ce3c188sideways$CW on top of the clicked card. Any card can be placed on top of a $Ce3c188sideways card$CW, but you can $Cd98079only$CW have $Ce3c1883 sideways cards$CW at $Cd98079maximum$CW at a time.$S$S$S$S$S$S$S$S$S$S",
+		"- To turn a $Ce3c188sideways card$CW back upright, you need to pick it up and place it in a valid spot for that specific card.",
+		"- Press S to autostack.",
+		}
+
+		{"RULES:",
+		"- Pile cards of $Ca7d962every suit$CW in $Ce3c188ascending$CW order on the $Ceb8ede8 slots on the right$CW.",
+		"- Cards are stacked in the $Ceb8edemiddle slots$CW in $Ce3c188descending$CW order of $Ce3c188alternating$CW suit.",
+		"- You can also stack cards of the $Ce3c188same value$CW on top of each other, but you can't pick up cards stacked like this together.",
+		"- There are $Ceb8ede3 slots$CW on the right that can hold $C8bc8e71 card$CW each. While one of these slots is holding a card, the suit-specific slots $C8bc8e7underneath$CW $Cff8383can't be used$CW.",
+		"- Press S to autostack.",
+		}
+
+		{"RULES:",
+		"- There are $C8bc8e7two card values$CW, $Ce3c1881$CW and $Ce3c1880$CW. The deck contains $Ce3c18836 ones$CW and $Ce3c18816 zeros$CW.",
+		"- While holding a $C8bc8e7single card$CW, you can $Ca7d962right-click$CW another card/group to combine the cards into a $C8bc8e7group$CW, with the held card being $Ce3c188on top$CW. A group can have a $Cd98079maximum$CW of 3 cards.",
+		"- The $C8bc8e7value of a group is determined$CW by the $Ca7d962binary value of the cards$CW the group consists of. A group's value is indicated in its $Ce3c188top-left corner$CW.",
+		"- You can move and stack cards/groups in $Ce3c188ascending$CW/$Ce3c188descending$CW order. The order can change mid-stack, so $Ca7d9624-3-2-3$CW is a $Ceb8edevalid stack$CW.",
+		"- Your goal is to fill the $Ceb8ede3 slots$CW with stacks running in $Ce3c188descending$CW order $Ce3c188from 7 to 1$CW. When this is achieved on a slot, the slot $Cff8383locks up$CW and can $Cff8383no longer be used$CW.",
+		"- There's an $Ceb8edeextra slot on the right$CW that can hold a single card/group.",
+		"- Note that the deck contains $Ce3c188one more zero$CW than what is needed to fulfill the goal.",
+		}
+
+		{"RULES:",
+		"- The deck consists of $Ce3c188104 cards$CW: $Ce3c18852 face-up$CW and $Ce3c18852 face-down$CW. Think of these as $Ca7d9622 suits$CW.",
+		"- Cards of the $Ca7d962same suit$CW join into a $Ca7d962single group$CW when stacked. You can't move a card without moving its $Ce3c188entire group$CW.$S$S$S$S$S$S$S$S$S",
+		"- Groups can be picked up from anywhere (even under other groups), but $Cd98079only$CW placed on $Ceb8edeempty slots$CW or groups of $Ce3c188size 1 higher or lower$CW. You can place a group on another group regardless of their suits.",
+		"- The goal is to place groups of cards on the $Ceb8ede3 slots on the right$CW so that the size of a group is $Ce3c188higher or equal$CW to the $Ceb8edenumber next to the slot$CW.$SEach of the $Ceb8ede3 slots$CW requires first $Ce3c1885$CW, then $Ce3c1887$CW, then $Ce3c1889$CW and finally $Ce3c18811$CW cards. The groups can be of $Ca7d962either suit$CW.",
+		"- $Ca7d962Clicking on the deck$CW deals a new card on all $Ceb8ede4 middle slots$CW. You can see the upcoming cards above the slots.",
+		"NOTE: fulfilling the goal requires 96 cards at $Cd98079minimum$CW, so you have a $Ca7d962surplus of 8 cards$CW at the start.",
+		}
+
+		{"RULES:",
+		"- Fill the $Ceb8edeslots$CW with $C8bc8e75 stacks$CW in $Ce3c188descending$CW order with $Ce3c188alternating$CW color.",
+		"- You can pick up a stack of multiple cards if they $Ca7d962adhere to the rule above$CW.",
+		"- At any time, you can $C8bc8e7right-click$CW to turn over the $Ce3c188top-most card$CW of a stack.",
+		}
+
+		{"RULES:",
+		"- Defeat all $Ce3c18816 monsters$CW by matching them with cards of $Ca7d962equal value$CW.",
+		"- When a $Ce3c188monster card$CW is on the top of one of the $Ceb8ede4 middle slots$CW, it'll jump to an open $Ceb8edemonster slot on the right$CW. If there are no open $Ceb8edemonster slots$CW available, $Cff8383YOU LOSE$CW.",
+		"- Every $Ceb8edemonster slot$CW has $C8bc8e72 attack slots$CW next to it. When the $Ceb8edemonster slot$CW is filled, you can place $Ca7d962any number card$CW in the $C8bc8eaattack slots$CW. If the $Ca7d962combined value$CW of the 2 cards in the $C8bc8eaattack slots$CW is equal to the value of the $Ce3c188monster card$CW, the monster is $Ca7d962defeated$CW and all 3 cards are discarded.",
+		"- An ace is normally of $Ca7d962value 1$CW, but if it's in an $C8bc8eaattack slot$CW for a monster of $Ceb8edematching suit$CW, its $Ca7d962value becomes 7$CW. NOTE: In order to complete the solitaire, you need to use $C74c0e6at least$CW 1 ace $Ceb8edematching suit$CW with a monster.",
+		"- The number cards are stacked and moved in $Ce3c188ascending$CW/$Ce3c188descending$CW order of $Ce3c188alternating$CW suit. The order can change mid-stack, so $Ca7d9624-3-2-3$CW is a $Ceb8edevalid stack$CW.",
+		}
+
+		{"RULES:",
+		"- Pile cards $Ce3c188from 1 to 12$CW of $Ca7d962every suit$CW in $Ce3c188ascending$CW order on the $Ceb8edeslots on the right$CW.",
+		"- All cards have $C8bc8e7circuit lines$CW on them. The Kings of each suit act as $Ce3c188power sources$CW, and power propagates through the card grid along the $C8bc8e7circuit lines$CW.",
+		"- You can pick $Ceb8edeany card$CW except a King and place it $Ca7d962anywhere$CW; placing it onto another card makes it $C8bc8e7swap places$CW with that card.",
+		"- $Ce3c188Picking$CW or $Ce3c188placing$CW an unpowered card makes you $Cff8383run out of electricity$CW. Placing a card onto the slots on the right regains $C74c0e61 electricity$CW, and you need $C74c0e63 electricity$CW to pick or place an unpowered card again.",
+		"- (The deal guarantees that the two topmost Kings power $Ce3c188at least one card$CW.)",
+		}
+		
+		{"RULES:",
+		"- Pile cards of $Ca7d962every suit$CW in $Ce3c188ascending$CW order on the $Ceb8edeslots on the right$CW.",
+		"- You can stack and move cards in $Ce3c188descending$CW order of $Ce3c188alternating$CW suit on the $Ceb8edetable on the left$CW.",
+		"- You $Cff8383can't pick up a card$CW if it has another card on top of it. You can place a held card/stack if there's an $C8bc8e7empty spot$CW for it $Ceb8edeon the table$CW.",
+		"- The $Ceb8edeempty slots on the middle-right$CW can hold $C8bc8e7one card$CW each.",
+		"- You can $C8bc8e7right-click$CW while holding a card/pile picked $Ceb8edefrom the table$CW to $C8bc8e7return it$CW where you picked it from.",
+		"- Press S to autostack.",
+		}
+
+		{"RULES:",
+		"- Pile cards of $Ca7d962every suit$CW in $Ce3c188ascending$CW order on the $Ceb8edeslots on the right$CW.",
+		"- You can stack and move cards on each other in a $Ce3c188descending$CW order of $Ce3c188alternating$CW suit.",
+		"- When holding a stack, you can $C8bc8e7right-click$CW on another card of the $Ca7d962same suit$CW as the one at the top of the stack to $C8bc8e7combine and fork$CW their stacks. You can't fork a stack that already forks further down the line, and a stack can $Cff8383only fork twice at maximum$CW (but do note that this limit is separate for each initial fork, so a stack can have $Ce3c1884 branches$CW in total).",
+		"- You can $Ca7d962break a forked stack$CW by picking up $C8bc8e7one of the 2 cards$CW that form the beginning of the fork.",
+		"- You can't pick up stacks of cards that $Ca7d962contain forks in them$CW.",
+		"- Press S to autostack.",
+		}
+
+		{"RULES:",
+		"- Make $Ca7d9624 piles$CW running in $Ce3c188descending$CW order $Ce3c188from K to A$CW.",
+		"- You can stack cards and move them in a $Ce3c188descending$CW order. For cards with $Ceb8edematching suit$CW, the card values don't need to be adjacent as long as they're in $Ce3c188descending$CW order, so $Ca7d9627-4-3$CW is a $Ceb8edevalid stack$CW.",
+		"- The slots form a $C8bc8e73x2 grid$CW. When moving a card/stack, it moves $C8bc8e7one slot at a time$CW on the grid. You can $Cd98079only$CW move a card/stack onto a slot if the $C8bc8e7topmost card$CW of that slot has a $Ce3c188higher value$CW than the card you're moving (or the $C8bc8e7bottommost card$CW of the stack you're moving).",
+		}
+
+		{"RULES:",
+		"- Pile cards of $Ca7d962every suit$CW in $Ce3c188ascending$CW order on the $Ceb8edeslots on the right$CW.",
+		"- You can stack cards and move them in a $Ce3c188descending$CW order of $Ce3c188alternating$CW suit. The card values don't need to be adjacent as long as they're in $Ce3c188descending$CW order, so $Ca7d9627-4-3$CW is a $Ceb8edevalid stack$CW.",
+		"- Each card can be moved a $Cd98079limited number of times$CW, indicated on the card. The initial limit of moves is equal to the $C8bc8e7number value$CW of each card. When moving a stack, $Cd98079only$CW the topmost card gets its moves reduced.",
+		"- Once a card is out of moves, it'll jump to the $Ceb8edeslots on the right$CW when able.",
+		"- Press S to autostack.",
+		}
+
+		{"RULES:",
+		"- Pile cards of $Ca7d962every suit$CW in $Ce3c188ascending$CW order on the $Ceb8edeslots on the right$CW.",
+		"- Cards are stacked in the $Ceb8edemiddle slots$CW in an $Ce3c188alternating$CW $Cff8383red$CW/$C8bc8e7blue$CW pattern, either $Ce3c188ascending$CW or $Ce3c188descending$CW.",
+		"- The direction of $Ce3c188ascension$CW/$Ce3c188descension$CW can change in the middle of a stack, so a placement of e.g. $Ca7d9624-3-2-3$CW is valid.$S$S$S$S$S$S$S$S$S",
+		"- Every time you place a card anywhere, that slot is $Cff8383locked$CW for the $C8bc8e7next 2 moves$CW. A $Cff8383locked$CW slot $Cff8383can't be interacted with$CW.",
+		"- Press S to autostack.",
+		}
+
+TODO:		{"RULES:",
+TODO:		"- Your task is to figure out $Ca7d962who$CW killed " .. vars.victim_title .. " at the party and with $Ca7d962what$CW. Both the $Ca7d962killer$CW and the $Ca7d962weapon$CW are cards in the deck.",
+TODO:		"- Each $Ce3c18810$CW and $Ce3c188face card$CW is a $C74c0e6party guest$CW (for a total of $Ce3c18819 guests$CW, discounting the victim), and every other card is a potential $Ca7d962murder weapon$CW or method. Hover over each card to see its name.",
+TODO:		"- Each time a $C74c0e6guest$CW is revealed, they're questioned and their response appears on the $Ceb8ederight edge of the screen$CW. However, $Ce3c1882 guests$CW have $Cd98079no idea$CW what happened, and $Ce3c1884 other guests$CW give an $Cd98079incorrect account$CW of the events.",
+TODO:		"- You can use the $Ceb8ede3 buttons$CW next to every response to keep track of whether you think they're $Ca7d962true$CW or $Cd98079false$CW.",
+TODO:		"- Once you think you know the identities of the $Ca7d962killer$CW and the $Ca7d962weapon$CW used in the deed, press the $Ce3c188'I Know!'$CW button.",
+TODO:		"- You can place cards on each other as long as their $Ce3c188values differ by exactly 1$CW, no matter what their suits.",
+TODO:		"- You can pick up a stack of any size as long as all the cards are in $Ce3c188descending$CW order. $C8bc8e7Aces$CW are counted as $C8bc8e71$CW in all situations.",
+TODO:		"- At the top of the screen are $Ceb8ede4 slots$CW that can hold $C8bc8e71 card$CW each.",
+TODO:		}
+
+		{"RULES:",
+		"- Cards are stacked in the $Ceb8edeslots on the left$CW in $Ce3c188descending$CW order.",
+		"- A $C8bc8e7single card$CW can be placed in each of the $Ceb8ede5 slots on the right$CW (after this, $Cd98079it can't be removed$CW). Once all $Ceb8ede5 slots$CW are full, the cards in them are evaluated as a $Ce3c188poker hand$CW. Only the $Ce3c188best possible hand$CW is considered, and points are awarded as a $Ce3c188sum of the values of the cards$CW that contributed to the hand. If the given hand had already been awarded previously, the score will be updated if the new one scored $Ce3c188higher$CW.",
+		"- The goal is to accumulate $Ce3c188240 points$CW or more in total. You do not have to get points for each different hand there is as long as the score is high enough.",
+		}
+
+		{"RULES:",
+		"- Pile cards of $Ca7d962every suit$CW in $Ce3c188ascending$CW order on the $Ceb8edeslots on the right$CW.",
+		"- You can stack cards and move them in a $Ce3c188descending$CW order of $Ce3c188alternating$CW suit. The card values don't need to be adjacent as long as they're in $Ce3c188descending$CW order, so $Ca7d9627-4-3$CW is a $Ceb8edevalid stack$CW.",
+		"- Every time you move a card between the $Ceb8edeslots on the left$CW, it $C8bc8e7swaps places$CW with a $C8bc8e7random$CW other card on top of $Ceb8edeone of the slots$CW (if possible). When moving a stack, $Cd98079only$CW the topmost card is swapped.",
+		"- Press S to autostack.",
+		}
+
+        {"RULES:",
+		"- Move all cards across the $Ceb8ederiver$CW to $Ca7d962win$CW.",
+		"- You can pile and move card stacks in $Ce3c188descending$CW (not necessarily $C74c0e6consecutive$CW) order and $Ce3c188alternating$CW suit.",
+		"- You can $C74c0e6only$CW take card stacks from the side of the $Ceb8ederiver$CW you're $Ce3c188currently on$CW. The $Ce3c188boat$CW indicates the side you're on.",
+		"- When you move a card stack $Ce3c188across$CW the $Ceb8ederiver$CW, you will $Ce3c188move to the same side$CW as you moved the stack to.",
+		"- $Cff8383You lose$CW the game if there are ever $Ce3c1882+ more$CW $Cff8383Ferrets$CW than $C8bc8e7Rabbits$CW on the same side of the $Ceb8ederiver$CW while there's at least $C8bc8e71 Rabbit$CW on that side!",
+		"- $Cff8383You lose$CW the game if there are ever $Ce3c1882+ more$CW $C8bc8e7Rabbits$CW than $Ca7d962Carrots$CW on the same side of the $Ceb8ederiver$CW while there's at least $Ca7d9621 Carrot$CW on that side!",
+		}
+
+		{"RULES:",
+		"- All cards are $Ce3c188identical$CW, but they're placed into $Ce3c188groups$CW; the $C8bc8e7number of cards$CW in a group determines the $Ca7d962group's value$CW.",
+		"- You can stack and move stacks of card groups in $Ce3c188descending$CW or $Ce3c188ascending$CW order of value. The $Ce3c188ascension$CW/$Ce3c188descension$CW direction may change mid-stack, so $Ca7d9624-3-2-3$CW is a $Ceb8edevalid stack$CW.",
+		"- You can combine $Ce3c188two groups$CW by $C8bc8e7right-clicking$CW one while holding the other as long as their values differ by $Ca7d9621 or less$CW.",
+		"- A group on an $Cff8383invalid spot$CW (i.e. on another group so that their values aren't in $Ce3c188descending$CW/$Ce3c188ascending$CW order) is highlighted in $Cff8383red$CW. You can't place groups on an invalid group, or combine with one.",
+		"- Your goal is to fill all $Ceb8ede4 slots$CW with groups in $Ce3c188descending$CW order $Ce3c188from 7 to 1$CW. Once you do this, the slot $Cff8383locks up$CW and can $Cff8383no longer be used$CW.",
+		"- There's a $Ceb8edeslot on the right$CW on which you can place a single group.",
+		}
+		
+		{"RULES:",
+		"- Pile cards of $Ca7d962every suit$CW on their $Ceb8edecorresponding planet$CW.",
+		"- Cards that share the $Ca7d962same suit$CW ($C8bc8e7middle symbol$CW) can be stacked. Every card also has an $Ca7d962aspect$CW ($C8bc8e7top symbol$CW) which denotes an additional $Ca7d962suit$CW that the card can be stacked on.",
+		"- You can $C74c0e6only$CW pick up a stack of multiple cards if they share the $Ca7d962same suit$CW.",
+		"- Whenever a card is moved, the $C8bc8e7two planets$CW corresponding to the card's $Ca7d962suit$CW and $Ca7d962aspect$CW $Ce3c188advance their orbit$CW. Each planet has $C8bc8e73 orbit levels$CW, which it rotates through as its $Ce3c188orbit advances$CW.",
+		"- Cards can only be moved between planets with the $C8bc8e7same orbit level$CW.",
+		}
+
+		{"RULES:",
+		"- Cards are stacked in the $Ceb8edeleft slots$CW in $Ce3c188ascending$CW or $Ce3c188descending$CW order of $Ce3c188alternating$CW suit. The $Ce3c188ascension$CW/$Ce3c188descension$CW direction may change mid-stack, so $Ca7d9624-3-2-3$CW is a $Ceb8edevalid stack$CW. A single card can be placed in each of the $Ceb8ede5 slots on the right$CW (after this, $Cff8383it can't be removed$CW).",
+		"- The deck contains $Ce3c188104 cards$CW. Each card has a letter on it, with there being $Ce3c1884 instances$CW of each of the $C8bc8e726 letters$CW of the English alphabet.",
+		"- At the beginning of each deal, a $C8bc8e7random 5-letter word$CW is picked as the $Ce3c188solution$CW for the solitaire. When the $Ceb8edeslots on the right$CW are full, the letters in the cards in them are read from left to right as a guess for what the $Ce3c188solution word$CW is. Letters in the guess that $Cff8383don't exist in the solution$CW get marked with $Cff8383red$CW, letters that exist in the solution but are $Ce3c188in the wrong spots$CW get marked with $Ce3c188yellow$CW, and letters that are $Ca7d962in the right spots$CW get marked with $Ca7d962green$CW.",
+		"- The guess doesn't have to be an $Ce3c188actual word$CW, but it must have $C74c0e6at least$CW 1 vowel and 1 consonant. $Ca7d962XABTX$CW is a valid guess, but $Cff8383IUOEA$CW is not. ($Ce3c188Y is counted as a vowel!$CW)",
+		"- Once a letter has been marked with $Cff8383red$CW, cards with that letter can $Cff8383no longer be placed$CW on the $Ceb8edeslots on the right$CW.",
+		"- The goal is to input a set of 5 cards that together form the $Ce3c188solution word$CW.",
+		}
+
+		{"RULES:",
+		"- Pile cards of $Ca7d962every suit$CW in $Ce3c188ascending$CW order on the $Ceb8edeslots at the top$CW.",
+		"- $C8bc8e7Left-clicking$CW on a card that's a different suit and in direct $Ce3c188descending$CW order from the card on top of the stack moves the $C8bc8e7clicked card$CW and the $Ce3c188card immediately on top of it$CW to it on the top. If the $C8bc8e7clicked card$CW is a face card, $Ce3c188two cards on top of it$CW will be moved to the top of the stack instead of just one.",
+		"- If the card on top of the stack fits in one of the $Ceb8edetopmost slots$CW, it'll move there automatically.",
+		"- $C8bc8e7Right-clicking$CW on a card moves it to the bottom of the stack. You can $Cd98079only$CW do this once at a time, and need to $C8bc8e7left-click$CW on a card to be able to $C8bc8e7right-click$CW again. You can see the availability of the $C8bc8e7right-click$CW ability at the top of the screen.",
+		}
+
+		{"RULES:",
+		"- Pile cards of $Ca7d962every suit$CW in $Ce3c188ascending$CW order on the $Ceb8edeslots on the right$CW.",
+		"- You can stack cards and move them in a $Ce3c188descending$CW order of $Ce3c188alternating$CW suit. The card values don't need to be adjacent as long as they're in $Ce3c188descending$CW order, so $Ca7d9627-4-3$CW is a $Ceb8edevalid stack$CW.",
+		"- Every time you move a card, it $C8bc8e7swaps places$CW with the last card moved before it (if possible). When moving a stack, $Cd98079only$CW the topmost card is considered for swapping. A card placed in the $Ceb8edeslots on the right$CW won't be eligible for swapping.",
+		"- Press S to autostack.",
+		}
+
+		{"RULES:",
+		"- Pile cards of $Ca7d962every suit$CW in $Ce3c188ascending$CW order on the $Ceb8edeslots on the right$CW.",
+		"- You can pile and move card stacks in $Ce3c188descending$CW order of $Ce3c188alternating suit$CW.",
+		"- $C8bc8e7Right-clicking$CW on a card $Cff8383tears it in half$CW. Card halves can be stacked as if they were $Ca7d962any card value of their suit$CW, but two card halves $Cff8383cannot be stacked$CW. You can tear up a maximum$CW of $Ca7d9624 cards$CW, because the solitaire would become unsolvable beyond that.",
+		"- Press S to autostack.",
+		}
+
+		{"RULES:",
+		"- Pile cards of $Ca7d962every suit$CW in $Ce3c188ascending$CW order on the $Ceb8edeslots on the right$CW.",
+		"- Cards are stacked on each other in an $Ce3c188alternating even/odd pattern$CW.",
+		"- You can pick up a stack of $C8bc8e7any size$CW as long as all the cards are of the $Ca7d962same suit$CW.",
+		"- You can also stack cards of the $Ca7d962same value$CW, and move them together as a stack.",
+		"- Press S to autostack.",
+		}
+
+		{"RULES:",
+		"- Pile cards of $Ca7d962every suit$CW in $Ce3c188ascending$CW order on the $Ceb8edeslots on the right$CW.",
+		"- Cards are stacked in the $Ceb8edemiddle slots$CW in $Ce3c188descending$CW order of $Ce3c188alternating$CW color.",
+		"- The bottom seven slots are $Ceb8edetime machines$CW. $C8bc8e7Left-click$CW them to receive a card from your $Ca7d962future self$CW!",
+		"- The numbers on the $Ca7d962future cards$CW indicate how many turns remain until they were/will be $Ce3c188sent back$CW. Failing to send them back in time will cause a paradox, $Cff8383losing the game$CW!",
+		"- You can $Cd98079only$CW send a card back to prevent a paradox when it has $C8bc8e7exactly 1 turn remaining$CW. The card will also be coloured $Cd98079red$CW to indicate this.",
+		"- Press S to autostack.",
+		}
+
+		{"RULES:",
+		"- Pile cards of $Ca7d962every suit$CW in $Ce3c188ascending$CW order on the $Ceb8edeslots on the right$CW.",
+		"- Cards are stacked and moved in the $Ceb8edebottom slots$CW in either $Ce3c188ascending$CW or $Ce3c188descending$CW order of $Ce3c188alternating$CW suit.",
+		"- The face cards are $C8bc8e7unknown$CW and move from left to right in the $Ceb8edetop slots$CW based on their suit/value, determined by the cards in the $Ceb8edebottom slots$CW corresponding to each $Ceb8edetop slot$CW:$S$Ce3c188Jacks$CW: move above the $Ceb8edenext bottom slot$CW with $C74c0e60 cards$CW of the Jack's suit, if one exists.$S$Ce3c188Queens$CW: move above the $Ceb8edenext bottom slot$CW tied for $C74c0e6least cards$CW of the Queen's suit (not 0).$S$Ce3c188Kings$CW: move above the $Ceb8edenext bottom slot$CW with $C74c0e6at least 1 card$CW of the King's suit, if one exists. $S$S$S$S$S$S$S$S$S",
+		"- You need to use the above logic to determine the $C8bc8e7identity$CW of each face card. When you have a guess, click on a face card and choose the card you believe it to be from the menu that opens.",
+		"- When you've filled the slots on the right and have given a guess for each face card, the game ends. If your guesses were correct, you $Ca7d962win$CW. If not, $Cff8383YOU LOSE$CW.",
+		"- Press S to autostack.",
+		}
+		
+		{"RULES:",
+        "- $C8bc8e7Harvest$CW all cards from the $Ca7d962garden$CW to win.",
+        "- Each $Ca7d962garden slot$CW can hold $Ce3c1881 card$CW. Cards cannot be removed from $Ca7d962garden slots$CW until $C8bc8e7harvested$CW.",
+        "- Cards will be automatically $C8bc8e7harvested$CW from $Ca7d962garden slots$CW in groups that satisfy both conditions:", 
+        "1: The group must be of the $Ce3c188same suit$CW and have an average value of $Cf7ef5cexactly 4$CW.",
+        "2: The group must be arranged in a $Ceb8edecertain shape$CW, depending on its $Ceb8edesuit$CW:$S" ..
+        "  $Ce3c188Pumpkin$CW - 4 cards in a square.$S" ..
+        "  $Cf7ef5cCorn$CW - 2 or 3 cards in a vertical rectangle.$S" ..
+        "  $C8bc8e7Blueberry$CW - 2 cards in non-orthogonal slots.$S" ..
+        "  $Ceb8edeEggplant$CW - 3 cards in an L shape facing any direction.",
+        "- $C8bc8e7Harvested$CW cards return to the deck.",
+        "- Number cards are stacked in $Ce3c188descending$CW order by $Ce3c188alternating suit$CW.",
+        "- The $Ca7d962left slot$CW can hold $C8bc8e71 card$CW."
+        }
+		
+		{"RULES:",
+		"- Pile cards of $Ca7d962every suit$CW in $Ce3c188ascending$CW order on the $Ceb8edeslots on the right$CW.",
+		"- You can stack cards and move the stacks in $Ce3c188descending$CW order of $Ce3c188alternating$CW suit.",
+		"- At the start of the game, all cards except the 2-cards are $C8bc8e7ambiguous$CW - they are simultaneously of $C8bc8e7all suits$CW and $C8bc8e7all remaining values$CW. Picking up stacks of cards and moving them under other cards $Cff8383limits their options$CW based on the above stacking rules, and once a card has $Ca7d962only one possible identity$CW, it'll transform into that card.",
+		"- Cards can be moved into positions where they $Cff8383no longer have any possible options$CW for their identity; in these cases, they become $Cff8383impossible cards$CW and can no longer be placed on the $Ceb8edeslots on the right$CW. There are $Ce3c18854 cards$CW in the deck, so a $Ce3c188maximum of 2 cards$CW can become $Cff8383impossible$CW without it preventing you from solving the deal.",
+		"- A card can be placed on the $Ceb8edeslots on the right$CW as soon as it has a $Ce3c188value$CW, even if it didn't yet have a $C8bc8e7specific suit$CW. However, the card must still have the required suit of that slot in its $C8bc8e7possible options$CW.",
+		"- Hover over a card to see its name and the information it has about its identity relative to other cards.",
+		}
+		
+		{"RULES:",
+		"- Pile cards of $Ca7d962every suit$CW in $Ce3c188ascending$CW order on the $Ceb8edeslots on the left$CW.",
+		"- You can stack cards and move the stacks in $Ce3c188descending$CW order of $Ce3c188alternating$CW suit.",
+		"- The $Ceb8ede3 slots$CW with keys next to them are $Ceb8edelocked slots$CW. In order to gain access to them, the $Ceb8edeholding slots$CW to the left of them need to be $Ca7d962filled$CW - each of them can hold exactly $Ce3c1881 card$CW. You can click on a filled $Ceb8edeholding slot$CW while holding a single card to $C8bc8e7swap the two cards$CW.",
+		"- At the top there's also one $Ceb8edenormal slot$CW that is $Ca7d962not locked$CW, and a single-card $Ceb8edeholding slot$CW to the left of it.",
+		"- Press S to autostack. Note that the autostacking will not take cards from $Ceb8edeholding slots$CW to prevent making the deal impossible to solve.",
+		}
