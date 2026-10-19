@@ -6846,11 +6846,11 @@ Host to enable the game setting.
 6734 A flame cloak sets you on fire!#
 6735 You prepare to absorb hostile magical energy!#
 6736 There is no stable ceiling to complete the spell!#
-6737 gets rocked by an earth sprite.#
-6738 gets overgrown by a dryad.#
-6739 gets vandalised by a gremlin.#
-6740 gets capped by a myconid.#
-6741 learns how cold-blooded a salamander can be.#
+6737 dies.#
+6738 dies.#
+6739 dies.#
+6740 dies.#
+6741 dies.#
 6742 %s is hit with a rooting seed!#
 6743 The %s is hit with a rooting seed!#
 6744 You are hit by a rooting seed!#
