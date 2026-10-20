@@ -3775,10 +3775,10 @@ Meow *hic!*#
 3465 You are tracked by an arcane mark!#
 3466 Your previous mark on the %s has vanished.#
 3467 Your previous mark on %s has vanished.#
-3468 An inner demon appears to taunt you!#
-3469 The %s is taunted by an inner demon!#
-3470 %s is taunted by an inner demon!#
-3471 There is no room to summon an inner demon!#
+3468 An copy appears to taunt you!#
+3469 The %s is taunted by a copy!#
+3470 %s is taunted by a copy!#
+3471 There is no room to summon a copy!#
 3472 You are unable to coerce a demon out of the %s!#
 3473 You are unable to coerce a demon out of %s!#
 3474 HT#

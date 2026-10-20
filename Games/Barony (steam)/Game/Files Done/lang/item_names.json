@@ -994,7 +994,7 @@
             "name_unidentified": "spellbook"
         },
         "spellbook_demon_illu": {
-            "name_identified": "spellbook of inner demon",
+            "name_identified": "spellbook of copy",
             "name_unidentified": "spellbook"
         },
         "spellbook_trolls_blood": {
@@ -2238,7 +2238,7 @@
             "name": "Teleport Other"
         },
         "spell_demon_illu": {
-            "name": "Inner Demon"
+            "name": "Copy"
         },
         "spell_trolls_blood": {
             "name": "Troll's Blood"

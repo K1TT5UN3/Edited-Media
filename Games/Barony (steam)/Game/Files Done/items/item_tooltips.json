@@ -549,7 +549,7 @@
 		"template_icon_spell_amplify_magic": [ "Augments [Fireball] [Cold]", "[Lightning] [Magic Missile]" ],
 		"template_icon_spell_shadow_tag": [ "Inflicts [Nullify] and", "reveals a target's location" ],
 		"template_icon_spell_telepull": [ "[Teleports] a target\ntowards the caster" ],
-		"template_icon_spell_demon_illu": [ "Exorcises an Inner Demon", "that inflicts [Provoke]" ],
+		"template_icon_spell_demon_illu": [ "Exorcises a copy", "that inflicts [Provoke]" ],
 		"template_icon_spell_trolls_blood": [ "Grants [HP Regen] to", "caster and nearby allies" ],
 		"template_icon_spell_salvage": [ "[Transmutes] nearby items", "into Tinkering scrap" ],
 		"template_icon_spell_flutter": [ "Grants [Levitation]", "briefly" ],

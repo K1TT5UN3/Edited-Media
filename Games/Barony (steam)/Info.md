@@ -9,15 +9,22 @@ TODO:
 - [ ] Add DLC and fix them up.
 - [ ] Try adding mods and fixing them up.
 
+Mod the game:
+- [ ] Make charmed enemies and allies more distinguashable
+- [ ] Make scrolls instantly known
+- [ ] Make potions already discovered
+- [ ] Make scroll of curse
+- [ ] Change succubus and incubus to be gender irrelevant
+- [ ] Make it so can adjust height of character
+- [ ] Make it so cursed consumables are actually helping races with flipped blessing system like succubus
+
 List of wanted mods:
 - [Punin's Barony Classes\[S.A.M\]](https://steamcommunity.com/workshop/filedetails/?id=3769501185)
 - [Knightly - extra races & classes](https://steamcommunity.com/sharedfiles/filedetails/?id=3789889983)
 - [More Classes](https://steamcommunity.com/sharedfiles/filedetails/?id=3049845798)
 - [Enemies and NPCs+](https://steamcommunity.com/sharedfiles/filedetails/?id=3721854938)
-- [Barony Ascension](https://steamcommunity.com/sharedfiles/filedetails/?id=3211038951)
 - [Barony Mod Manager](https://github.com/viniciusmuller/barony-mod-manager)
 - [Barony Wicked Rendition](https://www.moddb.com/mods/barony-wicked-rendition)
 - [BARONY ACHIEVEMENTS WITH MODS - MANUAL INSTALL - V5.0.2](https://steamcommunity.com/sharedfiles/filedetails/?id=3698405693)
-- [MORE BARONY V1.7 (PRE-INSTRUMENTS OF DESTRUCTION)](https://steamcommunity.com/sharedfiles/filedetails/?id=3498413475)
 - [The Additional Items Mod](https://steamcommunity.com/sharedfiles/filedetails/?id=1387678409)
-- [Big Barony for multiplayer](https://steamcommunity.com/sharedfiles/filedetails/?id=2929764215)
+- [Barony Hardcore+](https://steamcommunity.com/workshop/filedetails/?l=polish&id=3209909956)
