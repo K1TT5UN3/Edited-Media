@@ -1,0 +1,1674 @@
+﻿"font_filename": "Neucha-Regular.ttf"
+"language_name": "english"
+
+-- Linebreak style -----------------------------------------------------------------------
+--   "whitespace" = break lines at spaces only
+--   "anywhere" = break lines between any two characters
+"linebreak_style": "whitespace"
+
+
+-- Special key names ---------------------------------------------------------------------
+--   These can't include color or control codes
+"shift_name": "Shift"
+"ctrl_name": "Ctrl"
+"alt_name": "Alt"
+"enter_name": "Enter"
+
+
+-- Text sizes ----------------------------------------------------------------------------
+"textsize_puzzlename": "72,72,72"
+"textsize_difficulty": "24,24,24"
+"textsize_tutorial": "28,38,48"
+"textsize_loading": "36,36,36"
+"textsize_overhead": "24,32,48"
+"textsize_tablet": "32,42,56"
+"textsize_reminder": "48,48,48"
+
+
+-- Note on special characters ------------------------------------------------------------
+--   "--" at the start of a line denotes a comment
+--   $control:undo$ and similar are control codes, and are replaced with an image of the user's set control for that action  
+--   %ff0000{text} and similar are color codes; they cause the braced text to have the specified RGB hex color
+--   $$ is used to mean "$" and %% is used to mean "%"
+
+
+-- Interface ------------------------------------------------------------------------------
+
+"three_dots": "..."
+
+"death_undo_reset_reminder": "$control:undo$ undo      $control:reset$ reset"
+"too_many_objects_reminder": "you created too many objects!"
+"replay_failed_to_win_reminder": "the replay ended unexpectedly.    $control:reset$ reset"
+"read_prompt": "$control:fire$ read"
+"teleport_prompt": "$control:fire$ teleport"
+"exit_prompt_left": "$control:move_left$ exit"
+"exit_prompt_right": "$control:move_right$ exit"
+"exit_prompt_up": "$control:move_up$ exit"
+"exit_prompt_down": "$control:move_down$ exit"
+"boat_prompt": "$control:fire$ sail"
+"replay_puzzle_prompt": "$control:reset$ restart puzzle"
+"closed_book_prompt": "This book is closed."
+
+"towermarker_puzsolved": "puzzles solved: "
+"towermarker_toactivate": "puzzles needed: "
+"towermarker_total": "puzzles total: "
+
+"igmenu_continue": "continue game"
+"igmenu_continue_editing": "continue editing"
+"igmenu_restart": "restart puzzle"
+"igmenu_replay": "watch your solution"
+"igmenu_back_to_editor": "return to editor"
+"igmenu_skip_cutscene": "skip cutscene"
+"igmenu_quickwarp": "quickwarp"
+"igmenu_settings": "settings"
+"igmenu_mainmenu": "main menu"
+"igmenu_quitgame": "quit game"
+
+"editmenu_continue": "continue editing"
+"editmenu_backtoeditor": "return to editor"
+"editmenu_settings": "settings"
+"editmenu_mainmenu": "main menu"
+"editmenu_quitgame": "quit game"
+
+"erase_label": "erase data"
+"erase_confirm_question": "really erase this data?"
+"erase_confirm_yes": "yes: erase data"
+"erase_confirm_no": "no: cancel"
+
+"mainmenu_resolution_check": "Keep these video settings?"
+"mainmenu_revert_check": "This change will revert in "
+"mainmenu_seconds": " seconds."
+"mainmenu_loading": "loading..."
+"mainmenu_badpuzzle": "The puzzle you tried to play is invalid. Please fix the mistakes in the editor before playing (marked in red in the editor)."
+
+"error_load_prefix": "There were some errors loading the save data:"
+"error_save_slot": "Save slot "
+
+"dialog_yes": "yes"
+"dialog_no": "no"
+"dialog_cancel": "cancel"
+"dialog_okay": "okay"
+
+"editor_saved": "File saved."
+"editor_make_new_quest": "Make a new quest?"
+"editor_make_new_puzzle": "Make a new puzzle?"
+"editor_unsaved_warning": "The current file is unsaved. Would you like to save it now?"
+"editor_setrecipes": "Set recipes"
+"editor_setdifficulty": "Set difficulty"
+"editor_puzzlename": "Puzzle name"
+"editor_puzzleauthor": "Author"
+"editor_difficulty": "Difficulty"
+"editor_addtorecipe": "Add to currently selected recipe"
+"editor_removefromrecipe": "Remove from currently selected recipe"
+"editor_confirm_setrecipes": "Confirm recipes"
+"editor_cancel": "Cancel"
+"editor_load_dialog": "Load puzzle"
+"editor_save_dialog": "Save puzzle"
+"editor_addpuzzle_dialog": "Add puzzle"
+"editor_importquest_dialog": "Add all puzzles from quest"
+"editor_reallypublish": "Save and publish this puzzle to the Steam workshop?"
+"editor_uploading": "Uploading to Steam Workshop..."
+"editor_failed_to_save": "Failed to open file; puzzle is not saved!"
+"editor_no_dev_replay": "The current puzzle has no saved dev solution."
+
+"editor_create": "Create new workshop item"
+"editor_update": "Update existing workshop item"
+"editor_update_custom_id": "Update workshop item with specific ID:"
+"editor_upload_title": "Upload to Steam Workshop?"
+"editor_workshop_creation_fail": "Error: Failed to create the Workshop item."
+"editor_workshop_update_fail": "Error: Failed to update the Workshop item."
+"editor_workshop_uploaded": "Puzzle uploaded to Steam workshop."
+"editor_workshop_no_filename": "Error: Couldn't find a filename to save to. Please choose Save As... to give this file a name, and then publish again."
+"editor_workshop_publish_timeout": "Timed out while uploading (your puzzle may still upload, but it's unclear)."
+"editor_workshop_failed_to_open_file": "Failed to publish: Couldn't open the temporary file for workshop saving."
+"editor_workshop_no_workshop_id": "Failed to update: Couldn't find a workshop ID for this puzzle."
+"editor_workshop_tos": "By submitting this puzzle, you agree to the %0000ff{workshop terms of service}."
+"editor_workshop_no_dev_solution": [[Error: You need to solve the puzzle before you can upload to Steam Workshop. (Use the "Test" button.)]]
+"editor_workshop_bad_dev_solution": [[Error: The currently saved solution to this puzzle doesn't actually solve it! (Use the "Test" button to save a new solution.)]]
+"editor_workshop_invalid_puzzle": [[Error: There are invalid objects in your puzzle (e.g. two objects on the same tile that aren't allowed). These are highlighted in red. Please fix before submitting.]]
+
+"editor_button_tile": "Tiles"
+"editor_button_object": "Objects"
+"editor_button_edit": "Edit"
+
+"editor_label_tileset": "Change tileset"
+
+"editor_props_initstate": "Initial state"
+"editor_props_monstertype": "Monster type"
+"editor_props_color": "Color"
+"editor_props_setdoor": "Assign doors"
+"editor_props_time": "Number of turns"
+
+"editor_helptext_assigndoors": "Click on a door or forcefield to change what the switch does to it. Right click to exit."
+
+"editor_tooltip_ground": "Add/remove ground"
+"editor_tooltip_floor": "Add/remove floor"
+"editor_tooltip_wall": "Add/remove wall"
+"editor_tooltip_water": "Add/remove water"
+"editor_tooltip_slime": "Add/remove slime"
+
+"editor_tooltip_tileset_grass": "Grass tileset"
+"editor_tooltip_tileset_prairie": "Prairie tileset"
+"editor_tooltip_tileset_sand": "Sand tileset"
+"editor_tooltip_tileset_marsh": "Marsh tileset"
+"editor_tooltip_tileset_snow": "Snow tileset"
+"editor_tooltip_tileset_cave": "Cave tileset"
+"editor_tooltip_tileset_autumn": "Autumn tileset"
+"editor_tooltip_tileset_zen": "Guardians tileset"
+"editor_tooltip_tileset_temple": "Temple tileset"
+"editor_tooltip_tileset_ash": "Dark Castle tileset"
+"editor_tooltip_tileset_gothic": "Gothic tileset"
+
+"editor_tooltip_object_pr_switch": "Add pressure switch"
+"editor_tooltip_object_bean_switch": "Add bean switch"
+"editor_tooltip_object_switch": "Add toggle switch"
+"editor_tooltip_object_magic_switch": "Add magic switch"
+"editor_tooltip_object_bean_transformer": "Add petals"
+"editor_tooltip_object_block": "Add block"
+"editor_tooltip_object_door": "Add door"
+"editor_tooltip_object_exit": "Add completion tile"
+"editor_tooltip_object_forcefield": "Add forcefield"
+"editor_tooltip_object_iceblock": "Add ice"
+"editor_tooltip_object_control_tile": "Add guardian tile"
+"editor_tooltip_object_timed_switch": "Add timed switch"
+"editor_tooltip_object_destruction_crystal": "Add destruction crystal"
+"editor_tooltip_object_tablet": "Add readable object"
+"editor_tooltip_object_book_pedestal": "Add book pedestal"
+"editor_tooltip_object_trigger_tutorial": "Add trigger for tutorial"
+"editor_tooltip_object_tower_connection": "Add teleporter to island"
+"editor_tooltip_object_trigger_demo_unavailable": "Add trigger for demo-unavailable"
+"editor_tooltip_object_redbean": "Add red bean"
+"editor_tooltip_object_orangebean": "Add orange bean"
+"editor_tooltip_object_yellowbean": "Add yellow bean"
+"editor_tooltip_object_greenbean": "Add green bean"
+"editor_tooltip_object_tealbean": "Add teal bean"
+"editor_tooltip_object_bluebean": "Add blue bean"
+"editor_tooltip_object_pinkbean": "Add pink bean"
+"editor_tooltip_object_whitebean": "Add white bean"
+
+"editor_tooltip_object_m_chase": "Add roller"
+"editor_tooltip_object_m_bomb": "Add bomb"
+"editor_tooltip_object_m_bucket": "Add bucket"
+"editor_tooltip_object_m_vine": "Add vine monster"
+"editor_tooltip_object_m_blob": "Add blob"
+"editor_tooltip_object_m_storm": "Add cloud"
+"editor_tooltip_object_m_slurp": "Add Eichinger-Kuroyama creature"
+"editor_tooltip_object_m_ice": "Add ice monster"
+"editor_tooltip_object_m_puppy": "Add turtle"
+"editor_tooltip_object_m_wind": "Add wind monster"
+
+"editor_tooltip_edit_new": "New puzzle"
+"editor_tooltip_edit_load": "Load puzzle"
+"editor_tooltip_edit_save": "Save puzzle"
+"editor_tooltip_edit_saveas": "Save puzzle as..."
+"editor_tooltip_edit_play": "Test puzzle"
+"editor_tooltip_edit_rotate_cw": "Rotate selection clockwise"
+"editor_tooltip_edit_rotate_ccw": "Rotate selection counterclockwise"
+"editor_tooltip_edit_flip_horiz": "Flip selection horizontally"
+"editor_tooltip_edit_flip_vert": "Flip selection vertically"
+"editor_tooltip_edit_recipe": "Set recipes"
+"editor_tooltip_edit_puzzle_metadata": "Set puzzle name, difficulty, and author"
+"editor_tooltip_edit_publish_to_steam": "Publish to Steam Workshop"
+"editor_tooltip_edit_show_dev_replay": "Watch saved dev solution"
+
+"editor_helptext": [[
+This is a very brief introduction to the editor. The editor has three modes. Warning: the editor does not have an undo feature.
+
+------------------
+
+Tile mode
+
+Use left click to place tiles, and right click to remove them. Hold shift and drag to place a large rectangle of tiles.
+
+------------------
+
+Object mode
+
+Place objects in the puzzle. When certain objects are selected, a properties panel will appear in the sidebar. This lets you change the bean type associated with an object, or the initial state (open/closed) of a door or forcefield, etc. 
+
+To assign switches to doors or forcefields, click on the switch you want to assign and press the "Assign Doors" button. Then click on doors or forcefields until they have the correct assignment: Blue means the switch opens the door, red means it closes, and yellow means it toggles the state (only available for certain kinds of switches).
+
+You can select many objects at the same time, either by drag-selecting a rectangle, or by holding shift while selecting. To place multiple copies of an object, hold shift while placing the object.
+
+------------------
+
+Edit mode
+
+This lets you save and test the puzzle, as well as change its name, difficulty, or recipes.
+
+You can select both objects and tiles together while in this mode (so if you need to reorient a section of the puzzle, turn on edit mode).]]
+
+"guitext_on": "on"
+"guitext_off": "off"
+
+"gui_num_turns": "move count: "
+"gui_controls_select": "set..."
+"gui_add_control": "add"
+"gui_clear_control": "clear"
+"gui_edit_keyboard_controls": "keyboard"
+"gui_edit_controller_controls": "controller"
+"gui_save_controls": "save"
+"gui_cancel_controls": "cancel"
+"gui_default_controls": "restore defaults"
+"gui_restore_defaults_check": "Restore the default controls?"
+"gui_invalid_controls": "Can't save: You have unbound controls!"
+"gui_missing_controls": "Warning: Some useful controls that are not strictly required are unbound. Save anyway?"
+"gui_unsaved_changes": "Warning: Unsaved changes!"
+"gui_textsize_normal": "normal"
+"gui_textsize_large": "large"
+"gui_textsize_huge": "very large"
+"gui_fsmode_fullscreen": "fullscreen"
+"gui_fsmode_borderless": "borderless"
+"gui_fsmode_windowed": "windowed"
+
+"gui_ctrls_move_up": "move up:"
+"gui_ctrls_move_down": "move down:"
+"gui_ctrls_move_left": "move left:"
+"gui_ctrls_move_right": "move right:"
+"gui_ctrls_turn_up": "turn up:"
+"gui_ctrls_turn_down": "turn down:"
+"gui_ctrls_turn_left": "turn left:"
+"gui_ctrls_turn_right": "turn right:"
+"gui_ctrls_wait": "wait:"
+"gui_ctrls_fire": "fire wand:"
+"gui_ctrls_pickup": "pick up beans:"
+"gui_ctrls_putdown_all": "put down all beans:"
+"gui_ctrls_putdown_0": "put down bean 1:"
+"gui_ctrls_putdown_1": "put down bean 2:"
+"gui_ctrls_putdown_2": "put down bean 3:"
+"gui_ctrls_putdown_3": "put down bean 4:"
+"gui_ctrls_putdown_4": "put down bean 5:"
+"gui_ctrls_putdown_5": "put down bean 6:"
+"gui_ctrls_putdown_6": "put down bean 7:"
+"gui_ctrls_putdown_7": "put down bean 8:"
+"gui_ctrls_putdown_selection": "put down selected bean:"
+"gui_ctrls_select_next": "select next bean:"
+"gui_ctrls_select_prev": "select previous bean:"
+"gui_ctrls_menu": "menu:"
+"gui_ctrls_undo": "undo:"
+"gui_ctrls_grid": "toggle grid:"
+"gui_ctrls_map": "open map:"
+"gui_ctrls_reset": "reset:"
+"gui_ctrls_select": "select (in menu):"
+"gui_ctrls_menu_back": "back (in menu):"
+"gui_ctrls_read": "read/interact:"
+
+"gui_loading": "loading..."
+"gui_locselect_quests": "quests"
+"gui_locselect_puzzles": "puzzles"
+"gui_locselect_workshop": "steam workshop"
+"gui_open_steam_workshop": "open steam workshop"
+"gui_editpanel_edit": "edit"
+"gui_editpanel_new": "new"
+"gui_editpanel_delete": "delete"
+"gui_editpanel_reallydelete": "Really delete this puzzle?"
+"gui_custompanel_play": "play"
+"gui_view_in_desktop": "view in desktop"
+"gui_settings_resolution": "resolution"
+"gui_settings_fullscreen": "screen"
+"gui_settings_language": "language"
+"gui_settings_colorblindness": "colorblind mode"
+"gui_settings_clouds": "clouds effect"
+"gui_settings_numturns": "move counter"
+"gui_settings_text_size": "text size"
+"gui_settings_sound": "sound"
+"gui_settings_music": "music"
+"gui_settings_controls": "controls"
+"gui_newgame": "new game"
+"gui_difficulty": "difficulty:"
+"gui_no_puzzles_available": "(no saved puzzles)"
+
+"gui_settings_upload_language_to_workshop": "Upload a language to Steam Workshop..."
+"gui_settings_language_name": "Language name:"
+"gui_settings_upload": "upload"
+"gui_settings_uploading": "uploading..."
+
+"gui_menu_tooltip": "menu"
+"gui_grid_tooltip": "toggle grid"
+"gui_map_tooltip": "open map"
+"gui_reset_tooltip": "reset puzzle"
+"gui_help_tooltip": "editor help"
+"gui_bookmark_delete": "delete bookmark (press and hold)"
+"gui_bookmark_restore": "restore bookmark"
+"gui_bookmark_new": "new bookmark"
+
+"carrot_island_complete": "island completed!"
+"carrot_island_mastered": "island mastered!"
+"carrot_island_complete_and_mastered": "island completed and mastered!"
+"carrot_island_unlocked": "new island unlocked!"
+
+"info_invalid_bookmarks": "Your bookmarks were lost because this puzzle was updated. (Sorry!)"
+"info_invalid_replay": "The clipboard text does not give a valid replay."
+"info_copied_to_clipboard": "Copied solution to clipboard."
+
+
+-- Tower Names --------------------------------------------------------------------------
+
+"temple_tower_name": "The Temple"
+"chasebomb_tower_name": "I: Initiate's Island"
+"chasebomb_tower_shortname": "Initiate"
+"bucket_tower_name": "II: Island of Buckets"
+"bucket_tower_shortname": "Bucket"
+"storm_tower_name": "III: Island of Clouds"
+"storm_tower_shortname": "Cloud"
+"vine_tower_name": "IV: Island of Vines"
+"vine_tower_shortname": "Vine"
+"ice_tower_name": "V: Island of Ice"
+"ice_tower_shortname": "Ice"
+"blob_tower_name": "VI: Island of Blobs"
+"blob_tower_shortname": "Blob"
+"slurp_tower_name": "VII: Island of the Eichinger-Kuroyama Creature"
+"slurp_tower_shortname": "EK Creature"
+"transformer_tower_name": "VIII: Island of Petals"
+"transformer_tower_shortname": "Petals"
+"control_tower_name": "IX: Island of the Guardians"
+"control_tower_shortname": "Guardians"
+"master_tower_name": "Sanctuary"
+"master_tower_shortname": "Sanctuary"
+"unknown_tower_name": "<unknown island>"
+
+
+-- Puzzle Names --------------------------------------------------------------------------
+
+"puzname_unnamed": "<unnamed puzzle>"
+"temple_chasebomb": "Tutorial"
+"temple_bucket": "Welcome to the Island of Buckets"
+"temple_storm": "Welcome to the Island of Clouds"
+"temple_vine": "Welcome to the Island of Vines"
+"temple_ice": "Welcome to the Island of Ice"
+"temple_blob": "Welcome to the Island of Blobs"
+"temple_slurp": "Welcome to the Island of the Eichinger-Kuroyama Creature"
+"temple_transformer": "Welcome to the Island of Petals"
+"temple_control": "Welcome to the Island of the Guardians"
+
+"chasebomb_shove": "give it a good shove"
+"chasebomb_slime": "a slimy mess"
+"chasebomb_floor": "tiled over"
+"chasebomb_switch": "hold it down"
+"chasebomb_turn": "one good turn deserves another"
+"chasebomb_beansback": "spill the beans"
+"chasebomb_shove_2": "avalanche"
+"chasebomb_floor_2": "pavilion"
+"chasebomb_beansback_2": "cutting through"
+"chasebomb_shy_neighbors": "shy neighbors"
+"chasebomb_water_bounce": "hydrophobia"
+"chasebomb_wait": "those who wait"
+"chasebomb_three_orange": "three orange beans"
+"chasebomb_six_orange": "six orange beans"
+"chasebomb_overeager": "overeager friend"
+"chasebomb_beanapart": "a bean apart"
+"chasebomb_hiddenrock": "hidden rock"
+"chasebomb_lazyriver": "lazy river"
+"chasebomb_bombbounce": "sneaking past"
+"chasebomb_islandgate": "island gate"
+"chasebomb_twistybridges": "twisty bridges"
+
+"bucket_permeable": "artful dodgers"
+"bucket_noexplode": "you can't blow it up"
+"bucket_waterdrown": "bean retrieval"
+"bucket_beanback": "bean and back again"
+"bucket_chase_into_bomb": "moving in the right direction"
+"bucket_beanswitch_bounce": "off and on again"
+"bucket_sideswipe": "side swipe"
+"bucket_slime_peninsula": "slime peninsula"
+"bucket_hidden_detector": "one bean at a time"
+"bucket_detector": "lonely detector"
+"bucket_twosides_2": "two kingdoms"
+"bucket_pillars": "pillars and blocks"
+"bucket_threepaths": "three paths"
+"bucket_throughcracks": "through the cracks"
+"bucket_beancorner": "bean in the corner"
+"bucket_beanshore": "beans on the shore"
+"bucket_slimeline": "a thin line of slime"
+"bucket_beanback_2": "tricky return"
+
+"storm_float": "flying high"
+"storm_forcefield": "magical barrier"
+"storm_switch": "step on it"
+"storm_nopass": "line of no beans"
+"storm_fickle": "fickle friend"
+"storm_nopass_2": "none shall pass"
+"storm_liberate": "liberate the beans"
+"storm_horizontal": "the horizontal shuffle"
+"storm_crossed": "crossed streams"
+"storm_reef": "cloudy reef"
+"storm_friends_left": "friends forever"
+"storm_friends_right": "forever friends"
+"storm_balloon_tiled": "the tiled balloon"
+"storm_balloon_sandy": "the sandy balloon"
+"storm_nomake": "not making it"
+"storm_sevenblue": "seven blue beans, when all you need is a yellow"
+"storm_rectangle": "stormy rectangle"
+"storm_sixlakes": "land of six lakes"
+"storm_notwithabean": "not with a bean"
+"storm_spider": "spider pond"
+
+"vine_chase": "a very helpful friend"
+"vine_beanback": "bean recovery machine"
+"vine_motion": "frozen in motion"
+"vine_range": "as far as it can stretch"
+"vine_corner": "swampy nook"
+"vine_wall": "bringing it back"
+"vine_carry": "easier bean"
+"vine_helping": "a helping hand"
+"vine_bucket": "panopticon"
+"vine_neighbors": "friendly neighbors"
+"vine_stormswitch": "eyes of the storm"
+"vine_boardwalk": "a block on the boardwalk"
+"vine_pincer": "pincer pond"
+"vine_holdit": "hold it right there"
+"vine_longlake": "long lake"
+"vine_onebean": "one bean short"
+"vine_backenter": "back entrance"
+"vine_reach": "reaching for it"
+"vine_eightbeans": "seven beans in a box"
+"vine_cavein": "cave-in"
+
+"ice_antechamber": "floating"
+"ice_vinebridge": "the bridge of vines"
+"ice_bucketcarry": "cold courier"
+"ice_chasebridges": "puddle neighbors"
+"ice_freezeself": "uncrossable pond"
+"ice_vinegrab": "this far and no further"
+"ice_shortpier": "bridge to nowhere"
+"ice_grotto": "frozen grotto"
+"ice_thinice": "on thin ice"
+"ice_coldcramped": "cold and cramped"
+"ice_edgebuckets": "around the edges"
+"ice_emtrick": "little bean in a big pond"
+"ice_crossing": "crossing over"
+"ice_hermitage": "hermitage"
+"ice_snowypier": "snowy pier"
+"ice_gatekeepers": "gatekeepers"
+"ice_turncorner": "turn the corner"
+"ice_slippery": "slippery when wet"
+"ice_horizon": "clouds on the horizon"
+"ice_shoe": "snow shoe"
+"ice_smallgap": "the smallest gap"
+
+"blob_bombfloor": "working your way there"
+"blob_easybucket": "cleaning up"
+"blob_easyice": "two jumps"
+"blob_easyvine": "extender"
+"blob_easystorm": "sneaking around"
+"blob_tinyisland": "tiny island"
+"blob_googarden": "garden of goo"
+"blob_learning": "learning to fly"
+"blob_scarce": "scarce resources"
+"blob_companions": "devoted companions"
+"blob_airlock": "airlock"
+"blob_indestructible": "indestructible"
+"blob_icycircle": "icy circle"
+"blob_entryway": "entryway"
+"blob_noyellow": "the land without yellow"
+"blob_shortage": "explosive shortage"
+"blob_paintyellow": "paint the yellow"
+"blob_forgotten": "forgotten switch"
+"blob_stable": "blob stable"
+"blob_drawbridge": "sunken drawbridge"
+
+"slurp_crossline": "cross the line"
+"slurp_unusual": "unusual retrieval"
+"slurp_mass": "mass production"
+"slurp_machine": "eichinger's machine"
+"slurp_grabby": "old grabby ninefingers"
+"slurp_freezer": "in the freezer"
+"slurp_rainbow": "kuroyama's rainbow"
+"slurp_stoplight": "stoplight"
+"slurp_time": "you can't run any faster"
+"slurp_threegates": "three gates"
+"slurp_narrow": "long narrow road"
+"slurp_intobean": "bring it into bean"
+"slurp_beantimer": "merrily it rolls along"
+"slurp_tiny": "ten square feet"
+"slurp_corridor": "sticky corridor"
+"slurp_blobeasy": "laws of eichinger-kuroyama mitosis"
+"slurp_blobhard": "short fuse"
+"slurp_icechase": "a stranded bean"
+"slurp_noturnback": "no turning back"
+"slurp_disappearingact": "disappearing act"
+"slurp_frombelow": "from below"
+
+"transformer_hallway": "slimy hallway"
+"transformer_delivery": "special delivery"
+"transformer_change": "change for a time"
+"transformer_change_2": "time for a change"
+"transformer_yellowspot": "yellow spot"
+"transformer_playground": "playground"
+"transformer_inverted": "spies"
+"transformer_toll": "pay the toll"
+"transformer_threestorms": "silver lining"
+"transformer_areas": "land of blue"
+"transformer_trapped": "trapped"
+"transformer_batman": "in the wings"
+"transformer_purplebeans": "purple bean eater"
+"transformer_seasons": "seasons of bean"
+"transformer_nowhere": "nowhere to build"
+"transformer_limited": "and don't come back"
+"transformer_anybeans": "by any beans necessary"
+"transformer_cross": "bean cross"
+
+"control_recipemanip": "a bean"
+"control_easybucket": "from afar"
+"control_infinity": "seeing red"
+"control_storm_noshoot": "becoming inert"
+"control_duplicate": "indecision"
+"control_stormvine": "pillar"
+"control_whichone": "choice"
+"control_blobice": "moat"
+"control_bucketdoors": "commitment"
+"control_onedrop": "just one drop"
+"control_doubleup": "twins"
+"control_slurpblob": "nine-fingered guardian"
+"control_blobvine": "twisty path"
+"control_thunder": "thunderous guardian"
+"control_stormbrewing": "storm brewing"
+"control_castle": "castle"
+"control_washer": "once and for all"
+"control_hardbucket": "winding path"
+"control_limit": "outpost"
+"control_hardvine": "four tiny islands"
+"control_adventure": "adventure"
+"control_blobcapstone": "antechamber"
+"control_slurpbeans": "bean disposal"
+"control_vinepetals": "technicolor"
+"control_final": "the end justifies the beans"
+"control_hardblob": "red bean shortage"
+
+"sanc_holddoor_blobchain": "slime corridor"
+"sanc_storm_peninsula": "hooked peninsula"
+"sanc_vinechain": "triple airlock"
+"sanc_vinebridge_4": "rule of four"
+"sanc_vinebridge_8": "rule of eight"
+"sanc_vinebridge_16": "rule of sixteen"
+"sanc_magic_switch_intro": "magical switch"
+"sanc_magic_switch_holddoor": "a clever idea"
+"sanc_magic_switch_rainbow": "kuroyama's playground"
+"sanc_icestorm_push": "sliding around"
+"sanc_otherfoot": "the other foot"
+"sanc_vinecolumns": "ruins"
+"sanc_dilemma": "dilemma"
+"sanc_geometry": "geometry"
+"sanc_icewall": "getting around"
+"sanc_vine_reallyhard": "difficult puzzle"
+"sanc_gonefishing": "gone fishing"
+"sanc_wrench": "wrench in the works"
+"sanc_beenthere": "bean there, done that"
+
+
+-- Tutorial ------------------------------------------------------------
+
+"tutorial_prompt": "$control:select$"
+"tutorial_welcome": "Welcome, Initiate! You have been chosen to study the Tradition of the Beans. We, the %0000ff{Guardians of the Temple}, have left behind this message to guide you through your first puzzle."
+"tutorial_explain_completion_tile": "The goal of every puzzle is to get to the %0000ff{completion tile}."
+"tutorial_explain_block": "Sadly, in this puzzle there's a %ff0000{block} in the way. We'll need to make a %0000ff{monster} to help us get rid of it."
+"tutorial_pick_up_red_bean": "We practice the Tradition by creating monsters out of beans. There is a %ff0000{red bean} on the ground in front of you. %0000ff{Pick it up} by standing on it and pressing $control:pickup$."
+"tutorial_red_bean_inventory": "Excellent! The %ff0000{red bean} is now visible in your %0000ff{inventory}."
+"tutorial_put_down_red_bean": "\nWalk over here and then %0000ff{put it down} by pressing $control:putdown_0$."
+"tutorial_put_down_red_bean_alt": "\nWalk over here and then %0000ff{put it down} by pressing $control:putdown_selection$."
+"tutorial_shoot_red_bean": "Perfect! Monsters are created through the use of the %0000ff{wand}, which you should have already received. You may %0000ff{fire the wand} at any time by pressing $control:fire$. Try it on the bean you have just put down."
+"tutorial_put_down_red_bean_again": "Ah, let's leave the %ff0000{red bean} where it was for now. Put it back down over here. ($control:putdown_0$)"
+"tutorial_put_down_red_bean_again_alt": "Ah, let's leave the %ff0000{red bean} where it was for now. Put it back down over here. ($control:putdown_selection$)"
+"tutorial_recipe_explain1": "Oops! Nothing happened. An oversight on our part: this puzzle didn't have any %0000ff{recipes}."
+"tutorial_recipe_explain2": "You can see the recipes over here. In %0000ff{this puzzle}, we'll need a %ff0000{red bean} and a %0000ff{blue bean} to make this monster. In other puzzles the %0000ff{recipes might be different}!"
+"tutorial_pick_up_orange_bean": "Oh, and we forgot to give you a %0000ff{blue bean} as well! So careless. At any rate, here it is now. Pick it up and place it on the same tile as the %ff0000{red bean}."
+"tutorial_put_down_red_bean_with_orange": "You're moving the %ff0000{red bean}! Put both of the beans down over here and we can continue the tutorial."
+"tutorial_put_down_orange_bean": "The key next to the bean in the inventory is always what you use to put it down. Place the %0000ff{blue bean} over here."
+"tutorial_put_down_orange_bean_alt": "You can press $control:select_prev$ and $control:select_next$ to change which color of bean you have selected. Select the %0000ff{blue bean} and place it over here ($control:putdown_selection$)."
+"tutorial_pick_up_orange_bean_again": "Go pick up the %0000ff{blue bean}. ($control:pickup$)"
+"tutorial_shoot_both_beans": "There they both are! %0000ff{Shoot the beans} with your wand ($control:fire$) to make the monster."
+"tutorial_admonish_bad_shoot": "Hey! We're not making the monster until both of the beans are in the right place."
+"tutorial_tried_shooting": "Many apologies, we have made a mistake yet again! This is not where we meant to make this monster. Move the beans over here instead. Pressing $control:pickup$ picks up %0000ff{all the beans} on a tile. You can put them down one by one, or %0000ff{all at once} by pressing $control:pickup$."
+"tutorial_stand_and_turn": "Okay, this time everything should be in order. How about we make the monster from over here? You can %0000ff{turn without moving} by pressing $control:turn_right$."
+"tutorial_shoot_beans_for_real": "Perfect. Now you can make the monster by %0000ff{shooting the beans}! ($control:fire$)"
+"tutorial_tried_shooting_again": "You're moving the beans! Place them over here so we can finish the tutorial."
+"tutorial_admonish_bad_shoot_location": "That's not where we're making the monster from!"
+"tutorial_made_monster": "Beautiful! This monster hasn't seen you yet, so %0000ff{step out of the way} now."
+"tutorial_made_monster_admonish": "You will be free to do as you please in just a moment, but %0000ff{step out} of this monster's sight for now."
+"tutorial_lure_monster": "This particular monster likes to %0000ff{chase after you}, so you can get it to %0000ff{break the block} in front of the completion tile. Other monsters behave completely differently. You will have to %0000ff{experiment} to discover the rules that each monster follows!"
+"tutorial_lure_monster_too_close": "Whoah! If you get that close, it will %0000ff{run you over}! Try luring it from a little further away."
+"tutorial_lured_monster": "Excellent! The monster is rolling on its happy way. You can press $control:wait$ to wait a turn or hold it down to skip many in a row. We will %0000ff{not be around to guide you} from now on! Get to the completion tile to continue your training at the first %0000ff{Island}."
+"tutorial_died": "Oh no, the monster ran you over! Not to worry, you can always %0000ff{undo your last action} by pressing $control:undo$. This works whether or not you've died."
+
+
+-- Hints inside puzzles ------------------------------------------------------------------------
+
+"chasebomb_hint_shoving": [[Shoving things can be conducive to the practice of puzzle-solving.
+
+(While facing the direction you wish to shove, press $control:all_turn$.)]]
+
+"chasebomb_hint_chasey_push": [[
+The push that begins the journey can come from many things.]]
+
+"chasebomb_hint_turning": [[
+The Initiate would do well to inspect the path ahead before charging in her chosen direction.
+
+(Press $control:all_turn$ to turn.)]]
+
+"chasebomb_hint_floor": [[
+Just as the beans cannot grow on the unnatural tiling, so the Initiate's cannot grow if it is not willing to explore the as-yet unknown.]]
+
+"chasebomb_hint_beans_back": [[
+The flowers of the field and the birds of the sky are part of the great cycle of all being, and so it is with the monsters and the beans: When one perishes, the other is born again.]]
+
+"chasebomb_hint_switch": [[
+The Initiate need not guess how the puzzle is put together: All knowledge is available to you already.
+
+(Hover over switches with the mouse to see what they do.)]]
+
+"chasebomb_hint_wait": [[
+The patient Initiate will eventually reach her destination.
+
+(Press $control:wait$ to wait in place.)]]
+
+"bucket_hint_forcefield": [[
+Meow.]]
+
+"storm_hint_switch": [[
+Sometimes only the slightest touch is required to set a thing in motion.
+
+Other times, it is a slow and constant hand that is required.
+
+A true master of puzzle-solving will know which is which.]]
+
+
+-- Directory and Bookmarks --------------------------------------------------------------------------------
+
+"directory_text": [[It's a simplified map of the Temple.
+
+(You can now quickwarp between Islands you've visited; open the map screen via the menu or by pressing $control:map$).]]
+
+"bookmark_enabler_text": [[A pack of bookmarks has been stuffed into this shelf.
+
+You now have the ability to make a "bookmark" while solving puzzles! This is a checkpoint you can easily return to later.
+
+Try it out! Enter the nearby puzzle, move around a bit, and click the bookmark in the upper right. This makes a new bookmark. Later, you can click on that bookmark again to return to it, or click the erase button at the top of that bookmark to erase it.]]
+
+
+-- Temple: entryway -----------------------------------------------------------------------
+
+"temple_entryway_plinth_nw": "Meow."
+"temple_entryway_plinth_ne": "Meow."
+"temple_entryway_plinth_w": "Meow."
+"temple_entryway_plinth_e": "Meow."
+"temple_entryway_plinth_sw": "Meow."
+"temple_entryway_plinth_se": "Meow."
+"temple_entryway_shrine_left": "Meow."
+
+"temple_entryway_shrine_center": [[
+Meow.
+]]
+"temple_entryway_shrine_right": "Meow."
+"temple_entryway_tapestry_chase": "Meow."
+
+"temple_entryway_cabinet_open": [[
+Meow.
+]]
+
+"temple_entryway_cabinet_closed": "Meow."
+
+"temple_entryway_table_left": [[
+Meow.
+]]
+
+"temple_entryway_table_right": "Meow."
+
+
+-- Temple: hallway -----------------------
+
+"temple_hallway_shrine": "Meow."
+"temple_hallway_plinth": "Meow."
+"temple_hallway_table_left": "Meow."
+
+"temple_hallway_table_center": [[
+Meow.
+]]
+
+"temple_hallway_table_right": [[
+Meow.
+]]
+
+"temple_hallway_table_se": "Meow."
+
+"temple_hallway_cabinet": [[
+Meow.
+]]
+
+"temple_hallway_urn_w_left": "Meow."
+"temple_hallway_urn_w_right": "Meow."
+"temple_hallway_urn_e": "Meow."
+
+"temple_hallway_bookcase_left": [[
+Meow.
+]]
+
+"temple_hallway_bookcase_right": [[
+Meow.
+]]
+
+
+-- Temple: seminar room ------------------
+
+"temple_seminar_whiteboard1": [[
+Meow.
+]]
+
+"temple_seminar_whiteboard2": [[
+Meow.
+]]
+
+"temple_seminar_whiteboard3": [[
+Meow.
+]]
+
+"temple_seminar_table_nw": [[
+Meow.
+]]
+
+"temple_seminar_table_n": "Meow."
+"temple_seminar_table_ne": "Meow."
+
+"temple_seminar_table_sw": [[
+Meow.
+]]
+
+"temple_seminar_table_s": "Meow."
+"temple_seminar_table_se": "Meow."
+
+
+-- Temple: grad student shared Lounge --------------------------------------------------------
+
+"temple_offices_lounge_chalkboard": [[
+Meow.
+]]
+
+"temple_offices_lounge_bookcase_n": [[
+Meow.
+]]
+
+"temple_offices_lounge_bookcase_s": [[
+Meow.
+]]
+
+"temple_offices_lounge_chair_n": "Meow."
+"temple_offices_lounge_chair_s": "Meow."
+"temple_offices_lounge_couch": "Meow."
+
+"temple_offices_lounge_round_table": [[
+Meow.
+]]
+
+"temple_offices_lounge_rectangle_table": [[
+Meow.
+]]
+
+"temple_offices_lounge_urn": "Meow."
+
+
+-- Temple: Michelle's office (top) -------------------------------------------
+
+"temple_offices_top_computer": [[
+Meow.
+]]
+
+"temple_offices_top_bookcase": [[
+Meow.
+]]
+
+"temple_offices_top_chair": [[
+Meow.
+]]
+
+"temple_offices_top_fridge": [[
+Meow.
+]]
+
+
+-- Temple: Frank's office (center) --------------------------------------------
+
+"temple_offices_center_computer": [[
+Meow.
+]]
+
+"temple_offices_center_tapestry": "Meow."
+
+"temple_offices_center_cabinets": [[
+Meow.
+]]
+
+"temple_offices_center_chair": "Meow."
+
+
+-- Temple: Karl's Office (bottom) -----------------------------------------
+
+"temple_offices_bottom_computer": [[
+Meow.
+]]
+
+"temple_offices_bottom_cabinet_n": "Meow."
+
+"temple_offices_bottom_cabinet_s": [[
+Meow.
+]]
+
+"temple_offices_bottom_diploma": [[
+Meow.
+]]
+
+"temple_offices_bottom_bookcase_left": [[
+Meow.
+]]
+
+"temple_offices_bottom_bookcase_center": [[
+Meow.
+]]
+
+"temple_offices_bottom_bookcase_right": [[
+Meow.
+]]
+
+"temple_offices_bottom_couch": "Meow."
+
+
+-- Temple: Storage area (behind offices) --------------------------------------
+
+"temple_storage_fridge": "Meow."
+"temple_storage_wooden_chair": "Meow."
+"temple_storage_plinth": "Meow."
+"temple_storage_boxes_open": "Meow."
+"temple_storage_boxes_stack": "Meow."
+
+"temple_storage_bookcase_w": [[
+Meow.
+]]
+
+"temple_storage_bookcase_e": [[
+Meow.
+]]
+
+"temple_storage_urn_tall": "Meow."
+"temple_storage_urn_short_left": "Meow."
+"temple_storage_urn_short_center": "Meow."
+"temple_storage_urn_short_right": "Meow."
+"temple_storage_table_e": "Meow."
+
+"temple_storage_table_s": [[
+Meow.
+]]
+
+
+-- Temple: Admin office --------------------------------------------------------
+
+"temple_admin_chair_nw": "Meow."
+"temple_admin_chair_ne": "Meow."
+"temple_admin_chair_sw": "Meow."
+"temple_admin_chair_se": "Meow."
+"temple_admin_table_w": "Meow."
+"temple_admin_table_n": "Meow."
+
+"temple_admin_table_e": [[
+Meow.
+]]
+
+"temple_admin_table_center_left": "Meow."
+
+"temple_admin_table_center_right": [[
+Meow.
+]]
+
+"temple_admin_table_s": [[
+Meow.
+]]
+
+"temple_admin_bookcase_n": [[
+Meow.
+]]
+
+"temple_admin_bookcase_sw": [[
+Meow.
+]]
+
+"temple_admin_bookcase_se": [[
+Meow.
+]]
+
+"temple_admin_cabinet_short": "Meow."
+
+"temple_admin_cabinet_left1": [[
+Meow.
+]]
+
+"temple_admin_cabinet_left2": [[
+Meow.
+]]
+
+"temple_admin_cabinet_top1": [[
+Meow.
+]]
+
+"temple_admin_cabinet_top2": [[
+Meow.
+]]
+
+"temple_admin_cabinet_top3": "Meow."
+"temple_admin_cabinet_top4": "Meow."
+
+"temple_admin_cabinet_top5": [[
+Meow.
+]]
+
+"temple_admin_cabinet_right1": "Meow."
+
+"temple_admin_cabinet_right2": [[
+Meow.
+]]
+
+"temple_admin_urn_w": "Meow."
+"temple_admin_urn_e": "Meow."
+
+
+-- Temple: Lab ----------------------------------------------------------------
+
+"temple_lab_chalkboard": [[
+Meow.
+]]
+
+"temple_lab_cabinet_nw": [[
+Meow.
+]]
+
+"temple_lab_cabinet_se": "Meow."
+"temple_lab_shower": "Meow."
+"temple_lab_sink_left": "Meow."
+"temple_lab_sink_right": "Meow."
+"temple_lab_science_machine": "Meow."
+"temple_lab_science_cabinet_ne": "Meow."
+"temple_lab_science_cabinet_sw": "Meow."
+
+"temple_lab_bookcase_ne": [[
+Meow.
+]]
+
+"temple_lab_cabinet_short": [[
+Meow.
+]]
+
+"temple_lab_puzzle_model": "Meow."
+"temple_lab_desk_nw": "Meow."
+"temple_lab_desk_ne": "Meow."
+
+"temple_lab_desk_sw": [[
+Meow.
+]]
+
+"temple_lab_desk_se": [[
+Meow.
+]]
+
+"temple_lab_counter": "Meow."
+"temple_lab_fume_hood": "Meow."
+
+"temple_lab_white_table_n": [[
+Meow.
+]]
+
+"temple_lab_white_table_s": [[Meow.]]
+
+
+-- Temple: Office adjoining the lab (Charlene) ---------------------------------
+
+"temple_lab_office_bookcase": [[
+Meow.
+]]
+
+"temple_lab_office_computer": [[
+Meow.
+]]
+
+"temple_lab_office_diploma": [[
+Meow.
+]]
+
+"temple_lab_office_couch": "Meow."
+"temple_lab_office_chair": "Meow."
+
+"temple_lab_office_cabinet": [[
+Meow.
+]]
+
+
+-- Temple: Lab storage ---------------------------------------------------------
+
+"temple_lab_storage_cabinet_n": "Meow."
+"temple_lab_storage_cabinet_s": "Meow."
+"temple_lab_storage_urn_w": "Meow."
+"temple_lab_storage_urn_e": "Meow."
+"temple_lab_storage_tapestry": "Meow."
+
+"temple_lab_storage_boxes": [[
+Meow.
+]]
+"temple_lab_storage_shrine": [[
+Meow.
+]]
+
+"temple_lab_storage_table_n": [[
+Meow.
+]]
+
+"temple_lab_storage_table_s": [[
+Meow.
+]]
+
+
+-- Temple: Library ---------------------------------------------------------
+
+"temple_library_stacks_nw1": [[
+Meow.
+]]
+
+"temple_library_stacks_nw2": [[
+Meow.
+]]
+
+"temple_library_stacks_nw3": [[
+Meow.
+]]
+
+"temple_library_stacks_nw4": [[
+Meow.
+]]
+
+"temple_library_stacks_ne1": [[
+Meow.
+]]
+
+"temple_library_stacks_ne2": [[
+Meow.
+]]
+
+"temple_library_stacks_ne3": [[
+Meow.
+]]
+
+"temple_library_stacks_ne4": [[
+Meow.
+]]
+
+"temple_library_stacks_sw1": [[
+Meow.
+]]
+
+"temple_library_stacks_sw2": [[
+Meow.
+]]
+
+"temple_library_stacks_sw3": [[
+Meow.
+]]
+
+"temple_library_stacks_sw4": [[
+Meow.
+]]
+
+"temple_library_stacks_se1": [[
+Meow.
+]]
+
+"temple_library_stacks_se2": [[
+Meow.
+]]
+
+"temple_library_stacks_se3": [[
+Meow.
+]]
+
+"temple_library_stacks_se4": [[
+Meow.
+]]
+
+"temple_library_tapestry_storm": "Meow."
+"temple_library_tapestry_vine": "Meow."
+"temple_library_couch": "Meow."
+"temple_library_chair_n": [[
+Meow.
+]]
+"temple_library_chair_e": [[
+Meow.
+]]
+"temple_library_chair_s": [[
+Meow.
+]]
+
+"temple_library_small_bookcase": [[
+Meow.
+]]
+
+"temple_library_square_table": [[
+Meow.
+]]
+
+"temple_library_round_table_n": [[
+Meow.
+]]
+
+"temple_library_round_table_s": [[
+Meow.
+]]
+
+"temple_library_table_nw": [[
+Meow.
+]]
+
+"temple_library_table_center_left": [[
+Meow.
+]]
+
+"temple_library_table_center_right": [[
+Meow.
+]]
+
+"temple_library_table_se": [[
+Meow.
+]]
+
+
+-- Temple: Control tower lobby ---------------------------------------
+
+"temple_ctrl_lobby_shrine_w": [[
+Meow.
+]]
+"temple_ctrl_lobby_shrine_e": [[
+Meow.
+]]
+"temple_ctrl_lobby_urn_w": [[
+Meow.
+]]
+"temple_ctrl_lobby_urn_e": [[
+Meow.
+]]
+"temple_ctrl_lobby_statue_transformer": [[
+Meow.
+]]
+"temple_ctrl_lobby_statue_bucket": [[
+Meow.
+]]
+"temple_ctrl_lobby_statue_chase": [[
+Meow.
+]]
+"temple_ctrl_lobby_statue_ice": [[
+Meow.
+]]
+"temple_ctrl_lobby_statue_slurp": [[
+Meow.
+]]
+"temple_ctrl_lobby_statue_blob": [[
+Meow.
+]]
+"temple_ctrl_lobby_statue_storm": [[
+Meow.
+]]
+"temple_ctrl_lobby_statue_vine": [[
+Meow.
+]]
+
+
+-- Temple: Secret back room -------------------------------------------
+
+"temple_secret_urn": [[
+Meow.
+]]
+"temple_secret_tapestry": [[
+Meow.
+]]
+
+"temple_secret_table_ne": [[
+Meow.
+]]
+
+"temple_secret_table_sw": [[
+Meow.
+]]
+
+
+-- Initiate's Island ------------------------------------------------------------------
+
+"chasebomb_hotkeys": [[
+Meow.
+]]
+
+"chasebomb_bomb_bounce": [[
+Meow.
+]]
+
+"chasebomb_explore_1": [[
+Meow.
+]]
+
+"chasebomb_fluff_bomb_survival": [[
+Meow.
+]]
+
+"chasebomb_explore_2": [[
+Meow.
+]]
+
+"chasebomb_altar": [[
+Meow.
+]]
+
+"chasebomb_complete": [[
+Meow.
+]]
+
+"chasebomb_1_plinth_nw": "Meow."
+"chasebomb_1_plinth_ne": "Meow."
+"chasebomb_1_plinth_sw": "Meow."
+"chasebomb_1_plinth_se": "Meow."
+"chasebomb_1_urn_n": "Meow."
+"chasebomb_1_chair": "Meow."
+
+"chasebomb_1_file": [[
+Meow.
+]]
+
+"chasebomb_2_chair_n": "Meow."
+"chasebomb_2_plinth_nw_1": "Meow."
+"chasebomb_2_plinth_nw_2": "Meow."
+
+"chasebomb_2_file_w": [[
+Meow.
+]]
+
+"chasebomb_2_plinth_sw": "Meow."
+"chasebomb_2_plinth_se": "Meow."
+"chasebomb_2_chair_e": "Meow."
+"chasebomb_2_table_e": "Meow."
+"chasebomb_2_urn_e": "Meow."
+"chasebomb_3_urn_s": "Meow."
+"chasebomb_3_urn_n": "Meow."
+
+"chasebomb_1_bookcase_nw": [[
+Meow.
+]]
+
+"chasebomb_1_bookcase_ne": [[
+Meow.
+]]
+
+"chasebomb_1_bookcase_ne_side": [[
+Meow.
+]]
+
+"chasebomb_2_bookcase_e_1": [[
+Meow.
+]]
+
+"chasebomb_2_bookcase_e_2": [[
+Meow.
+]]
+
+"chasebomb_2_bookcase_n": [[
+Meow.
+]]
+"chasebomb_3_bookcase_e": [[
+Meow.
+]]
+
+"chasebomb_3_bookcase_n": [[
+Meow.
+]]
+
+
+-- Bucket Island ------------------------------------------------------------------
+
+"bucket_do_science": [[
+Meow.
+]]
+
+"bucket_try_yourself": [[
+Meow.
+]]
+
+"bucket_which_color": [[
+Meow.
+]]
+
+"bucket_one_direction": [[
+Meow.
+]]
+
+"bucket_complete": [[
+Meow.
+]]
+
+"bucket_1_plinth_sw": "Meow."
+"bucket_1_plinth_se": "Meow."
+"bucket_1_small_table": "Meow."
+"bucket_1_big_table_n": "Meow."
+"bucket_1_urn_nw": "Meow."
+"bucket_1_chair_n": "Meow."
+
+"bucket_1_bookcase_n": [[
+Meow.
+]]
+
+"bucket_2_small_table": [[
+Meow.
+]]
+"bucket_2_chair": "Meow."
+"bucket_2_plinth_sw": "Meow."
+"bucket_2_urn_large": "Meow."
+"bucket_2_urn": "Meow."
+"bucket_2_bookcase_sw": [[
+Meow.
+]]
+"bucket_2_bookcase_nw": [[
+Meow.
+]]
+"bucket_3_urn_n": "Meow."
+"bucket_3_urn_ne_1": "Meow."
+"bucket_3_urn_ne_2": "Meow."
+"bucket_3_urn_ne_3": "Meow."
+"bucket_3_table_n": "Meow."
+
+"bucket_3_bookcase_n": [[
+Meow.
+]]
+
+"bucket_3_small_table": [[
+Meow.
+]]
+
+
+-- Cloud Island -------------------------------------------------------------------
+
+"storm_mouseover": [[
+Meow.
+]]
+
+"storm_like_wand": [[
+Meow.
+]]
+
+"storm_shoot_again": [[
+Meow.
+]]
+
+"storm_move_on": [[
+Meow.
+]]
+
+"storm_useful": [[
+Meow.
+]]
+
+"storm_altar": [[
+Meow.
+]]
+
+"storm_complete": [[
+Meow.
+]]
+
+
+-- Vine Island --------------------------------------------------------------------
+
+"vine_learn": [[
+Meow.
+]]
+
+"vine_hasrange": [[
+Meow.
+]]
+
+"vine_try_things": [[
+Meow.
+]]
+
+"vine_email_make_towers": [[
+Meow.
+]]
+
+"vine_complete": [[
+Meow.
+]]
+
+
+-- Ice Island ---------------------------------------------------------------------
+
+"ice_artificial_towers": [[
+Meow.
+]]
+
+"ice_field_work": [[
+Meow.
+]]
+
+"ice_michelle_towers": [[
+Meow.
+]]
+
+"ice_slime_for_blob": [[
+Meow.
+]]
+"ice_complete": [[
+Meow.
+]]
+
+
+-- Blob Island --------------------------------------------------------------------
+
+"blob_email_mk_work_with_ke": [[
+Meow.
+]]
+
+"blob_frank_like_puppy": [[
+Meow.
+]]
+
+"blob_karl_subtlety": [[
+Meow.
+]]
+
+"blob_complete": [[
+Meow.
+]]
+
+
+-- Slurp Island -------------------------------------------------------------------
+
+"slurp_terrifying": [[
+Meow.
+]]
+
+"slurp_michelle_repower": [[
+Meow.
+]]
+
+"slurp_karl_repower": [[
+Meow.
+]]
+
+"slurp_complete": [[
+Meow.
+]]
+
+
+-- Transformer Island -------------------------------------------------------------
+
+"transformer_frank_despondent": [[
+Meow.
+]]
+
+"transformer_michelle_idea": [[
+Meow.
+]]
+
+"transformer_michelle_hope": [[
+Meow.
+]]
+
+"petals_complete": [[
+Meow.
+]]
+
+
+-- Island of the Guardians -----------------------------------------------------------------
+
+"control_shrine_congrats": [[
+Meow.
+]]
+
+"control_shrine_mastery": [[
+Meow.
+]]
+
+"control_bigrecipe_reminder": [[
+Meow.
+]]
+
+"control_michelle_meeting_notes": [[
+Meow.
+]]
+
+"control_frank_meeting_reaction": [[
+Meow.
+]]
+
+"control_karl_meeting_reaction": [[
+Meow.
+]]
+
+"control_charlene_success": [[
+Meow.
+]]
+
+"control_storys_end1": [[
+Meow.
+]]
+
+"control_storys_end2": [[
+Meow.
+]]
+
+"control_your_choice": [[
+Meow.
+]]
+
+"control_to_player1": [[
+Meow.
+]]
+
+"control_to_player2": [[
+Meow.
+]]
+
+"control_to_player3": [[
+Meow.
+]]
+
+"control_to_player4": [[
+Meow.
+]]
+
+"control_to_player5": [[
+Meow.
+]]
+
+"control_to_player6": [[
+Meow.
+]]
+
+"control_to_player7": [[
+Meow.
+]]
+
+"control_to_player8": [[
+Meow.
+]]
+
+"control_floor1": [[
+Meow.
+]]
+
+"control_floor2": [[
+Meow.
+]]
+
+"control_floor3": [[
+Meow.
+]]
+
+"control_floor4": [[
+Meow.
+]]
+
+"control_floor5": [[
+Meow.
+]]
+
+
+-- Sanctuary -----------------------------------------------------------------
+
+"master_floor1": [[
+Meow.
+]]
+
+"master_magic_switch": [[
+Meow.
+]]
+
+"master_wind_monster": [[
+Meow.
+]]
+
+"master_turtle_monster": [[
+Meow.
+]]
+
+"master_turtle_crystal": [[
+Meow.
+]]
+
+
+-- Demo ----------------------------------------------------------------------------------
+"demo_complete_short": [[
+Meow.
+]]
+
+"demo_complete": [[
+Meow.
+]]
+
+"demo_solved_all": [[
+Meow.
+]]
+
+"demo_custom_notincluded": [[
+Meow.
+]]
+
+"demo_editor_notincluded": [[
+Meow.
+]]
+
+"demo_puzzle_notincluded": [[
+Meow.
+]]
+"demo_locked_puzdoor": [[
+Meow.
+]]
+"demo_wishlist": [[
+Meow.
+]]
+"demo_badprofile": [[
+Meow.
+]]
+
+
+-- Credits -------------------------------------------------------------------------------
+--   The first word of every line of the credits is a formatting marker ("category", "name", etc),
+--   while the rest of the line gives the text. Color & control codes do not work in this string.
+
+"credits": [[Meow.]]
