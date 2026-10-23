@@ -2,6 +2,7 @@
 *ORIGINAL*
 *TODO*
 *EXPORT*
+Videos
 
 #Removing compressed packages due to no readability on github and to not store duplicated files. Those are used only for purposes of easier storage and movability.
 *.tar.lrz
