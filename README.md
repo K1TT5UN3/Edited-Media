@@ -40,6 +40,7 @@ Hope this repository will help at least a little.
 |[Cosmic Express](https://store.steampowered.com/app/583270/Cosmic_Express/)                                           | Game | Steam | Fully checked    ||
 |[Bean and Nothingness](https://store.steampowered.com/app/1706090/Bean_and_Nothingness/)                              | Game | Steam | Fully checked    ||
 |[Can of Wormholes](https://store.steampowered.com/app/1295320/Can_of_Wormholes/)                                      | Game | Steam | Textures checked ||
+|[Taiji](https://store.steampowered.com/app/1141580/Taiji/)                                                            | Game | Steam | Textures checked ||
 |[Backpack Hero](https://store.steampowered.com/app/1970580/Backpack_Hero/)                                            | Game | Steam | Language checked ||
 |[14 Minesweeper Variants](https://store.steampowered.com/app/1865060/14_Minesweeper_Variants/)                        | Game | Steam | Quickly checked  ||
 |[14 Minesweeper Variants 2](https://store.steampowered.com/app/2631960/14_Minesweeper_Variants_2/)                    | Game | Steam | Quickly checked  ||
