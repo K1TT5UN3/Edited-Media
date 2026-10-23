@@ -1,1 +1,0 @@
-Fix was made for build 1.0.1187.0 sourced on 2026/10/12.
