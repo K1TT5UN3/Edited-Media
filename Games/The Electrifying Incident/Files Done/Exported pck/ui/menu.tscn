@@ -1,0 +1,2584 @@
+[gd_scene load_steps=76 format=3 uid="uid://7wymus77dxna"]
+
+[ext_resource type="Theme" uid="uid://ds7wuf8triqa0" path="res://ui/themes/default_theme.tres" id="1_0uqkd"]
+[ext_resource type="Texture2D" uid="uid://drafnyrq5o2n4" path="res://ui/textures/ElectrifyingIncidentLogo.png" id="2_0rttc"]
+[ext_resource type="PackedScene" uid="uid://dl77sb7nrwr32" path="res://ui/setting.tscn" id="2_rbkka"]
+[ext_resource type="Script" path="res://ui/menu.gd" id="2_sm6ag"]
+[ext_resource type="PackedScene" uid="uid://cncceu4ghpo0y" path="res://ui/setting_tab.tscn" id="2_ueegq"]
+[ext_resource type="Script" path="res://ui/focus_painter.gd" id="4_8s5rw"]
+[ext_resource type="Texture2D" uid="uid://bejg1qc6uwl2x" path="res://ui/textures/settings.png" id="4_v0hbq"]
+[ext_resource type="Texture2D" uid="uid://bm4fh3swnsi6a" path="res://ui/textures/settings_selected.png" id="5_ej25g"]
+[ext_resource type="Script" path="res://ui/button_cluster_animator.gd" id="5_ni3se"]
+[ext_resource type="Texture2D" uid="uid://b34yi6fvodij8" path="res://ui/textures/undo.png" id="5_uljop"]
+[ext_resource type="Texture2D" uid="uid://bexg0xdnwffuv" path="res://ui/textures/reset.png" id="6_4fmcq"]
+[ext_resource type="StyleBox" uid="uid://dgdiviv3vh51t" path="res://ui/style_elements/simple_box.tres" id="6_m4x4t"]
+[ext_resource type="Script" path="res://ui/tab_focus_painter.gd" id="7_3u542"]
+[ext_resource type="PackedScene" uid="uid://dapxxbi1qo0h7" path="res://settings/setting_checkbox.tscn" id="7_42qb3"]
+[ext_resource type="PackedScene" uid="uid://bngwn43mk8rbv" path="res://ui/drop_down_fixer.tscn" id="7_dmjmj"]
+[ext_resource type="Texture2D" uid="uid://b0556x5xa1caf" path="res://ui/textures/joy_button_up.png" id="7_g52vn"]
+[ext_resource type="Script" path="res://settings/reset_settings_button.gd" id="7_goeoa"]
+[ext_resource type="Theme" uid="uid://dqxamslqo5n0q" path="res://ui/themes/focus_theme.tres" id="7_navi8"]
+[ext_resource type="PackedScene" uid="uid://bhkdwfidrq386" path="res://ui/focus_painter.tscn" id="8_5f7gi"]
+[ext_resource type="PackedScene" uid="uid://duv2d7u04y5mu" path="res://settings/setting_option_button.tscn" id="9_xwqht"]
+[ext_resource type="PackedScene" uid="uid://ctycil7cumvv0" path="res://settings/setting_hslider.tscn" id="10_563dq"]
+[ext_resource type="Script" path="res://ui/hslider_controllable.gd" id="10_qitr2"]
+[ext_resource type="Texture2D" uid="uid://ddl7mdxsiqd68" path="res://ui/textures/joy_button_right.png" id="11_bbdx7"]
+[ext_resource type="Texture2D" uid="uid://jdno5hnspepb" path="res://ui/textures/undo_selected.png" id="11_go6j1"]
+[ext_resource type="Texture2D" uid="uid://bsllk8ceu8pgl" path="res://ui/textures/box.PNG" id="12_34f7d"]
+[ext_resource type="Texture2D" uid="uid://b2q46d04mftcg" path="res://ui/textures/reset_selected.png" id="13_mjfqe"]
+[ext_resource type="Script" path="res://ui/prompt_panel.gd" id="15_guja4"]
+[ext_resource type="Texture2D" uid="uid://c6jwogtjpd5ny" path="res://ui/textures/joystick.png" id="15_vlmds"]
+[ext_resource type="Script" path="res://ui/button_prompt.gd" id="15_w5kx2"]
+[ext_resource type="AudioStream" uid="uid://bt7msgvyqyjk4" path="res://sound/sfx_tracks/ui2.wav" id="16_1s3u3"]
+[ext_resource type="Script" path="res://addons/transform_container/transform_container.gd" id="16_kiia1"]
+[ext_resource type="Script" path="res://scripts/feature_visibility.gd" id="16_oe02o"]
+[ext_resource type="AudioStream" uid="uid://cd2bcxjwcislf" path="res://sound/sfx_tracks/transition_mainmenu.wav" id="16_p3ey4"]
+[ext_resource type="Texture2D" uid="uid://dvdotupsom6y5" path="res://ui/textures/joy_button_down.png" id="17_0sjc5"]
+[ext_resource type="Script" path="res://sound/new_focus_player.gd" id="17_8s5q7"]
+[ext_resource type="Texture2D" uid="uid://cphfsh73300pf" path="res://ui/textures/kb_dir_buttons.png" id="17_m646g"]
+[ext_resource type="Script" path="res://ui/startup_splash_player.gd" id="17_p21mb"]
+[ext_resource type="Script" path="res://sound/interact_player.gd" id="18_pwsek"]
+[ext_resource type="AudioStream" uid="uid://d3ap7ex8n7caj" path="res://sound/sfx_tracks/ui1.wav" id="19_gr1jx"]
+[ext_resource type="StyleBox" uid="uid://gatopmstsr0c" path="res://ui/style_elements/simple_box_selected.tres" id="19_mk5vb"]
+[ext_resource type="Script" path="res://ui/expo_timeout_panel.gd" id="20_cv1ef"]
+[ext_resource type="Script" path="res://ui/logo_updater.gd" id="24_mytyw"]
+[ext_resource type="Texture2D" uid="uid://ciwamh1vxsdlp" path="res://ui/textures/ElectrifyingIncidentLogoDemo.png" id="25_btfgh"]
+[ext_resource type="Texture2D" uid="uid://dsmsuqv7vf3t1" path="res://ui/textures/ElectrifyingIncidentLogoWhiteMonster.png" id="26_3u7rm"]
+[ext_resource type="Texture2D" uid="uid://bn3035cke777c" path="res://ui/textures/ElectrifyingIncidentLogoDemoWhite.png" id="27_65ifj"]
+[ext_resource type="Script" path="res://addons/version_updater/version_label.gd" id="30_i1wkh"]
+[ext_resource type="Script" path="res://settings/setting_visibility.gd" id="37_uokel"]
+[ext_resource type="Script" path="res://ui/mailing_list_cluster.gd" id="40_w2714"]
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_kaaam"]
+texture = ExtResource("12_34f7d")
+texture_margin_left = 14.0
+texture_margin_top = 12.0
+texture_margin_right = 14.0
+texture_margin_bottom = 16.0
+expand_margin_left = 240.0
+region_rect = Rect2(1, 1, 30, 30)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_bs6ta"]
+texture = ExtResource("12_34f7d")
+texture_margin_left = 14.0
+texture_margin_top = 12.0
+texture_margin_right = 14.0
+texture_margin_bottom = 16.0
+expand_margin_right = 360.0
+region_rect = Rect2(1, 1, 30, 30)
+
+[sub_resource type="StyleBoxTexture" id="StyleBoxTexture_fod25"]
+content_margin_left = 30.0
+content_margin_top = 30.0
+content_margin_right = 30.0
+content_margin_bottom = 30.0
+texture = ExtResource("12_34f7d")
+texture_margin_left = 14.0
+texture_margin_top = 12.0
+texture_margin_right = 14.0
+texture_margin_bottom = 16.0
+region_rect = Rect2(1, 1, 30, 30)
+
+[sub_resource type="Gradient" id="Gradient_bl5rf"]
+offsets = PackedFloat32Array(0, 0.358362, 0.703072)
+colors = PackedColorArray(0.927195, 0, 0.198687, 1, 0.938391, 0.785108, 3.85046e-07, 1, 0.576471, 0.541176, 0.505882, 1)
+
+[sub_resource type="GradientTexture1D" id="GradientTexture1D_ch5cp"]
+gradient = SubResource("Gradient_bl5rf")
+
+[sub_resource type="Animation" id="Animation_gbjxg"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("TransformContainer:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("TransformContainer:visual_position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("TransformContainer:visual_scale")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_y1vyu"]
+resource_name = "close"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("TransformContainer:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.4),
+"transitions": PackedFloat32Array(2, 0.5),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("TransformContainer:visual_position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.433333),
+"transitions": PackedFloat32Array(2, 0.5),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(0, 200)]
+}
+
+[sub_resource type="Animation" id="Animation_o4we0"]
+resource_name = "open"
+length = 0.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("TransformContainer:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.266667),
+"transitions": PackedFloat32Array(0.5, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("TransformContainer:visual_position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.433333),
+"transitions": PackedFloat32Array(0.5, 1),
+"update": 0,
+"values": [Vector2(0, 200), Vector2(0, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("TransformContainer:visual_scale")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.233333, 0.433333),
+"transitions": PackedFloat32Array(0.5, 1, 1),
+"update": 0,
+"values": [Vector2(1, 1), Vector2(1.05, 1.05), Vector2(1, 1)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_bdclb"]
+_data = {
+"RESET": SubResource("Animation_gbjxg"),
+"close": SubResource("Animation_y1vyu"),
+"open": SubResource("Animation_o4we0")
+}
+
+[sub_resource type="CanvasItemMaterial" id="CanvasItemMaterial_lcnv0"]
+
+[sub_resource type="Animation" id="Animation_mwxss"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("PauseMenu/VBoxContainer/PauseBarTransformer:visual_position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, 200)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("PauseMenu/LogoContainer/TransformContainer:visual_position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, -500)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("PauseMenu/TransparentOverlay:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("PauseMenu:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="Animation" id="Animation_n4t8o"]
+resource_name = "menu_enter"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("PauseMenu/VBoxContainer/PauseBarTransformer:visual_position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(0.203063, 1),
+"update": 0,
+"values": [Vector2(0, 200), Vector2(0, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("PauseMenu/LogoContainer/TransformContainer:visual_position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(0.203063, 1),
+"update": 0,
+"values": [Vector2(0, -500), Vector2(0, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("PauseMenu/TransparentOverlay:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(0.203063, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("PauseMenu:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+
+[sub_resource type="Animation" id="Animation_lbjsd"]
+resource_name = "menu_exit"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("PauseMenu/VBoxContainer/PauseBarTransformer:visual_position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(0.203063, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(0, 200)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("PauseMenu/LogoContainer/TransformContainer:visual_position")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(0.203063, 1),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(0, -500)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("PauseMenu/TransparentOverlay:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0, 0.5),
+"transitions": PackedFloat32Array(0.203063, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("PauseMenu:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_knbfd"]
+_data = {
+"RESET": SubResource("Animation_mwxss"),
+"menu_enter": SubResource("Animation_n4t8o"),
+"menu_exit": SubResource("Animation_lbjsd")
+}
+
+[sub_resource type="Animation" id="Animation_pjt3h"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("PauseMenu/VBoxContainer/TransformContainer:visual_position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(0, -200)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("PauseMenu/VBoxContainer/TransformContainer:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_ak1dj"]
+resource_name = "sub_menu_enter"
+length = 0.6
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("PauseMenu/VBoxContainer/TransformContainer:visual_position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.6),
+"transitions": PackedFloat32Array(0.203063, 1),
+"update": 0,
+"values": [Vector2(0, -200), Vector2(0, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("PauseMenu/VBoxContainer/TransformContainer:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.3),
+"transitions": PackedFloat32Array(0.203063, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+
+[sub_resource type="Animation" id="Animation_kofh2"]
+resource_name = "sub_menu_exit"
+length = 0.6
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("PauseMenu/VBoxContainer/TransformContainer:visual_position")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.6),
+"transitions": PackedFloat32Array(0.203063, 0.203063),
+"update": 0,
+"values": [Vector2(0, 0), Vector2(0, -200)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("PauseMenu/VBoxContainer/TransformContainer:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.3),
+"transitions": PackedFloat32Array(0.203063, 0.203063),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_l1vdn"]
+_data = {
+"RESET": SubResource("Animation_pjt3h"),
+"sub_menu_enter": SubResource("Animation_ak1dj"),
+"sub_menu_exit": SubResource("Animation_kofh2")
+}
+
+[sub_resource type="Animation" id="Animation_a2t70"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("PauseMenu/SplashOverlay:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("PauseMenu/DemoEndSplash:modulate")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("PauseMenu/SplashOverlay/TransformContainer:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Color(1, 1, 1, 0)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("PauseMenu/SplashOverlay/TransformContainer:visual_scale")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1, 1)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("PauseMenu/SplashOverlay/TransformContainer/StartDemo:visible")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("PauseMenu/DemoEndSplash/TransformContainer/EndDemo:visible")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/6/type = "method"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("PauseMenu/LogoContainer/TransformContainer/Logo")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [false],
+"method": &"change_color"
+}]
+}
+tracks/7/type = "value"
+tracks/7/imported = false
+tracks/7/enabled = true
+tracks/7/path = NodePath("PauseMenu/SplashOverlay/TransformContainer/StartDemo/StartButton:disabled")
+tracks/7/interp = 1
+tracks/7/loop_wrap = true
+tracks/7/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/8/type = "value"
+tracks/8/imported = false
+tracks/8/enabled = true
+tracks/8/path = NodePath("PauseMenu/SplashOverlay:visible")
+tracks/8/interp = 1
+tracks/8/loop_wrap = true
+tracks/8/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/9/type = "value"
+tracks/9/imported = false
+tracks/9/enabled = true
+tracks/9/path = NodePath("PauseMenu/DemoEndSplash/TransformContainer/EndExpo:visible")
+tracks/9/interp = 1
+tracks/9/loop_wrap = true
+tracks/9/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="Animation" id="Animation_ucqcb"]
+resource_name = "demo_splash"
+length = 3.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("PauseMenu/SplashOverlay:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 2.5, 3.5),
+"transitions": PackedFloat32Array(0.5, 0.5, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(0.05, 0.05, 0.05, 0)]
+}
+tracks/1/type = "method"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 2.4, 2.5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"values": [{
+"args": [],
+"method": &"reset_audio"
+}, {
+"args": [],
+"method": &"lerp_audio"
+}, {
+"args": [true],
+"method": &"pause_game"
+}]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("PauseMenu/SplashOverlay/TransformContainer:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.2, 0.6, 2.5, 3.03333),
+"transitions": PackedFloat32Array(1, 1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("PauseMenu/SplashOverlay/TransformContainer:visual_scale")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 3.5),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Vector2(1, 1), Vector2(1, 1)]
+}
+tracks/4/type = "method"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("PauseMenu/LogoContainer/TransformContainer/Logo")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [false],
+"method": &"change_color"
+}]
+}
+
+[sub_resource type="Animation" id="Animation_72w0v"]
+resource_name = "demo_splash_enter"
+length = 2.5
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("PauseMenu/SplashOverlay:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 2.5),
+"transitions": PackedFloat32Array(0.5, 0.5),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 1)]
+}
+tracks/1/type = "method"
+tracks/1/imported = false
+tracks/1/enabled = false
+tracks/1/path = NodePath(".")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [],
+"method": &"reset_audio"
+}]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("PauseMenu/SplashOverlay/TransformContainer:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.2, 0.6, 2.5),
+"transitions": PackedFloat32Array(1, 1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1), Color(1, 1, 1, 1)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("PauseMenu/SplashOverlay/TransformContainer:visual_scale")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1, 1)]
+}
+tracks/4/type = "method"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("PauseMenu/LogoContainer/TransformContainer/Logo")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [false],
+"method": &"change_color"
+}]
+}
+tracks/5/type = "method"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("PauseMenu/SplashOverlay/TransformContainer/StartDemo/StartButton")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"values": [{
+"args": [],
+"method": &"grab_focus"
+}, {
+"args": [],
+"method": &"grab_focus"
+}]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("PauseMenu/SplashOverlay:visible")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+
+[sub_resource type="Animation" id="Animation_y04el"]
+resource_name = "demo_splash_exit"
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("PauseMenu/SplashOverlay:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.2, 1),
+"transitions": PackedFloat32Array(0.329877, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(0.05, 0.05, 0.05, 0)]
+}
+tracks/1/type = "method"
+tracks/1/imported = false
+tracks/1/enabled = false
+tracks/1/path = NodePath(".")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0.233333, 0.333333),
+"transitions": PackedFloat32Array(1, 1),
+"values": [{
+"args": [],
+"method": &"lerp_audio"
+}, {
+"args": [true],
+"method": &"pause_game"
+}]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("PauseMenu/SplashOverlay/TransformContainer:modulate")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0.2, 0.73333),
+"transitions": PackedFloat32Array(0.329877, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 0)]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("PauseMenu/SplashOverlay/TransformContainer:visual_scale")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(1),
+"transitions": PackedFloat32Array(1),
+"update": 0,
+"values": [Vector2(1, 1)]
+}
+tracks/4/type = "method"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("PauseMenu/LogoContainer/TransformContainer/Logo")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(),
+"transitions": PackedFloat32Array(),
+"values": []
+}
+tracks/5/type = "value"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("PauseMenu/SplashOverlay/TransformContainer/StartDemo/StartButton:disabled")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(1),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/6/type = "value"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("PauseMenu/SplashOverlay:visible")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(1),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+
+[sub_resource type="Animation" id="Animation_ce4ga"]
+resource_name = "fade_open"
+length = 0.4
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("PauseMenu/SplashOverlay:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 0.4),
+"transitions": PackedFloat32Array(1, 0.5),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("PauseMenu/SplashOverlay:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+
+[sub_resource type="Animation" id="Animation_afjee"]
+resource_name = "open_demo_end"
+length = 1.8
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("PauseMenu/DemoEndSplash/TransformContainer/EndDemo:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("PauseMenu/DemoEndSplash/TransformContainer/EndExpo:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("PauseMenu/SplashOverlay/TransformContainer/StartDemo:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("PauseMenu/SplashOverlay/TransformContainer:modulate")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(1.2, 1.8),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("PauseMenu/DemoEndSplash:modulate")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0.2, 0.6),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+tracks/5/type = "method"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("PauseMenu/LogoContainer/TransformContainer/Logo")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [true],
+"method": &"change_color"
+}]
+}
+tracks/6/type = "method"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("PauseMenu/DemoEndSplash/TransformContainer/EndDemo/HBoxContainer/WishlistButton")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"values": [{
+"args": [],
+"method": &"grab_focus"
+}, {
+"args": [],
+"method": &"grab_focus"
+}]
+}
+
+[sub_resource type="Animation" id="Animation_7gnni"]
+resource_name = "open_expo_end"
+length = 1.8
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("PauseMenu/DemoEndSplash/TransformContainer/EndDemo:visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/1/type = "value"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath("PauseMenu/DemoEndSplash/TransformContainer/EndExpo:visible")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [true]
+}
+tracks/2/type = "value"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("PauseMenu/SplashOverlay/TransformContainer/StartDemo:visible")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [false]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("PauseMenu/SplashOverlay/TransformContainer:modulate")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(1.2, 1.8),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+tracks/4/type = "value"
+tracks/4/imported = false
+tracks/4/enabled = true
+tracks/4/path = NodePath("PauseMenu/DemoEndSplash:modulate")
+tracks/4/interp = 1
+tracks/4/loop_wrap = true
+tracks/4/keys = {
+"times": PackedFloat32Array(0.2, 0.6),
+"transitions": PackedFloat32Array(1, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 0), Color(1, 1, 1, 1)]
+}
+tracks/5/type = "method"
+tracks/5/imported = false
+tracks/5/enabled = true
+tracks/5/path = NodePath("PauseMenu/LogoContainer/TransformContainer/Logo")
+tracks/5/interp = 1
+tracks/5/loop_wrap = true
+tracks/5/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [true],
+"method": &"change_color"
+}]
+}
+tracks/6/type = "method"
+tracks/6/imported = false
+tracks/6/enabled = true
+tracks/6/path = NodePath("PauseMenu/DemoEndSplash/TransformContainer/EndExpo/MailingListCluster/LineAndConfirmContainer/EmailLineEdit")
+tracks/6/interp = 1
+tracks/6/loop_wrap = true
+tracks/6/keys = {
+"times": PackedFloat32Array(0, 1),
+"transitions": PackedFloat32Array(1, 1),
+"values": [{
+"args": [],
+"method": &"grab_focus"
+}, {
+"args": [],
+"method": &"grab_focus"
+}]
+}
+
+[sub_resource type="Animation" id="Animation_imo3g"]
+resource_name = "startup_splash"
+length = 2.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("PauseMenu/SplashOverlay:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0, 1, 2),
+"transitions": PackedFloat32Array(0.5, 0.5, 1),
+"update": 0,
+"values": [Color(1, 1, 1, 1), Color(1, 1, 1, 1), Color(0.05, 0.05, 0.05, 0)]
+}
+tracks/1/type = "method"
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/path = NodePath(".")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/keys = {
+"times": PackedFloat32Array(0, 0.9, 1),
+"transitions": PackedFloat32Array(1, 1, 1),
+"values": [{
+"args": [],
+"method": &"reset_audio"
+}, {
+"args": [],
+"method": &"lerp_audio"
+}, {
+"args": [true],
+"method": &"pause_game"
+}]
+}
+tracks/2/type = "method"
+tracks/2/imported = false
+tracks/2/enabled = true
+tracks/2/path = NodePath("PauseMenu/LogoContainer/TransformContainer/Logo")
+tracks/2/interp = 1
+tracks/2/loop_wrap = true
+tracks/2/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"values": [{
+"args": [false],
+"method": &"change_color"
+}]
+}
+tracks/3/type = "value"
+tracks/3/imported = false
+tracks/3/enabled = true
+tracks/3/path = NodePath("PauseMenu/SplashOverlay:visible")
+tracks/3/interp = 1
+tracks/3/loop_wrap = true
+tracks/3/keys = {
+"times": PackedFloat32Array(0, 2),
+"transitions": PackedFloat32Array(1, 1),
+"update": 1,
+"values": [true, false]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_x2ghn"]
+_data = {
+"RESET": SubResource("Animation_a2t70"),
+"demo_splash": SubResource("Animation_ucqcb"),
+"demo_splash_enter": SubResource("Animation_72w0v"),
+"demo_splash_exit": SubResource("Animation_y04el"),
+"fade_open": SubResource("Animation_ce4ga"),
+"open_demo_end": SubResource("Animation_afjee"),
+"open_expo_end": SubResource("Animation_7gnni"),
+"startup_splash": SubResource("Animation_imo3g")
+}
+
+[node name="Menu" type="Control" node_paths=PackedStringArray("pause_container", "gameplay_overlay", "start_button", "new_game_button", "continue_button", "settings_button", "exit_button", "new_game_container", "settings_container", "settings_tab_container", "menu_player", "sub_menu_player", "transition_player", "splash_player", "transparent_overlay", "logo_container")]
+process_mode = 3
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_0uqkd")
+script = ExtResource("2_sm6ag")
+more_games_link = "https://www.draknek.org/"
+website_link = "https://draknek.itch.io/the-electrifying-incident"
+wishlist_link = "https://store.steampowered.com/app/3352300/"
+pause_container = NodePath("PauseMenu")
+gameplay_overlay = NodePath("GameplayOverlay")
+start_button = NodePath("PauseMenu/VBoxContainer/PauseBarTransformer/PauseBarContainer/MarginContainer/BottomContainer/HBoxContainer/StartButton")
+new_game_button = NodePath("PauseMenu/VBoxContainer/PauseBarTransformer/PauseBarContainer/MarginContainer/BottomContainer/HBoxContainer/NewGameButton")
+continue_button = NodePath("PauseMenu/VBoxContainer/PauseBarTransformer/PauseBarContainer/MarginContainer/BottomContainer/HBoxContainer/ContinueButton")
+settings_button = NodePath("PauseMenu/VBoxContainer/PauseBarTransformer/PauseBarContainer/MarginContainer/BottomContainer/HBoxContainer/Settings")
+exit_button = NodePath("PauseMenu/VBoxContainer/PauseBarTransformer/PauseBarContainer/MarginContainer/BottomContainer/HBoxContainer/Exit")
+new_game_container = NodePath("PauseMenu/VBoxContainer/TransformContainer/UpperContainer/NewGameContainer")
+settings_container = NodePath("PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer")
+settings_tab_container = NodePath("PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer")
+menu_player = NodePath("MenuPlayer")
+sub_menu_player = NodePath("SubMenuPlayer")
+transition_player = NodePath("MenuTransitionPlayer")
+splash_player = NodePath("StartupSplashPlayer")
+transparent_overlay = NodePath("PauseMenu/TransparentOverlay")
+logo_container = NodePath("PauseMenu/LogoContainer")
+
+[node name="GameplayOverlay" type="Control" parent="."]
+process_mode = 1
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="MarginContainer" type="MarginContainer" parent="GameplayOverlay"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_constants/margin_left = 30
+theme_override_constants/margin_top = 30
+theme_override_constants/margin_right = 30
+theme_override_constants/margin_bottom = 30
+
+[node name="TopLeftBar" type="HBoxContainer" parent="GameplayOverlay/MarginContainer"]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="GameplayOverlay/MarginContainer/TopLeftBar"]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="PanelContainer" type="PanelContainer" parent="GameplayOverlay/MarginContainer/TopLeftBar/VBoxContainer"]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_kaaam")
+
+[node name="TransformContainer" type="Container" parent="GameplayOverlay/MarginContainer/TopLeftBar/VBoxContainer/PanelContainer"]
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+script = ExtResource("16_kiia1")
+visual_pivot_offset_perc = Vector2(0.5, 0.5)
+
+[node name="SettingsButton" type="TextureButton" parent="GameplayOverlay/MarginContainer/TopLeftBar/VBoxContainer/PanelContainer/TransformContainer"]
+layout_mode = 2
+focus_mode = 1
+texture_normal = ExtResource("4_v0hbq")
+texture_pressed = ExtResource("5_ej25g")
+texture_focused = ExtResource("5_ej25g")
+
+[node name="ButtonClusterAnimator" type="Node" parent="GameplayOverlay/MarginContainer/TopLeftBar/VBoxContainer/PanelContainer/TransformContainer" node_paths=PackedStringArray("button", "button_transform", "label_transform")]
+script = ExtResource("5_ni3se")
+pressed_modulate = Color(0.720467, 0.720468, 0.720467, 1)
+lerp_speed = 0.3
+button = NodePath("../SettingsButton")
+button_transform = NodePath("..")
+label_transform = NodePath("../../../TransformContainer2")
+
+[node name="TransformContainer2" type="Container" parent="GameplayOverlay/MarginContainer/TopLeftBar/VBoxContainer"]
+layout_mode = 2
+script = ExtResource("16_kiia1")
+visual_pivot_offset_perc = Vector2(0.5, 0.5)
+
+[node name="PanelContainer" type="PanelContainer" parent="GameplayOverlay/MarginContainer/TopLeftBar/VBoxContainer/TransformContainer2"]
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_styles/panel = ExtResource("6_m4x4t")
+
+[node name="Label" type="Label" parent="GameplayOverlay/MarginContainer/TopLeftBar/VBoxContainer/TransformContainer2/PanelContainer"]
+layout_mode = 2
+text = "Esc"
+horizontal_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="GameplayOverlay/MarginContainer/TopLeftBar/VBoxContainer/TransformContainer2"]
+visible = false
+custom_minimum_size = Vector2(0, 80)
+layout_mode = 2
+texture = ExtResource("7_g52vn")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="TopRightBar" type="HBoxContainer" parent="GameplayOverlay/MarginContainer"]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 8
+size_flags_vertical = 0
+
+[node name="VBoxContainer" type="VBoxContainer" parent="GameplayOverlay/MarginContainer/TopRightBar"]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="PanelContainer" type="PanelContainer" parent="GameplayOverlay/MarginContainer/TopRightBar/VBoxContainer"]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_bs6ta")
+
+[node name="TransformContainer" type="Container" parent="GameplayOverlay/MarginContainer/TopRightBar/VBoxContainer/PanelContainer"]
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+script = ExtResource("16_kiia1")
+visual_pivot_offset_perc = Vector2(0.5, 0.5)
+
+[node name="SettingsButton" type="TextureButton" parent="GameplayOverlay/MarginContainer/TopRightBar/VBoxContainer/PanelContainer/TransformContainer"]
+layout_mode = 2
+focus_mode = 1
+texture_normal = ExtResource("5_uljop")
+texture_pressed = ExtResource("11_go6j1")
+texture_focused = ExtResource("11_go6j1")
+
+[node name="ButtonClusterAnimator" type="Node" parent="GameplayOverlay/MarginContainer/TopRightBar/VBoxContainer/PanelContainer/TransformContainer" node_paths=PackedStringArray("button", "button_transform", "label_transform")]
+script = ExtResource("5_ni3se")
+pressed_modulate = Color(0.720467, 0.720468, 0.720467, 1)
+lerp_speed = 0.3
+button = NodePath("../SettingsButton")
+button_transform = NodePath("..")
+label_transform = NodePath("../../../TransformContainer2")
+
+[node name="TransformContainer2" type="Container" parent="GameplayOverlay/MarginContainer/TopRightBar/VBoxContainer"]
+layout_mode = 2
+script = ExtResource("16_kiia1")
+visual_pivot_offset_perc = Vector2(0.5, 0.5)
+
+[node name="PanelContainer" type="PanelContainer" parent="GameplayOverlay/MarginContainer/TopRightBar/VBoxContainer/TransformContainer2"]
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_styles/panel = ExtResource("6_m4x4t")
+
+[node name="Label" type="Label" parent="GameplayOverlay/MarginContainer/TopRightBar/VBoxContainer/TransformContainer2/PanelContainer"]
+layout_mode = 2
+text = "Z"
+horizontal_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="GameplayOverlay/MarginContainer/TopRightBar/VBoxContainer/TransformContainer2"]
+visible = false
+custom_minimum_size = Vector2(0, 80)
+layout_mode = 2
+texture = ExtResource("11_bbdx7")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="GameplayOverlay/MarginContainer/TopRightBar"]
+layout_mode = 2
+theme_override_constants/separation = 20
+
+[node name="TransformContainer" type="Container" parent="GameplayOverlay/MarginContainer/TopRightBar/VBoxContainer2"]
+layout_mode = 2
+size_flags_horizontal = 0
+size_flags_vertical = 0
+script = ExtResource("16_kiia1")
+visual_pivot_offset_perc = Vector2(0.5, 0.5)
+
+[node name="SettingsButton" type="TextureButton" parent="GameplayOverlay/MarginContainer/TopRightBar/VBoxContainer2/TransformContainer"]
+layout_mode = 2
+focus_mode = 1
+texture_normal = ExtResource("6_4fmcq")
+texture_pressed = ExtResource("13_mjfqe")
+texture_focused = ExtResource("13_mjfqe")
+
+[node name="ButtonClusterAnimator" type="Node" parent="GameplayOverlay/MarginContainer/TopRightBar/VBoxContainer2/TransformContainer" node_paths=PackedStringArray("button", "button_transform", "label_transform")]
+script = ExtResource("5_ni3se")
+pressed_modulate = Color(0.720467, 0.720468, 0.720467, 1)
+lerp_speed = 0.3
+button = NodePath("../SettingsButton")
+button_transform = NodePath("..")
+label_transform = NodePath("../../TransformContainer2")
+
+[node name="TransformContainer2" type="Container" parent="GameplayOverlay/MarginContainer/TopRightBar/VBoxContainer2"]
+layout_mode = 2
+script = ExtResource("16_kiia1")
+visual_pivot_offset_perc = Vector2(0.5, 0.5)
+
+[node name="PanelContainer" type="PanelContainer" parent="GameplayOverlay/MarginContainer/TopRightBar/VBoxContainer2/TransformContainer2"]
+custom_minimum_size = Vector2(60, 60)
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_styles/panel = ExtResource("6_m4x4t")
+
+[node name="Label" type="Label" parent="GameplayOverlay/MarginContainer/TopRightBar/VBoxContainer2/TransformContainer2/PanelContainer"]
+layout_mode = 2
+text = "R"
+horizontal_alignment = 1
+
+[node name="TextureRect" type="TextureRect" parent="GameplayOverlay/MarginContainer/TopRightBar/VBoxContainer2/TransformContainer2"]
+visible = false
+custom_minimum_size = Vector2(0, 80)
+layout_mode = 2
+texture = ExtResource("7_g52vn")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="ButtonPrompt" type="VBoxContainer" parent="GameplayOverlay/MarginContainer"]
+process_mode = 3
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 8
+theme_override_constants/separation = 30
+
+[node name="TransformContainer" type="Container" parent="GameplayOverlay/MarginContainer/ButtonPrompt"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 2
+script = ExtResource("16_kiia1")
+visual_pivot_offset_perc = Vector2(0.5, 0.5)
+
+[node name="MovePanel" type="PanelContainer" parent="GameplayOverlay/MarginContainer/ButtonPrompt/TransformContainer" node_paths=PackedStringArray("pre_label", "controller_texture", "keyboard_control", "post_label")]
+visible = false
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_fod25")
+script = ExtResource("15_guja4")
+text_tr_key = "PROMPT_MOVE"
+pre_label = NodePath("HBoxContainer/PreLabel")
+controller_texture = NodePath("HBoxContainer/InputTexture")
+keyboard_control = NodePath("HBoxContainer/KeyboardTexture")
+post_label = NodePath("HBoxContainer/PostLabel")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="GameplayOverlay/MarginContainer/ButtonPrompt/TransformContainer/MovePanel"]
+layout_mode = 2
+theme_override_constants/separation = 30
+
+[node name="PreLabel" type="Label" parent="GameplayOverlay/MarginContainer/ButtonPrompt/TransformContainer/MovePanel/HBoxContainer"]
+layout_mode = 2
+theme_type_variation = &"LabelHeader"
+text = "Use"
+
+[node name="InputTexture" type="TextureRect" parent="GameplayOverlay/MarginContainer/ButtonPrompt/TransformContainer/MovePanel/HBoxContainer"]
+visible = false
+custom_minimum_size = Vector2(90, 90)
+layout_mode = 2
+texture = ExtResource("15_vlmds")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="KeyboardTexture" type="TextureRect" parent="GameplayOverlay/MarginContainer/ButtonPrompt/TransformContainer/MovePanel/HBoxContainer"]
+custom_minimum_size = Vector2(120, 90)
+layout_mode = 2
+texture = ExtResource("17_m646g")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="PostLabel" type="Label" parent="GameplayOverlay/MarginContainer/ButtonPrompt/TransformContainer/MovePanel/HBoxContainer"]
+layout_mode = 2
+theme_type_variation = &"LabelHeader"
+text = "To Move"
+
+[node name="GrapplePanel" type="PanelContainer" parent="GameplayOverlay/MarginContainer/ButtonPrompt/TransformContainer" node_paths=PackedStringArray("pre_label", "controller_texture", "keyboard_control", "keyboard_label", "post_label")]
+visible = false
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_fod25")
+script = ExtResource("15_guja4")
+text_tr_key = "PROMPT_GRAPPLE"
+event_name = "action"
+pre_label = NodePath("HBoxContainer/PreLabel")
+controller_texture = NodePath("HBoxContainer/InputTexture")
+keyboard_control = NodePath("HBoxContainer/InputContainer")
+keyboard_label = NodePath("HBoxContainer/InputContainer/InputLabel")
+post_label = NodePath("HBoxContainer/PostLabel")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="GameplayOverlay/MarginContainer/ButtonPrompt/TransformContainer/GrapplePanel"]
+layout_mode = 2
+theme_override_constants/separation = 30
+
+[node name="PreLabel" type="Label" parent="GameplayOverlay/MarginContainer/ButtonPrompt/TransformContainer/GrapplePanel/HBoxContainer"]
+layout_mode = 2
+theme_type_variation = &"LabelHeader"
+text = "Press"
+
+[node name="InputTexture" type="TextureRect" parent="GameplayOverlay/MarginContainer/ButtonPrompt/TransformContainer/GrapplePanel/HBoxContainer"]
+visible = false
+custom_minimum_size = Vector2(90, 90)
+layout_mode = 2
+texture = ExtResource("17_0sjc5")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="InputContainer" type="PanelContainer" parent="GameplayOverlay/MarginContainer/ButtonPrompt/TransformContainer/GrapplePanel/HBoxContainer"]
+custom_minimum_size = Vector2(90, 90)
+layout_mode = 2
+theme_override_styles/panel = ExtResource("19_mk5vb")
+
+[node name="InputLabel" type="Label" parent="GameplayOverlay/MarginContainer/ButtonPrompt/TransformContainer/GrapplePanel/HBoxContainer/InputContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+theme_type_variation = &"LabelHeader"
+theme_override_colors/font_color = Color(1, 0.55, 0, 1)
+text = "Q"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="PostLabel" type="Label" parent="GameplayOverlay/MarginContainer/ButtonPrompt/TransformContainer/GrapplePanel/HBoxContainer"]
+layout_mode = 2
+theme_type_variation = &"LabelHeader"
+text = "To Grapple"
+
+[node name="UndoResetPanels" type="HBoxContainer" parent="GameplayOverlay/MarginContainer/ButtonPrompt/TransformContainer"]
+visible = false
+layout_mode = 2
+theme_override_constants/separation = 80
+
+[node name="UndoPanel" type="PanelContainer" parent="GameplayOverlay/MarginContainer/ButtonPrompt/TransformContainer/UndoResetPanels" node_paths=PackedStringArray("pre_label", "controller_texture", "keyboard_control", "keyboard_label", "post_label")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_fod25")
+script = ExtResource("15_guja4")
+text_tr_key = "PROMPT_UNDO"
+event_name = "undo"
+pre_label = NodePath("HBoxContainer/PreLabel")
+controller_texture = NodePath("HBoxContainer/InputTexture")
+keyboard_control = NodePath("HBoxContainer/InputContainer")
+keyboard_label = NodePath("HBoxContainer/InputContainer/InputLabel")
+post_label = NodePath("HBoxContainer/PostLabel")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="GameplayOverlay/MarginContainer/ButtonPrompt/TransformContainer/UndoResetPanels/UndoPanel"]
+layout_mode = 2
+theme_override_constants/separation = 30
+
+[node name="PreLabel" type="Label" parent="GameplayOverlay/MarginContainer/ButtonPrompt/TransformContainer/UndoResetPanels/UndoPanel/HBoxContainer"]
+layout_mode = 2
+theme_type_variation = &"LabelHeader"
+text = "Use"
+
+[node name="InputTexture" type="TextureRect" parent="GameplayOverlay/MarginContainer/ButtonPrompt/TransformContainer/UndoResetPanels/UndoPanel/HBoxContainer"]
+visible = false
+custom_minimum_size = Vector2(90, 90)
+layout_mode = 2
+texture = ExtResource("11_bbdx7")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="InputContainer" type="PanelContainer" parent="GameplayOverlay/MarginContainer/ButtonPrompt/TransformContainer/UndoResetPanels/UndoPanel/HBoxContainer"]
+custom_minimum_size = Vector2(90, 90)
+layout_mode = 2
+theme_override_styles/panel = ExtResource("19_mk5vb")
+
+[node name="InputLabel" type="Label" parent="GameplayOverlay/MarginContainer/ButtonPrompt/TransformContainer/UndoResetPanels/UndoPanel/HBoxContainer/InputContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+theme_type_variation = &"LabelHeader"
+theme_override_colors/font_color = Color(1, 0.55, 0, 1)
+text = "Q"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="PostLabel" type="Label" parent="GameplayOverlay/MarginContainer/ButtonPrompt/TransformContainer/UndoResetPanels/UndoPanel/HBoxContainer"]
+layout_mode = 2
+theme_type_variation = &"LabelHeader"
+text = "To Undo"
+
+[node name="ResetPanel" type="PanelContainer" parent="GameplayOverlay/MarginContainer/ButtonPrompt/TransformContainer/UndoResetPanels" node_paths=PackedStringArray("pre_label", "controller_texture", "keyboard_control", "keyboard_label", "post_label")]
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_fod25")
+script = ExtResource("15_guja4")
+text_tr_key = "PROMPT_RESET"
+event_name = "reset"
+pre_label = NodePath("HBoxContainer/PreLabel")
+controller_texture = NodePath("HBoxContainer/InputTexture")
+keyboard_control = NodePath("HBoxContainer/InputContainer")
+keyboard_label = NodePath("HBoxContainer/InputContainer/InputLabel")
+post_label = NodePath("HBoxContainer/PostLabel")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="GameplayOverlay/MarginContainer/ButtonPrompt/TransformContainer/UndoResetPanels/ResetPanel"]
+layout_mode = 2
+theme_override_constants/separation = 30
+
+[node name="PreLabel" type="Label" parent="GameplayOverlay/MarginContainer/ButtonPrompt/TransformContainer/UndoResetPanels/ResetPanel/HBoxContainer"]
+layout_mode = 2
+theme_type_variation = &"LabelHeader"
+text = "Use"
+
+[node name="InputTexture" type="TextureRect" parent="GameplayOverlay/MarginContainer/ButtonPrompt/TransformContainer/UndoResetPanels/ResetPanel/HBoxContainer"]
+visible = false
+custom_minimum_size = Vector2(90, 90)
+layout_mode = 2
+texture = ExtResource("7_g52vn")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="InputContainer" type="PanelContainer" parent="GameplayOverlay/MarginContainer/ButtonPrompt/TransformContainer/UndoResetPanels/ResetPanel/HBoxContainer"]
+custom_minimum_size = Vector2(90, 90)
+layout_mode = 2
+theme_override_styles/panel = ExtResource("19_mk5vb")
+
+[node name="InputLabel" type="Label" parent="GameplayOverlay/MarginContainer/ButtonPrompt/TransformContainer/UndoResetPanels/ResetPanel/HBoxContainer/InputContainer"]
+layout_mode = 2
+size_flags_vertical = 1
+theme_type_variation = &"LabelHeader"
+theme_override_colors/font_color = Color(1, 0.55, 0, 1)
+text = "Q"
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="PostLabel" type="Label" parent="GameplayOverlay/MarginContainer/ButtonPrompt/TransformContainer/UndoResetPanels/ResetPanel/HBoxContainer"]
+layout_mode = 2
+theme_type_variation = &"LabelHeader"
+text = "To Reset"
+
+[node name="ExpoTimeoutPanel" type="PanelContainer" parent="GameplayOverlay/MarginContainer/ButtonPrompt/TransformContainer" node_paths=PackedStringArray("timer_number_trans", "timer_number_label")]
+visible = false
+z_index = 10
+layout_mode = 2
+theme_override_styles/panel = SubResource("StyleBoxTexture_fod25")
+script = ExtResource("20_cv1ef")
+timer_number_trans = NodePath("HBoxContainer/TransformContainer")
+timer_number_label = NodePath("HBoxContainer/TransformContainer/TimerNumber")
+gradient_texture = SubResource("GradientTexture1D_ch5cp")
+
+[node name="HBoxContainer" type="HBoxContainer" parent="GameplayOverlay/MarginContainer/ButtonPrompt/TransformContainer/ExpoTimeoutPanel"]
+layout_mode = 2
+theme_override_constants/separation = 30
+
+[node name="Label" type="Label" parent="GameplayOverlay/MarginContainer/ButtonPrompt/TransformContainer/ExpoTimeoutPanel/HBoxContainer"]
+layout_mode = 2
+theme_type_variation = &"LabelHeader"
+text = "No Input Detected!
+Resetting in:"
+horizontal_alignment = 1
+
+[node name="TransformContainer" type="Container" parent="GameplayOverlay/MarginContainer/ButtonPrompt/TransformContainer/ExpoTimeoutPanel/HBoxContainer"]
+layout_mode = 2
+script = ExtResource("16_kiia1")
+visual_pivot_offset_perc = Vector2(0.5, 0.5)
+
+[node name="TimerNumber" type="Label" parent="GameplayOverlay/MarginContainer/ButtonPrompt/TransformContainer/ExpoTimeoutPanel/HBoxContainer/TransformContainer"]
+custom_minimum_size = Vector2(100, 0)
+layout_mode = 2
+theme_override_colors/font_color = Color(0.927195, 0, 0.198687, 1)
+theme_override_font_sizes/font_size = 100
+text = "0"
+horizontal_alignment = 1
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="GameplayOverlay/MarginContainer/ButtonPrompt/TransformContainer"]
+deterministic = true
+root_node = NodePath("../..")
+libraries = {
+"": SubResource("AnimationLibrary_bdclb")
+}
+
+[node name="ButtonPrompt" type="Node" parent="GameplayOverlay/MarginContainer/ButtonPrompt/TransformContainer" node_paths=PackedStringArray("menu", "animation_player", "button_prompt_control", "move_panel", "grapple_panel", "undo_reset_panel", "timeout_panel")]
+script = ExtResource("15_w5kx2")
+grapple_time_delay = 20.0
+undo_reset_first_time_delay = 0.5
+timeout_timer_length = 10.4
+menu = NodePath("../../../../..")
+animation_player = NodePath("../AnimationPlayer")
+button_prompt_control = NodePath("../..")
+move_panel = NodePath("../MovePanel")
+grapple_panel = NodePath("../GrapplePanel")
+undo_reset_panel = NodePath("../UndoResetPanels")
+timeout_panel = NodePath("../ExpoTimeoutPanel")
+
+[node name="Control" type="Control" parent="GameplayOverlay/MarginContainer/ButtonPrompt"]
+custom_minimum_size = Vector2(0, 120)
+layout_mode = 2
+
+[node name="PauseMenu" type="Control" parent="."]
+visible = false
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TransparentOverlay" type="ColorRect" parent="PauseMenu"]
+modulate = Color(1, 1, 1, 0)
+material = SubResource("CanvasItemMaterial_lcnv0")
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.65745, 0.704301, 0.73252, 0.470588)
+
+[node name="DemoEndSplash" type="ColorRect" parent="PauseMenu"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.054902, 0.054902, 0.054902, 1)
+
+[node name="TransformContainer" type="Container" parent="PauseMenu/DemoEndSplash"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 0
+script = ExtResource("16_kiia1")
+visual_pivot_offset_perc = Vector2(0.5, 0.5)
+
+[node name="EndDemo" type="VBoxContainer" parent="PauseMenu/DemoEndSplash/TransformContainer"]
+visible = false
+layout_mode = 2
+theme_override_constants/separation = 80
+alignment = 1
+
+[node name="Control" type="Control" parent="PauseMenu/DemoEndSplash/TransformContainer/EndDemo"]
+custom_minimum_size = Vector2(0, 120)
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="PauseMenu/DemoEndSplash/TransformContainer/EndDemo"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_constants/separation = 80
+alignment = 1
+
+[node name="DemoEndLabel" type="Label" parent="PauseMenu/DemoEndSplash/TransformContainer/EndDemo/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_type_variation = &"LabelHeader"
+text = "DEMO_END"
+horizontal_alignment = 1
+
+[node name="WishlistButton" type="Button" parent="PauseMenu/DemoEndSplash/TransformContainer/EndDemo/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+focus_neighbor_left = NodePath(".")
+focus_neighbor_top = NodePath(".")
+focus_neighbor_right = NodePath(".")
+focus_neighbor_bottom = NodePath("../../../../../VBoxContainer/PauseBarTransformer/PauseBarContainer/MarginContainer/BottomContainer/HBoxContainer/NewGameButton")
+focus_next = NodePath("../../../../../VBoxContainer/PauseBarTransformer/PauseBarContainer/MarginContainer/BottomContainer/HBoxContainer/NewGameButton")
+focus_previous = NodePath(".")
+theme_type_variation = &"LabelHeader"
+text = "WISHLIST"
+
+[node name="FocusPainter" type="Node" parent="PauseMenu/DemoEndSplash/TransformContainer/EndDemo/HBoxContainer/WishlistButton"]
+script = ExtResource("4_8s5rw")
+focus_theme = ExtResource("7_navi8")
+
+[node name="MailingListCluster" type="VBoxContainer" parent="PauseMenu/DemoEndSplash/TransformContainer/EndDemo" node_paths=PackedStringArray("mailing_list_label", "line_and_confirm_container", "email_line_edit", "subscribe_button", "mailing_list_ok_label", "mailing_list_invalid_label", "mailing_list_err_label", "http_request", "after_focus_target")]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_constants/separation = 20
+script = ExtResource("40_w2714")
+mailing_list_label = NodePath("MailingListLabel")
+line_and_confirm_container = NodePath("LineAndConfirmContainer")
+email_line_edit = NodePath("LineAndConfirmContainer/EmailLineEdit")
+subscribe_button = NodePath("LineAndConfirmContainer/SubscribeButton")
+mailing_list_ok_label = NodePath("MailingListOkLabel")
+mailing_list_invalid_label = NodePath("MailingListInvalidErrLabel")
+mailing_list_err_label = NodePath("MailingListErrLabel")
+http_request = NodePath("HTTPRequest")
+after_focus_target = NodePath("../HBoxContainer/WishlistButton")
+
+[node name="MailingListLabel" type="Label" parent="PauseMenu/DemoEndSplash/TransformContainer/EndDemo/MailingListCluster"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_type_variation = &"LabelHeader"
+theme_override_constants/line_spacing = 40
+text = "MAILING_LIST"
+horizontal_alignment = 1
+
+[node name="LineAndConfirmContainer" type="HBoxContainer" parent="PauseMenu/DemoEndSplash/TransformContainer/EndDemo/MailingListCluster"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_constants/separation = 60
+
+[node name="EmailLineEdit" type="LineEdit" parent="PauseMenu/DemoEndSplash/TransformContainer/EndDemo/MailingListCluster/LineAndConfirmContainer"]
+custom_minimum_size = Vector2(700, 0)
+layout_mode = 2
+placeholder_text = "name@email.com"
+
+[node name="SubscribeButton" type="Button" parent="PauseMenu/DemoEndSplash/TransformContainer/EndDemo/MailingListCluster/LineAndConfirmContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_type_variation = &"LabelHeader"
+text = "SUBSCRIBE"
+
+[node name="FocusPainter" type="Node" parent="PauseMenu/DemoEndSplash/TransformContainer/EndDemo/MailingListCluster/LineAndConfirmContainer/SubscribeButton"]
+script = ExtResource("4_8s5rw")
+focus_theme = ExtResource("7_navi8")
+
+[node name="MailingListOkLabel" type="Label" parent="PauseMenu/DemoEndSplash/TransformContainer/EndDemo/MailingListCluster"]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 4
+theme_type_variation = &"LabelHeader"
+theme_override_constants/line_spacing = 40
+text = "MAILING_LIST_OK"
+horizontal_alignment = 1
+
+[node name="MailingListInvalidErrLabel" type="Label" parent="PauseMenu/DemoEndSplash/TransformContainer/EndDemo/MailingListCluster"]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 4
+theme_type_variation = &"LabelHeader"
+theme_override_constants/line_spacing = 40
+text = "MAILING_LIST_INVALID"
+horizontal_alignment = 1
+
+[node name="MailingListErrLabel" type="Label" parent="PauseMenu/DemoEndSplash/TransformContainer/EndDemo/MailingListCluster"]
+visible = false
+layout_mode = 2
+size_flags_horizontal = 4
+theme_type_variation = &"LabelHeader"
+theme_override_constants/line_spacing = 40
+text = "MAILING_LIST_ERR"
+horizontal_alignment = 1
+
+[node name="HTTPRequest" type="HTTPRequest" parent="PauseMenu/DemoEndSplash/TransformContainer/EndDemo/MailingListCluster"]
+
+[node name="EndExpo" type="VBoxContainer" parent="PauseMenu/DemoEndSplash/TransformContainer"]
+visible = false
+layout_mode = 2
+theme_override_constants/separation = 80
+alignment = 1
+
+[node name="Control" type="Control" parent="PauseMenu/DemoEndSplash/TransformContainer/EndExpo"]
+custom_minimum_size = Vector2(0, 120)
+layout_mode = 2
+
+[node name="HBoxContainer" type="HBoxContainer" parent="PauseMenu/DemoEndSplash/TransformContainer/EndExpo"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_constants/separation = 80
+alignment = 1
+
+[node name="ExpoEndLabel" type="Label" parent="PauseMenu/DemoEndSplash/TransformContainer/EndExpo/HBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_type_variation = &"LabelHeader"
+text = "EXPO_END"
+horizontal_alignment = 1
+
+[node name="FocusPainter" type="Node" parent="PauseMenu/DemoEndSplash/TransformContainer/EndExpo/HBoxContainer/WishlistButton"]
+script = ExtResource("4_8s5rw")
+focus_theme = ExtResource("7_navi8")
+
+[node name="FocusPainter" type="Node" parent="PauseMenu/DemoEndSplash/TransformContainer/EndExpo/MailingListCluster/LineAndConfirmContainer/SubscribeButton"]
+script = ExtResource("4_8s5rw")
+focus_theme = ExtResource("7_navi8")
+
+[node name="HTTPRequest" type="HTTPRequest" parent="PauseMenu/DemoEndSplash/TransformContainer/EndExpo/MailingListCluster"]
+
+[node name="LogoContainer" type="VBoxContainer" parent="PauseMenu"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+
+[node name="Control" type="Control" parent="PauseMenu/LogoContainer"]
+custom_minimum_size = Vector2(0, 100)
+layout_mode = 2
+
+[node name="TransformContainer" type="Container" parent="PauseMenu/LogoContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+script = ExtResource("16_kiia1")
+visual_position = Vector2(0, -500)
+
+[node name="Logo" type="TextureRect" parent="PauseMenu/LogoContainer/TransformContainer"]
+custom_minimum_size = Vector2(800, 300)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 0
+texture = ExtResource("2_0rttc")
+expand_mode = 1
+stretch_mode = 5
+script = ExtResource("24_mytyw")
+logo = ExtResource("2_0rttc")
+logo_demo = ExtResource("25_btfgh")
+logo_white = ExtResource("26_3u7rm")
+logo_demo_white = ExtResource("27_65ifj")
+
+[node name="VBoxContainer" type="VBoxContainer" parent="PauseMenu"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+alignment = 2
+
+[node name="TransformContainer" type="Container" parent="PauseMenu/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+mouse_filter = 2
+script = ExtResource("16_kiia1")
+visual_position = Vector2(0, -200)
+
+[node name="UpperContainer" type="MarginContainer" parent="PauseMenu/VBoxContainer/TransformContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+mouse_filter = 2
+
+[node name="NewGameContainer" type="PanelContainer" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer"]
+visible = false
+layout_mode = 2
+theme_type_variation = &"PanelContainerPause"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/NewGameContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/NewGameContainer/VBoxContainer"]
+layout_mode = 2
+theme_type_variation = &"LabelHeader"
+text = "NEW_GAME"
+horizontal_alignment = 1
+
+[node name="VBoxContainer" type="VBoxContainer" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/NewGameContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 3
+theme_override_constants/separation = 40
+alignment = 1
+
+[node name="Label" type="Label" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/NewGameContainer/VBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(800, 0)
+layout_mode = 2
+theme_type_variation = &"LabelAbout"
+text = "NEW_GAME_DESC"
+horizontal_alignment = 1
+autowrap_mode = 2
+
+[node name="VBoxContainer" type="VBoxContainer" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/NewGameContainer/VBoxContainer/VBoxContainer"]
+custom_minimum_size = Vector2(400, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+theme_override_constants/separation = 20
+
+[node name="NewGameButton" type="Button" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/NewGameContainer/VBoxContainer/VBoxContainer/VBoxContainer"]
+layout_mode = 2
+text = "NEW_GAME_BTN"
+
+[node name="FocusPainter" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/NewGameContainer/VBoxContainer/VBoxContainer/VBoxContainer/NewGameButton" instance=ExtResource("8_5f7gi")]
+
+[node name="SettingsContainer" type="PanelContainer" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer"]
+visible = false
+layout_mode = 2
+theme_type_variation = &"PanelContainerPause"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer"]
+layout_mode = 2
+
+[node name="Label" type="Label" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer"]
+layout_mode = 2
+theme_type_variation = &"LabelHeader"
+text = "SETTINGS"
+horizontal_alignment = 1
+
+[node name="TabContainer" type="TabContainer" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+theme_type_variation = &"TabContainerSettings"
+tab_alignment = 1
+current_tab = 3
+all_tabs_in_front = true
+
+[node name="S_GENERAL" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer" instance=ExtResource("2_ueegq")]
+visible = false
+layout_mode = 2
+theme = ExtResource("1_0uqkd")
+
+[node name="HideControls" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GENERAL/MarginContainer/VCenterContainer/VBoxSettings" index="0" instance=ExtResource("2_rbkka")]
+layout_mode = 2
+
+[node name="Label" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GENERAL/MarginContainer/VCenterContainer/VBoxSettings/HideControls/LabelContainer" index="0"]
+text = "HIDE_CONTROLS"
+
+[node name="CheckBox" type="CheckBox" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GENERAL/MarginContainer/VCenterContainer/VBoxSettings/HideControls/ControlContainer" index="0"]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 2
+size_flags_horizontal = 0
+
+[node name="FocusPainter" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GENERAL/MarginContainer/VCenterContainer/VBoxSettings/HideControls/ControlContainer/CheckBox" node_paths=PackedStringArray("label_target") instance=ExtResource("8_5f7gi")]
+label_target = NodePath("../../../LabelContainer/Label")
+focus_on_mouse_hover = true
+
+[node name="SettingOptionButton" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GENERAL/MarginContainer/VCenterContainer/VBoxSettings/HideControls/ControlContainer/CheckBox" instance=ExtResource("7_42qb3")]
+setting_key = "controls_hidden"
+
+[node name="Language" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GENERAL/MarginContainer/VCenterContainer/VBoxSettings" index="1" instance=ExtResource("2_rbkka")]
+layout_mode = 2
+
+[node name="Label" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GENERAL/MarginContainer/VCenterContainer/VBoxSettings/Language/LabelContainer" index="0"]
+text = "LANGUAGE"
+
+[node name="OptionButton" type="OptionButton" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GENERAL/MarginContainer/VCenterContainer/VBoxSettings/Language/ControlContainer" index="0"]
+custom_minimum_size = Vector2(250, 64)
+layout_mode = 2
+size_flags_horizontal = 0
+selected = 2
+item_count = 12
+popup/item_0/text = "LANGUAGE_EN"
+popup/item_1/text = "LANGUAGE_FRFR"
+popup/item_1/id = 1
+popup/item_2/text = "LANGUAGE_IT"
+popup/item_2/id = 1
+popup/item_3/text = "LANGUAGE_DE"
+popup/item_3/id = 2
+popup/item_4/text = "LANGUAGE_ES"
+popup/item_4/id = 3
+popup/item_5/text = "LANGUAGE_PTBR"
+popup/item_5/id = 4
+popup/item_6/text = "LANGUAGE_RU"
+popup/item_6/id = 9
+popup/item_7/text = "LANGUAGE_ZHCN"
+popup/item_7/id = 5
+popup/item_8/text = "LANGUAGE_ZHTW"
+popup/item_8/id = 6
+popup/item_9/text = "LANGUAGE_KO"
+popup/item_9/id = 8
+popup/item_10/text = "LANGUAGE_JA"
+popup/item_10/id = 7
+popup/item_11/text = "LANGUAGE_NL"
+popup/item_11/id = 10
+
+[node name="FocusPainter" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GENERAL/MarginContainer/VCenterContainer/VBoxSettings/Language/ControlContainer/OptionButton" node_paths=PackedStringArray("label_target") instance=ExtResource("8_5f7gi")]
+label_target = NodePath("../../../LabelContainer/Label")
+focus_on_mouse_hover = true
+
+[node name="DropDownFixer" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GENERAL/MarginContainer/VCenterContainer/VBoxSettings/Language/ControlContainer/OptionButton" instance=ExtResource("7_dmjmj")]
+
+[node name="SettingOptionButton" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GENERAL/MarginContainer/VCenterContainer/VBoxSettings/Language/ControlContainer/OptionButton" instance=ExtResource("9_xwqht")]
+setting_key = "language"
+uses_index = true
+index_to_value = ["en", "fr_FR", "it", "de", "es", "pt_BR", "ru", "zh_CN", "zh_TW", "ko", "jp", "nl"]
+
+[node name="Control" type="Control" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GENERAL/MarginContainer/VCenterContainer/VBoxSettings" index="2"]
+custom_minimum_size = Vector2(0, 40)
+layout_mode = 2
+
+[node name="ResetSettings" type="Button" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GENERAL/MarginContainer/VCenterContainer/VBoxSettings" index="3"]
+custom_minimum_size = Vector2(250, 64)
+layout_mode = 2
+size_flags_horizontal = 4
+text = "RESET_SETTINGS"
+script = ExtResource("7_goeoa")
+
+[node name="FocusPainter" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GENERAL/MarginContainer/VCenterContainer/VBoxSettings/ResetSettings" instance=ExtResource("8_5f7gi")]
+
+[node name="S_SOUNDS" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer" instance=ExtResource("2_ueegq")]
+visible = false
+layout_mode = 2
+theme = ExtResource("1_0uqkd")
+metadata/_tab_index = 1
+
+[node name="MusicVolume" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_SOUNDS/MarginContainer/VCenterContainer/VBoxSettings" index="0" instance=ExtResource("2_rbkka")]
+layout_mode = 2
+
+[node name="Label" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_SOUNDS/MarginContainer/VCenterContainer/VBoxSettings/MusicVolume/LabelContainer" index="0"]
+text = "MUSIC_VOL"
+
+[node name="HSlider" type="HSlider" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_SOUNDS/MarginContainer/VCenterContainer/VBoxSettings/MusicVolume/ControlContainer" index="0"]
+custom_minimum_size = Vector2(500, 0)
+layout_mode = 2
+size_flags_horizontal = 0
+max_value = 1.0
+step = 0.0
+value = 1.0
+script = ExtResource("10_qitr2")
+key_step_amount = 0.1
+length_to_echo = 0.4
+echo_step_frequency = 0.1
+
+[node name="FocusPainter" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_SOUNDS/MarginContainer/VCenterContainer/VBoxSettings/MusicVolume/ControlContainer/HSlider" node_paths=PackedStringArray("label_target") instance=ExtResource("8_5f7gi")]
+label_target = NodePath("../../../LabelContainer/Label")
+
+[node name="SettingHSlider" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_SOUNDS/MarginContainer/VCenterContainer/VBoxSettings/MusicVolume/ControlContainer/HSlider" instance=ExtResource("10_563dq")]
+setting_key = "music_volume"
+
+[node name="AmbienceVolume" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_SOUNDS/MarginContainer/VCenterContainer/VBoxSettings" index="1" instance=ExtResource("2_rbkka")]
+layout_mode = 2
+
+[node name="Label" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_SOUNDS/MarginContainer/VCenterContainer/VBoxSettings/AmbienceVolume/LabelContainer" index="0"]
+text = "AMBIENCE_VOL"
+
+[node name="HSlider" type="HSlider" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_SOUNDS/MarginContainer/VCenterContainer/VBoxSettings/AmbienceVolume/ControlContainer" index="0"]
+custom_minimum_size = Vector2(500, 0)
+layout_mode = 2
+size_flags_horizontal = 0
+max_value = 1.0
+step = 0.0
+value = 1.0
+script = ExtResource("10_qitr2")
+key_step_amount = 0.1
+length_to_echo = 0.4
+echo_step_frequency = 0.1
+
+[node name="FocusPainter" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_SOUNDS/MarginContainer/VCenterContainer/VBoxSettings/AmbienceVolume/ControlContainer/HSlider" node_paths=PackedStringArray("label_target") instance=ExtResource("8_5f7gi")]
+label_target = NodePath("../../../LabelContainer/Label")
+
+[node name="SettingHSlider" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_SOUNDS/MarginContainer/VCenterContainer/VBoxSettings/AmbienceVolume/ControlContainer/HSlider" instance=ExtResource("10_563dq")]
+setting_key = "ambience_volume"
+
+[node name="SfxVolume" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_SOUNDS/MarginContainer/VCenterContainer/VBoxSettings" index="2" instance=ExtResource("2_rbkka")]
+layout_mode = 2
+
+[node name="Label" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_SOUNDS/MarginContainer/VCenterContainer/VBoxSettings/SfxVolume/LabelContainer" index="0"]
+text = "SFX_VOL"
+
+[node name="HSlider" type="HSlider" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_SOUNDS/MarginContainer/VCenterContainer/VBoxSettings/SfxVolume/ControlContainer" index="0"]
+custom_minimum_size = Vector2(500, 0)
+layout_mode = 2
+size_flags_horizontal = 0
+max_value = 1.0
+step = 0.0
+value = 1.0
+script = ExtResource("10_qitr2")
+key_step_amount = 0.1
+length_to_echo = 0.4
+echo_step_frequency = 0.1
+
+[node name="FocusPainter" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_SOUNDS/MarginContainer/VCenterContainer/VBoxSettings/SfxVolume/ControlContainer/HSlider" node_paths=PackedStringArray("label_target") instance=ExtResource("8_5f7gi")]
+label_target = NodePath("../../../LabelContainer/Label")
+
+[node name="SettingHSlider" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_SOUNDS/MarginContainer/VCenterContainer/VBoxSettings/SfxVolume/ControlContainer/HSlider" instance=ExtResource("10_563dq")]
+setting_key = "sfx_volume"
+
+[node name="S_GRAPHICS" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer" instance=ExtResource("2_ueegq")]
+visible = false
+layout_mode = 2
+theme = ExtResource("1_0uqkd")
+metadata/_tab_index = 2
+
+[node name="Windowed" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GRAPHICS/MarginContainer/VCenterContainer/VBoxSettings" index="0" instance=ExtResource("2_rbkka")]
+layout_mode = 2
+
+[node name="Label" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GRAPHICS/MarginContainer/VCenterContainer/VBoxSettings/Windowed/LabelContainer" index="0"]
+text = "FULLSCREEN"
+
+[node name="CheckBox" type="CheckBox" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GRAPHICS/MarginContainer/VCenterContainer/VBoxSettings/Windowed/ControlContainer" index="0"]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 2
+size_flags_horizontal = 0
+
+[node name="FocusPainter" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GRAPHICS/MarginContainer/VCenterContainer/VBoxSettings/Windowed/ControlContainer/CheckBox" node_paths=PackedStringArray("label_target") instance=ExtResource("8_5f7gi")]
+label_target = NodePath("../../../LabelContainer/Label")
+focus_on_mouse_hover = true
+
+[node name="SettingOptionButton" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GRAPHICS/MarginContainer/VCenterContainer/VBoxSettings/Windowed/ControlContainer/CheckBox" instance=ExtResource("7_42qb3")]
+setting_key = "is_fullscreen"
+
+[node name="Resolution" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GRAPHICS/MarginContainer/VCenterContainer/VBoxSettings" index="1" instance=ExtResource("2_rbkka")]
+layout_mode = 2
+
+[node name="Label" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GRAPHICS/MarginContainer/VCenterContainer/VBoxSettings/Resolution/LabelContainer" index="0"]
+text = "RESOLUTION"
+
+[node name="OptionButton" type="OptionButton" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GRAPHICS/MarginContainer/VCenterContainer/VBoxSettings/Resolution/ControlContainer" index="0"]
+custom_minimum_size = Vector2(250, 64)
+layout_mode = 2
+size_flags_horizontal = 0
+selected = 2
+item_count = 7
+popup/item_0/text = "1280 x 720"
+popup/item_1/text = "1366 x 768"
+popup/item_1/id = 1
+popup/item_2/text = "1440 x 810"
+popup/item_2/id = 2
+popup/item_3/text = "1600 x 900"
+popup/item_3/id = 3
+popup/item_4/text = "1920 x 1080"
+popup/item_4/id = 4
+popup/item_5/text = "2560 x 1440"
+popup/item_5/id = 5
+popup/item_6/text = "3840 x 2160"
+popup/item_6/id = 6
+
+[node name="FocusPainter" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GRAPHICS/MarginContainer/VCenterContainer/VBoxSettings/Resolution/ControlContainer/OptionButton" node_paths=PackedStringArray("label_target") instance=ExtResource("8_5f7gi")]
+label_target = NodePath("../../../LabelContainer/Label")
+focus_on_mouse_hover = true
+
+[node name="DropDownFixer" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GRAPHICS/MarginContainer/VCenterContainer/VBoxSettings/Resolution/ControlContainer/OptionButton" instance=ExtResource("7_dmjmj")]
+
+[node name="SettingOptionButton" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GRAPHICS/MarginContainer/VCenterContainer/VBoxSettings/Resolution/ControlContainer/OptionButton" instance=ExtResource("9_xwqht")]
+setting_key = "resolution"
+uses_index = true
+index_to_value = [Vector2i(1280, 720), Vector2i(1366, 768), Vector2i(1440, 810), Vector2i(1600, 900), Vector2i(1920, 1080), Vector2i(2560, 1440), Vector2i(3840, 2160)]
+
+[node name="SettingVisibility" type="Node" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GRAPHICS/MarginContainer/VCenterContainer/VBoxSettings/Resolution"]
+script = ExtResource("37_uokel")
+setting_key = "is_fullscreen"
+visible_if_true = false
+
+[node name="AntiAlias" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GRAPHICS/MarginContainer/VCenterContainer/VBoxSettings" index="2" instance=ExtResource("2_rbkka")]
+layout_mode = 2
+
+[node name="Label" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GRAPHICS/MarginContainer/VCenterContainer/VBoxSettings/AntiAlias/LabelContainer" index="0"]
+text = "ANTI_ALIASING"
+
+[node name="OptionButton" type="OptionButton" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GRAPHICS/MarginContainer/VCenterContainer/VBoxSettings/AntiAlias/ControlContainer" index="0"]
+custom_minimum_size = Vector2(250, 64)
+layout_mode = 2
+size_flags_horizontal = 0
+selected = 2
+item_count = 4
+popup/item_0/text = "DISABLED"
+popup/item_1/text = "ALIASING_2XM"
+popup/item_1/id = 1
+popup/item_2/text = "ALIASING_4XM"
+popup/item_2/id = 2
+popup/item_3/text = "ALIASING_8XM"
+popup/item_3/id = 3
+
+[node name="FocusPainter" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GRAPHICS/MarginContainer/VCenterContainer/VBoxSettings/AntiAlias/ControlContainer/OptionButton" node_paths=PackedStringArray("label_target") instance=ExtResource("8_5f7gi")]
+label_target = NodePath("../../../LabelContainer/Label")
+focus_on_mouse_hover = true
+
+[node name="DropDownFixer" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GRAPHICS/MarginContainer/VCenterContainer/VBoxSettings/AntiAlias/ControlContainer/OptionButton" instance=ExtResource("7_dmjmj")]
+
+[node name="SettingOptionButton" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GRAPHICS/MarginContainer/VCenterContainer/VBoxSettings/AntiAlias/ControlContainer/OptionButton" instance=ExtResource("9_xwqht")]
+setting_key = "anti_aliasing"
+
+[node name="Vsync" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GRAPHICS/MarginContainer/VCenterContainer/VBoxSettings" index="3" instance=ExtResource("2_rbkka")]
+layout_mode = 2
+
+[node name="Label" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GRAPHICS/MarginContainer/VCenterContainer/VBoxSettings/Vsync/LabelContainer" index="0"]
+text = "VSYNC"
+
+[node name="CheckBox" type="CheckBox" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GRAPHICS/MarginContainer/VCenterContainer/VBoxSettings/Vsync/ControlContainer" index="0"]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 2
+size_flags_horizontal = 0
+
+[node name="FocusPainter" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GRAPHICS/MarginContainer/VCenterContainer/VBoxSettings/Vsync/ControlContainer/CheckBox" node_paths=PackedStringArray("label_target") instance=ExtResource("8_5f7gi")]
+label_target = NodePath("../../../LabelContainer/Label")
+focus_on_mouse_hover = true
+
+[node name="SettingOptionButton" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GRAPHICS/MarginContainer/VCenterContainer/VBoxSettings/Vsync/ControlContainer/CheckBox" instance=ExtResource("7_42qb3")]
+setting_key = "vsync"
+
+[node name="UiScale" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GRAPHICS/MarginContainer/VCenterContainer/VBoxSettings" index="4" instance=ExtResource("2_rbkka")]
+visible = false
+layout_mode = 2
+
+[node name="Label" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GRAPHICS/MarginContainer/VCenterContainer/VBoxSettings/UiScale/LabelContainer" index="0"]
+text = "UI_SCALE"
+
+[node name="OptionButton" type="OptionButton" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GRAPHICS/MarginContainer/VCenterContainer/VBoxSettings/UiScale/ControlContainer" index="0"]
+custom_minimum_size = Vector2(250, 64)
+layout_mode = 2
+size_flags_horizontal = 0
+selected = 2
+item_count = 7
+popup/item_0/text = "x0.5"
+popup/item_1/text = "x0.75"
+popup/item_1/id = 1
+popup/item_2/text = "x1.0"
+popup/item_2/id = 2
+popup/item_3/text = "x1.25"
+popup/item_3/id = 3
+popup/item_4/text = "x1.50"
+popup/item_4/id = 4
+popup/item_5/text = "x1.75"
+popup/item_5/id = 5
+popup/item_6/text = "x2.0"
+popup/item_6/id = 6
+
+[node name="FocusPainter" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GRAPHICS/MarginContainer/VCenterContainer/VBoxSettings/UiScale/ControlContainer/OptionButton" instance=ExtResource("8_5f7gi")]
+focus_on_mouse_hover = true
+
+[node name="DropDownFixer" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GRAPHICS/MarginContainer/VCenterContainer/VBoxSettings/UiScale/ControlContainer/OptionButton" instance=ExtResource("7_dmjmj")]
+
+[node name="SettingOptionButton" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GRAPHICS/MarginContainer/VCenterContainer/VBoxSettings/UiScale/ControlContainer/OptionButton" instance=ExtResource("9_xwqht")]
+setting_key = "ui_scale"
+uses_index = true
+index_to_value = [0.5, 0.75, 1.0, 1.25, 1.5, 1.75, 2.0]
+
+[node name="S_ACCESSIBILITY" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer" instance=ExtResource("2_ueegq")]
+layout_mode = 2
+theme = ExtResource("1_0uqkd")
+metadata/_tab_index = 3
+
+[node name="CameraRock" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_ACCESSIBILITY/MarginContainer/VCenterContainer/VBoxSettings" index="0" instance=ExtResource("2_rbkka")]
+visible = false
+layout_mode = 2
+
+[node name="Label" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_ACCESSIBILITY/MarginContainer/VCenterContainer/VBoxSettings/CameraRock/LabelContainer" index="0"]
+text = "CAMERA_ROCK"
+
+[node name="HSlider" type="HSlider" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_ACCESSIBILITY/MarginContainer/VCenterContainer/VBoxSettings/CameraRock/ControlContainer" index="0"]
+custom_minimum_size = Vector2(500, 0)
+layout_mode = 2
+size_flags_horizontal = 0
+max_value = 1.0
+step = 0.0
+value = 1.0
+script = ExtResource("10_qitr2")
+key_step_amount = 0.1
+length_to_echo = 0.4
+echo_step_frequency = 0.1
+
+[node name="FocusPainter" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_ACCESSIBILITY/MarginContainer/VCenterContainer/VBoxSettings/CameraRock/ControlContainer/HSlider" node_paths=PackedStringArray("label_target") instance=ExtResource("8_5f7gi")]
+label_target = NodePath("../../../LabelContainer/Label")
+
+[node name="SettingHSlider" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_ACCESSIBILITY/MarginContainer/VCenterContainer/VBoxSettings/CameraRock/ControlContainer/HSlider" instance=ExtResource("10_563dq")]
+setting_key = "camera_rock"
+
+[node name="ReduceShaking" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_ACCESSIBILITY/MarginContainer/VCenterContainer/VBoxSettings" index="1" instance=ExtResource("2_rbkka")]
+layout_mode = 2
+
+[node name="Label" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_ACCESSIBILITY/MarginContainer/VCenterContainer/VBoxSettings/ReduceShaking/LabelContainer" index="0"]
+text = "SHAKE_STRENGTH"
+
+[node name="HSlider" type="HSlider" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_ACCESSIBILITY/MarginContainer/VCenterContainer/VBoxSettings/ReduceShaking/ControlContainer" index="0"]
+custom_minimum_size = Vector2(500, 0)
+layout_mode = 2
+size_flags_horizontal = 0
+max_value = 1.0
+step = 0.0
+value = 1.0
+script = ExtResource("10_qitr2")
+key_step_amount = 0.1
+length_to_echo = 0.4
+echo_step_frequency = 0.1
+
+[node name="FocusPainter" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_ACCESSIBILITY/MarginContainer/VCenterContainer/VBoxSettings/ReduceShaking/ControlContainer/HSlider" node_paths=PackedStringArray("label_target") instance=ExtResource("8_5f7gi")]
+label_target = NodePath("../../../LabelContainer/Label")
+
+[node name="SettingHSlider" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_ACCESSIBILITY/MarginContainer/VCenterContainer/VBoxSettings/ReduceShaking/ControlContainer/HSlider" instance=ExtResource("10_563dq")]
+setting_key = "shake_amount"
+
+[node name="DisableFlickering" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_ACCESSIBILITY/MarginContainer/VCenterContainer/VBoxSettings" index="2" instance=ExtResource("2_rbkka")]
+layout_mode = 2
+
+[node name="Label" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_ACCESSIBILITY/MarginContainer/VCenterContainer/VBoxSettings/DisableFlickering/LabelContainer" index="0"]
+text = "DISABLE_FLICKERING"
+
+[node name="CheckBox" type="CheckBox" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_ACCESSIBILITY/MarginContainer/VCenterContainer/VBoxSettings/DisableFlickering/ControlContainer" index="0"]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 2
+size_flags_horizontal = 0
+
+[node name="FocusPainter" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_ACCESSIBILITY/MarginContainer/VCenterContainer/VBoxSettings/DisableFlickering/ControlContainer/CheckBox" node_paths=PackedStringArray("label_target") instance=ExtResource("8_5f7gi")]
+label_target = NodePath("../../../LabelContainer/Label")
+focus_on_mouse_hover = true
+
+[node name="SettingOptionButton" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_ACCESSIBILITY/MarginContainer/VCenterContainer/VBoxSettings/DisableFlickering/ControlContainer/CheckBox" instance=ExtResource("7_42qb3")]
+setting_key = "disable_flickering"
+
+[node name="DarkMode" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_ACCESSIBILITY/MarginContainer/VCenterContainer/VBoxSettings" index="3" instance=ExtResource("2_rbkka")]
+layout_mode = 2
+
+[node name="Label" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_ACCESSIBILITY/MarginContainer/VCenterContainer/VBoxSettings/DarkMode/LabelContainer" index="0"]
+text = "DARK_MODE"
+
+[node name="CheckBox" type="CheckBox" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_ACCESSIBILITY/MarginContainer/VCenterContainer/VBoxSettings/DarkMode/ControlContainer" index="0"]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 2
+size_flags_horizontal = 0
+
+[node name="FocusPainter" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_ACCESSIBILITY/MarginContainer/VCenterContainer/VBoxSettings/DarkMode/ControlContainer/CheckBox" node_paths=PackedStringArray("label_target") instance=ExtResource("8_5f7gi")]
+label_target = NodePath("../../../LabelContainer/Label")
+focus_on_mouse_hover = true
+
+[node name="SettingOptionButton" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_ACCESSIBILITY/MarginContainer/VCenterContainer/VBoxSettings/DarkMode/ControlContainer/CheckBox" instance=ExtResource("7_42qb3")]
+setting_key = "dark_mode"
+
+[node name="CameraTransition" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_ACCESSIBILITY/MarginContainer/VCenterContainer/VBoxSettings" index="4" instance=ExtResource("2_rbkka")]
+layout_mode = 2
+
+[node name="Label" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_ACCESSIBILITY/MarginContainer/VCenterContainer/VBoxSettings/CameraTransition/LabelContainer" index="0"]
+text = "CAMERA_TRANSITION"
+
+[node name="CheckBox" type="CheckBox" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_ACCESSIBILITY/MarginContainer/VCenterContainer/VBoxSettings/CameraTransition/ControlContainer" index="0"]
+custom_minimum_size = Vector2(64, 64)
+layout_mode = 2
+size_flags_horizontal = 0
+button_pressed = true
+
+[node name="FocusPainter" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_ACCESSIBILITY/MarginContainer/VCenterContainer/VBoxSettings/CameraTransition/ControlContainer/CheckBox" node_paths=PackedStringArray("label_target") instance=ExtResource("8_5f7gi")]
+label_target = NodePath("../../../LabelContainer/Label")
+focus_on_mouse_hover = true
+
+[node name="SettingOptionButton" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_ACCESSIBILITY/MarginContainer/VCenterContainer/VBoxSettings/CameraTransition/ControlContainer/CheckBox" instance=ExtResource("7_42qb3")]
+setting_key = "hard_cut_camera"
+
+[node name="TabFocusPainter" type="Node" parent="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer"]
+script = ExtResource("7_3u542")
+focus_theme = ExtResource("7_navi8")
+
+[node name="PauseBarTransformer" type="Container" parent="PauseMenu/VBoxContainer"]
+custom_minimum_size = Vector2(0, 160)
+layout_mode = 2
+script = ExtResource("16_kiia1")
+visual_position = Vector2(0, 200)
+
+[node name="PauseBarContainer" type="PanelContainer" parent="PauseMenu/VBoxContainer/PauseBarTransformer"]
+custom_minimum_size = Vector2(0, 160)
+layout_mode = 2
+theme_type_variation = &"PanelContainerPauseBar"
+
+[node name="MarginContainer" type="MarginContainer" parent="PauseMenu/VBoxContainer/PauseBarTransformer/PauseBarContainer"]
+layout_mode = 2
+theme_override_constants/margin_bottom = 10
+
+[node name="BottomContainer" type="VBoxContainer" parent="PauseMenu/VBoxContainer/PauseBarTransformer/PauseBarContainer/MarginContainer"]
+layout_mode = 2
+alignment = 1
+
+[node name="HBoxContainer" type="HBoxContainer" parent="PauseMenu/VBoxContainer/PauseBarTransformer/PauseBarContainer/MarginContainer/BottomContainer"]
+layout_mode = 2
+size_flags_vertical = 3
+alignment = 1
+
+[node name="StartButton" type="Button" parent="PauseMenu/VBoxContainer/PauseBarTransformer/PauseBarContainer/MarginContainer/BottomContainer/HBoxContainer"]
+visible = false
+custom_minimum_size = Vector2(150, 0)
+layout_mode = 2
+size_flags_vertical = 8
+theme_type_variation = &"ButtonPauseContinue"
+text = "START"
+icon_alignment = 1
+vertical_icon_alignment = 0
+
+[node name="FocusPainter" parent="PauseMenu/VBoxContainer/PauseBarTransformer/PauseBarContainer/MarginContainer/BottomContainer/HBoxContainer/StartButton" instance=ExtResource("8_5f7gi")]
+focus_on_mouse_hover = true
+
+[node name="ContinueButton" type="Button" parent="PauseMenu/VBoxContainer/PauseBarTransformer/PauseBarContainer/MarginContainer/BottomContainer/HBoxContainer"]
+custom_minimum_size = Vector2(150, 0)
+layout_mode = 2
+size_flags_vertical = 8
+theme_type_variation = &"ButtonPauseContinue"
+text = "CONTINUE"
+icon_alignment = 1
+vertical_icon_alignment = 0
+
+[node name="FocusPainter" parent="PauseMenu/VBoxContainer/PauseBarTransformer/PauseBarContainer/MarginContainer/BottomContainer/HBoxContainer/ContinueButton" instance=ExtResource("8_5f7gi")]
+focus_on_mouse_hover = true
+
+[node name="NewGameButton" type="Button" parent="PauseMenu/VBoxContainer/PauseBarTransformer/PauseBarContainer/MarginContainer/BottomContainer/HBoxContainer"]
+custom_minimum_size = Vector2(150, 0)
+layout_mode = 2
+size_flags_vertical = 8
+theme_type_variation = &"ButtonPauseNewGame"
+text = "NEW_GAME"
+icon_alignment = 1
+vertical_icon_alignment = 0
+
+[node name="FocusPainter" parent="PauseMenu/VBoxContainer/PauseBarTransformer/PauseBarContainer/MarginContainer/BottomContainer/HBoxContainer/NewGameButton" instance=ExtResource("8_5f7gi")]
+focus_on_mouse_hover = true
+
+[node name="Wishlist" type="Button" parent="PauseMenu/VBoxContainer/PauseBarTransformer/PauseBarContainer/MarginContainer/BottomContainer/HBoxContainer"]
+custom_minimum_size = Vector2(150, 0)
+layout_mode = 2
+size_flags_vertical = 8
+theme_type_variation = &"ButtonPauseWishlist"
+text = "WISHLIST"
+icon_alignment = 1
+vertical_icon_alignment = 0
+
+[node name="FocusPainter" parent="PauseMenu/VBoxContainer/PauseBarTransformer/PauseBarContainer/MarginContainer/BottomContainer/HBoxContainer/Wishlist" instance=ExtResource("8_5f7gi")]
+focus_on_mouse_hover = true
+
+[node name="FeatureVisibility" type="Node" parent="PauseMenu/VBoxContainer/PauseBarTransformer/PauseBarContainer/MarginContainer/BottomContainer/HBoxContainer/Wishlist"]
+script = ExtResource("16_oe02o")
+feature = "demo"
+
+[node name="Settings" type="Button" parent="PauseMenu/VBoxContainer/PauseBarTransformer/PauseBarContainer/MarginContainer/BottomContainer/HBoxContainer"]
+custom_minimum_size = Vector2(150, 0)
+layout_mode = 2
+size_flags_vertical = 8
+theme_type_variation = &"ButtonPauseSettings"
+text = "SETTINGS"
+icon_alignment = 1
+vertical_icon_alignment = 0
+
+[node name="FocusPainter" parent="PauseMenu/VBoxContainer/PauseBarTransformer/PauseBarContainer/MarginContainer/BottomContainer/HBoxContainer/Settings" instance=ExtResource("8_5f7gi")]
+focus_on_mouse_hover = true
+
+[node name="FeatureVisibility" type="Node" parent="PauseMenu/VBoxContainer/PauseBarTransformer/PauseBarContainer/MarginContainer/BottomContainer/HBoxContainer/Settings"]
+script = ExtResource("16_oe02o")
+feature = "expo"
+hide_if_feature = true
+
+[node name="Exit" type="Button" parent="PauseMenu/VBoxContainer/PauseBarTransformer/PauseBarContainer/MarginContainer/BottomContainer/HBoxContainer"]
+custom_minimum_size = Vector2(150, 0)
+layout_mode = 2
+size_flags_vertical = 8
+theme_type_variation = &"ButtonPauseExit"
+text = "EXIT"
+icon_alignment = 1
+vertical_icon_alignment = 0
+
+[node name="FocusPainter" parent="PauseMenu/VBoxContainer/PauseBarTransformer/PauseBarContainer/MarginContainer/BottomContainer/HBoxContainer/Exit" instance=ExtResource("8_5f7gi")]
+focus_on_mouse_hover = true
+
+[node name="FeatureVisibility" type="Node" parent="PauseMenu/VBoxContainer/PauseBarTransformer/PauseBarContainer/MarginContainer/BottomContainer/HBoxContainer/Exit"]
+script = ExtResource("16_oe02o")
+feature = "expo"
+hide_if_feature = true
+
+[node name="SplashOverlay" type="ColorRect" parent="PauseMenu"]
+visible = false
+modulate = Color(1, 1, 1, 0)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+color = Color(0.054902, 0.054902, 0.054902, 1)
+
+[node name="TransformContainer" type="Container" parent="PauseMenu/SplashOverlay"]
+modulate = Color(1, 1, 1, 0)
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+script = ExtResource("16_kiia1")
+visual_pivot_offset_perc = Vector2(0.5, 0.5)
+
+[node name="StartDemo" type="VBoxContainer" parent="PauseMenu/SplashOverlay/TransformContainer"]
+layout_mode = 2
+mouse_filter = 2
+theme_override_constants/separation = 80
+alignment = 1
+
+[node name="Logo" type="TextureRect" parent="PauseMenu/SplashOverlay/TransformContainer/StartDemo"]
+custom_minimum_size = Vector2(800, 300)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 0
+texture = ExtResource("27_65ifj")
+expand_mode = 1
+stretch_mode = 5
+
+[node name="DemoLabel" type="Label" parent="PauseMenu/SplashOverlay/TransformContainer/StartDemo"]
+layout_mode = 2
+size_flags_horizontal = 4
+theme_type_variation = &"LabelHeader"
+theme_override_constants/line_spacing = 40
+text = "DEMO_SPLASH"
+horizontal_alignment = 1
+
+[node name="StartButton" type="Button" parent="PauseMenu/SplashOverlay/TransformContainer/StartDemo"]
+layout_mode = 2
+size_flags_horizontal = 4
+focus_neighbor_left = NodePath(".")
+focus_neighbor_top = NodePath(".")
+focus_neighbor_right = NodePath(".")
+focus_neighbor_bottom = NodePath(".")
+focus_next = NodePath(".")
+focus_previous = NodePath(".")
+theme_type_variation = &"LabelHeader"
+text = "START"
+
+[node name="FocusPainter" type="Node" parent="PauseMenu/SplashOverlay/TransformContainer/StartDemo/StartButton"]
+script = ExtResource("4_8s5rw")
+focus_theme = ExtResource("7_navi8")
+
+[node name="MenuPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_knbfd")
+}
+
+[node name="SubMenuPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_l1vdn")
+}
+
+[node name="StartupSplashPlayer" type="AnimationPlayer" parent="." node_paths=PackedStringArray("menu", "play_button")]
+deterministic = true
+libraries = {
+"": SubResource("AnimationLibrary_x2ghn")
+}
+script = ExtResource("17_p21mb")
+menu = NodePath("..")
+play_button = NodePath("../PauseMenu/SplashOverlay/TransformContainer/StartDemo/StartButton")
+
+[node name="MenuTransitionPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource("16_p3ey4")
+bus = &"Sfx"
+
+[node name="NewFocusPlayer" type="AudioStreamPlayer" parent="." node_paths=PackedStringArray("menu")]
+stream = ExtResource("16_1s3u3")
+bus = &"Sfx"
+script = ExtResource("17_8s5q7")
+menu = NodePath("..")
+
+[node name="InteractPlayer" type="Node" parent="." node_paths=PackedStringArray("default_interact_player")]
+script = ExtResource("18_pwsek")
+default_interact_player = NodePath("DefaultInteractPlayer")
+
+[node name="DefaultInteractPlayer" type="AudioStreamPlayer" parent="InteractPlayer"]
+stream = ExtResource("19_gr1jx")
+bus = &"Sfx"
+
+[connection signal="pressed" from="PauseMenu/DemoEndSplash/TransformContainer/EndDemo/HBoxContainer/WishlistButton" to="." method="_on_wishlist_pressed"]
+[connection signal="pressed" from="PauseMenu/DemoEndSplash/TransformContainer/EndExpo/HBoxContainer/WishlistButton" to="." method="_on_wishlist_pressed"]
+[connection signal="pressed" from="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/NewGameContainer/VBoxContainer/VBoxContainer/VBoxContainer/NewGameButton" to="." method="_on_new_game_confirm_button_pressed"]
+[connection signal="tab_changed" from="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer" to="NewFocusPlayer" method="_on_tab_changed"]
+[connection signal="pressed" from="PauseMenu/VBoxContainer/PauseBarTransformer/PauseBarContainer/MarginContainer/BottomContainer/HBoxContainer/StartButton" to="." method="_on_continue_button_pressed"]
+[connection signal="pressed" from="PauseMenu/VBoxContainer/PauseBarTransformer/PauseBarContainer/MarginContainer/BottomContainer/HBoxContainer/ContinueButton" to="." method="_on_continue_button_pressed"]
+[connection signal="pressed" from="PauseMenu/VBoxContainer/PauseBarTransformer/PauseBarContainer/MarginContainer/BottomContainer/HBoxContainer/NewGameButton" to="." method="_on_new_game_button_pressed"]
+[connection signal="pressed" from="PauseMenu/VBoxContainer/PauseBarTransformer/PauseBarContainer/MarginContainer/BottomContainer/HBoxContainer/Wishlist" to="." method="_on_wishlist_pressed"]
+[connection signal="pressed" from="PauseMenu/VBoxContainer/PauseBarTransformer/PauseBarContainer/MarginContainer/BottomContainer/HBoxContainer/Settings" to="." method="_on_settings_pressed"]
+[connection signal="pressed" from="PauseMenu/VBoxContainer/PauseBarTransformer/PauseBarContainer/MarginContainer/BottomContainer/HBoxContainer/Exit" to="." method="_on_exit_pressed"]
+[connection signal="pressed" from="PauseMenu/SplashOverlay/TransformContainer/StartDemo/StartButton" to="StartupSplashPlayer" method="exit_demo_splash"]
+
+[editable path="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GENERAL"]
+[editable path="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GENERAL/MarginContainer/VCenterContainer/VBoxSettings/HideControls"]
+[editable path="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GENERAL/MarginContainer/VCenterContainer/VBoxSettings/Language"]
+[editable path="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_SOUNDS"]
+[editable path="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_SOUNDS/MarginContainer/VCenterContainer/VBoxSettings/MusicVolume"]
+[editable path="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_SOUNDS/MarginContainer/VCenterContainer/VBoxSettings/AmbienceVolume"]
+[editable path="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_SOUNDS/MarginContainer/VCenterContainer/VBoxSettings/SfxVolume"]
+[editable path="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GRAPHICS"]
+[editable path="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GRAPHICS/MarginContainer/VCenterContainer/VBoxSettings/Windowed"]
+[editable path="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GRAPHICS/MarginContainer/VCenterContainer/VBoxSettings/Resolution"]
+[editable path="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GRAPHICS/MarginContainer/VCenterContainer/VBoxSettings/AntiAlias"]
+[editable path="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GRAPHICS/MarginContainer/VCenterContainer/VBoxSettings/Vsync"]
+[editable path="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_GRAPHICS/MarginContainer/VCenterContainer/VBoxSettings/UiScale"]
+[editable path="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_ACCESSIBILITY"]
+[editable path="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_ACCESSIBILITY/MarginContainer/VCenterContainer/VBoxSettings/CameraRock"]
+[editable path="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_ACCESSIBILITY/MarginContainer/VCenterContainer/VBoxSettings/ReduceShaking"]
+[editable path="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_ACCESSIBILITY/MarginContainer/VCenterContainer/VBoxSettings/DisableFlickering"]
+[editable path="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_ACCESSIBILITY/MarginContainer/VCenterContainer/VBoxSettings/DarkMode"]
+[editable path="PauseMenu/VBoxContainer/TransformContainer/UpperContainer/SettingsContainer/VBoxContainer/TabContainer/S_ACCESSIBILITY/MarginContainer/VCenterContainer/VBoxSettings/CameraTransition"]
