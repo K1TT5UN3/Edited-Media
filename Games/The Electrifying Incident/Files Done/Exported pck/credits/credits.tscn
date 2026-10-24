@@ -1,0 +1,235 @@
+[gd_scene load_steps=21 format=3 uid="uid://defll2mamv152"]
+
+[ext_resource type="Theme" uid="uid://ds7wuf8triqa0" path="res://ui/themes/default_theme.tres" id="1_3dw0e"]
+[ext_resource type="Script" path="res://credits/credits.gd" id="2_15hla"]
+[ext_resource type="PackedScene" uid="uid://dxhv4t7y7yb8d" path="res://credits/hospital.tscn" id="2_rxssv"]
+[ext_resource type="Script" path="res://ui/credits_markdown_label.gd" id="4_tjw6j"]
+[ext_resource type="Script" path="res://addons/markdownlabel/header_formats/h1_format.gd" id="6_s2vwn"]
+[ext_resource type="Script" path="res://addons/markdownlabel/header_formats/h2_format.gd" id="7_tjqx1"]
+[ext_resource type="Script" path="res://addons/markdownlabel/header_formats/h3_format.gd" id="8_gcqie"]
+[ext_resource type="Script" path="res://addons/markdownlabel/header_formats/h4_format.gd" id="9_0l782"]
+[ext_resource type="Script" path="res://addons/markdownlabel/header_formats/h5_format.gd" id="10_kqniu"]
+[ext_resource type="Script" path="res://addons/markdownlabel/header_formats/h6_format.gd" id="11_a5mqx"]
+
+[sub_resource type="StyleBoxFlat" id="StyleBoxFlat_b3c1b"]
+bg_color = Color(0, 0, 0, 1)
+
+[sub_resource type="Resource" id="Resource_nw6ns"]
+resource_local_to_scene = true
+script = ExtResource("6_s2vwn")
+font_size = 2.285
+is_bold = false
+is_italic = false
+is_underlined = false
+override_font_color = false
+font_color = Color(1, 1, 1, 1)
+
+[sub_resource type="Resource" id="Resource_676d8"]
+resource_local_to_scene = true
+script = ExtResource("7_tjqx1")
+font_size = 1.27
+is_bold = false
+is_italic = false
+is_underlined = false
+override_font_color = false
+font_color = Color(1, 1, 1, 1)
+
+[sub_resource type="Resource" id="Resource_sr8ie"]
+resource_local_to_scene = true
+script = ExtResource("8_gcqie")
+font_size = 1.2
+is_bold = false
+is_italic = false
+is_underlined = false
+override_font_color = false
+font_color = Color(1, 1, 1, 1)
+
+[sub_resource type="Resource" id="Resource_2gc1a"]
+resource_local_to_scene = true
+script = ExtResource("9_0l782")
+font_size = 1.15
+is_bold = false
+is_italic = false
+is_underlined = false
+override_font_color = false
+font_color = Color(1, 1, 1, 1)
+
+[sub_resource type="Resource" id="Resource_6dmxe"]
+resource_local_to_scene = true
+script = ExtResource("10_kqniu")
+font_size = 1.1
+is_bold = false
+is_italic = false
+is_underlined = false
+override_font_color = false
+font_color = Color(1, 1, 1, 1)
+
+[sub_resource type="Resource" id="Resource_bto73"]
+resource_local_to_scene = true
+script = ExtResource("11_a5mqx")
+font_size = 1.0
+is_bold = false
+is_italic = false
+is_underlined = false
+override_font_color = false
+font_color = Color(1, 1, 1, 1)
+
+[sub_resource type="Animation" id="Animation_pviuf"]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("HBoxContainer/ScrollContainer:scroll_vertical")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0),
+"transitions": PackedFloat32Array(1),
+"update": 1,
+"values": [0]
+}
+
+[sub_resource type="Animation" id="Animation_8s4gv"]
+resource_name = "credits"
+length = 13.0
+tracks/0/type = "value"
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/path = NodePath("HBoxContainer/ScrollContainer:scroll_vertical")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/keys = {
+"times": PackedFloat32Array(0.5, 3, 13),
+"transitions": PackedFloat32Array(2.63902, 1, 1),
+"update": 0,
+"values": [0, 309, 3933]
+}
+
+[sub_resource type="AnimationLibrary" id="AnimationLibrary_f1wo1"]
+_data = {
+"RESET": SubResource("Animation_pviuf"),
+"credits": SubResource("Animation_8s4gv")
+}
+
+[node name="Credits" type="PanelContainer" node_paths=PackedStringArray("horizontal_spacer", "sub_viewport_container", "scroll_container", "scroll_content", "hospital")]
+process_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+theme = ExtResource("1_3dw0e")
+theme_override_styles/panel = SubResource("StyleBoxFlat_b3c1b")
+script = ExtResource("2_15hla")
+horizontal_spacer = NodePath("HBoxContainer/HorizontalSpacer")
+sub_viewport_container = NodePath("Control/SubViewportContainer")
+scroll_container = NodePath("HBoxContainer/ScrollContainer")
+scroll_content = NodePath("HBoxContainer/ScrollContainer/VBoxContainer2")
+hospital = NodePath("Control/SubViewportContainer/SubViewport/Hospital")
+scroll_pre_length = 5.0
+scroll_enter_length = 4.0
+scroll_middle_length = 33.0
+scroll_exit_length = 5.0
+scroll_post_length = 1.0
+scroll_speed_magnitude = 120.0
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 2
+mouse_filter = 2
+
+[node name="SubViewportContainer" type="SubViewportContainer" parent="Control"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+stretch = true
+
+[node name="SubViewport" type="SubViewport" parent="Control/SubViewportContainer"]
+own_world_3d = true
+handle_input_locally = false
+size = Vector2i(2, 2)
+render_target_update_mode = 4
+
+[node name="Hospital" parent="Control/SubViewportContainer/SubViewport" instance=ExtResource("2_rxssv")]
+
+[node name="HBoxContainer" type="HBoxContainer" parent="."]
+layout_mode = 2
+mouse_filter = 2
+
+[node name="ScrollContainer" type="ScrollContainer" parent="HBoxContainer"]
+clip_contents = false
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_filter = 2
+horizontal_scroll_mode = 3
+vertical_scroll_mode = 3
+
+[node name="VBoxContainer2" type="VBoxContainer" parent="HBoxContainer/ScrollContainer"]
+layout_mode = 2
+size_flags_horizontal = 3
+mouse_filter = 2
+theme_override_constants/separation = 60
+alignment = 1
+
+[node name="MarkdownLabel" type="RichTextLabel" parent="HBoxContainer/ScrollContainer/VBoxContainer2"]
+custom_minimum_size = Vector2(800, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+size_flags_vertical = 3
+mouse_filter = 2
+theme_override_colors/default_color = Color(0.576471, 0.541176, 0.505882, 1)
+theme_override_font_sizes/normal_font_size = 36
+bbcode_enabled = true
+text = "[center]
+
+[font_size=45]Edits made by[/font_size]
+K1TT5UN3
+
+"
+fit_content = true
+script = ExtResource("4_tjw6j")
+credits_file_path = "res://credits.txt"
+markdown_text = "[center]
+
+## Edits made by
+K1TT5UN3
+
+"
+h1 = SubResource("Resource_nw6ns")
+h2 = SubResource("Resource_676d8")
+h3 = SubResource("Resource_sr8ie")
+h4 = SubResource("Resource_2gc1a")
+h5 = SubResource("Resource_6dmxe")
+h6 = SubResource("Resource_bto73")
+
+[node name="Control" type="Control" parent="HBoxContainer/ScrollContainer/VBoxContainer2"]
+custom_minimum_size = Vector2(0, 400)
+layout_mode = 2
+
+[node name="ThankYou" type="Label" parent="HBoxContainer/ScrollContainer/VBoxContainer2"]
+custom_minimum_size = Vector2(500, 0)
+layout_mode = 2
+size_flags_horizontal = 4
+theme_type_variation = &"LabelHeader"
+text = "ENDING_THANK_YOU"
+horizontal_alignment = 1
+autowrap_mode = 3
+
+[node name="Control3" type="Control" parent="HBoxContainer/ScrollContainer/VBoxContainer2"]
+custom_minimum_size = Vector2(0, 1200)
+layout_mode = 2
+mouse_filter = 2
+
+[node name="HorizontalSpacer" type="Control" parent="HBoxContainer"]
+custom_minimum_size = Vector2(950, 0)
+layout_mode = 2
+mouse_filter = 2
+
+[node name="AnimationPlayer" type="AnimationPlayer" parent="."]
+libraries = {
+"": SubResource("AnimationLibrary_f1wo1")
+}
