@@ -1,0 +1,1 @@
+Files in the 'Exported pck' are separate files intended to patch on top of game original .pck file due to size limitation.
