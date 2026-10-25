@@ -633,43 +633,32 @@ You can select both objects and tiles together while in this mode (so if you nee
 
 -- Hints inside puzzles ------------------------------------------------------------------------
 
-"chasebomb_hint_shoving": [[Shoving things can be conducive to the practice of puzzle-solving.
-
+"chasebomb_hint_shoving": [[
 (While facing the direction you wish to shove, press $control:all_turn$.)]]
 
 "chasebomb_hint_chasey_push": [[
-The push that begins the journey can come from many things.]]
+The push can come from many things.]]
 
 "chasebomb_hint_turning": [[
-The Initiate would do well to inspect the path ahead before charging in her chosen direction.
-
 (Press $control:all_turn$ to turn.)]]
 
 "chasebomb_hint_floor": [[
-Just as the beans cannot grow on the unnatural tiling, so the Initiate's cannot grow if it is not willing to explore the as-yet unknown.]]
+The beans cannot grow on the unnatural tiling.]]
 
 "chasebomb_hint_beans_back": [[
-The flowers of the field and the birds of the sky are part of the great cycle of all being, and so it is with the monsters and the beans: When one perishes, the other is born again.]]
+When monster goes away, the bean stays there.]]
 
 "chasebomb_hint_switch": [[
-The Initiate need not guess how the puzzle is put together: All knowledge is available to you already.
-
 (Hover over switches with the mouse to see what they do.)]]
 
 "chasebomb_hint_wait": [[
-The patient Initiate will eventually reach her destination.
-
 (Press $control:wait$ to wait in place.)]]
 
 "bucket_hint_forcefield": [[
 Meow.]]
 
 "storm_hint_switch": [[
-Sometimes only the slightest touch is required to set a thing in motion.
-
-Other times, it is a slow and constant hand that is required.
-
-A true master of puzzle-solving will know which is which.]]
+Sometimes only the slightest touch is required to set a thing in motion.]]
 
 
 -- Directory and Bookmarks --------------------------------------------------------------------------------
